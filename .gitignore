@@ -1,0 +1,30 @@
+# --- Keil 编译产生的中间文件 (必须过滤) ---
+*.obj
+*.lst
+*.dep
+*.__i
+*.crf
+*.o
+*.d
+*.axf
+*.htm
+*.lnp
+*.sct
+*.build_log.htm
+*.map
+*.iex
+*.i
+*.pbi
+*.pbd
+*.browse
+
+# --- Keil 界面配置文件 (不同电脑会冲突，建议过滤) ---
+*.uvgui.*
+*.uvguix.*
+JLinkLog.txt
+*.scvd
+
+# --- 允许被记录的核心工程文件 (必须保留) ---
+# *.uvprojx (Keil5 工程文件)
+# *.uvoptx (工程配置选项)
+# *.c, *.h, *.s (源码)
