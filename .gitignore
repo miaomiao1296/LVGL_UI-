@@ -9,7 +9,6 @@
 *.axf
 *.htm
 *.lnp
-*.sct
 *.build_log.htm
 *.map
 *.iex
