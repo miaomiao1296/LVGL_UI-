@@ -1,0 +1,9 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=/usr/bin/arm-none-eabi-gcc -DCMAKE_CXX_COMPILER=/usr/bin/arm-none-eabi-g++ -DCMAKE_TOOLCHAIN_FILE=cmake/toolchain-arm.cmake -G "Unix Makefiles" -S /tmp/tmp.I5nRtdLoE0/10Khz_Git -B /tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-
+-- Configuring incomplete, errors occurred!
+CMake Error at /usr/share/cmake-3.22/Modules/CMakeDetermineSystem.cmake:130 (message):
+  Could not find toolchain file: cmake/toolchain-arm.cmake
+Call Stack (most recent call first):
+  CMakeLists.txt:31 (project)
+
+
+CMake Error: CMake was unable to find a build program corresponding to "Unix Makefiles".  CMAKE_MAKE_PROGRAM is not set.  You probably need to select a different build tool.

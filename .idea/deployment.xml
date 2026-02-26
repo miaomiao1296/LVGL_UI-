@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="远程主机 (7b434345-662f-464f-807c-94a102853437)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/tmp/tmp.I5nRtdLoE0/10Khz_Git" local="$PROJECT_DIR$" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug-" />
+            <excludedPath local="true" path="$PROJECT_DIR$/build/MinSizeRel" />
+            <excludedPath local="true" path="$PROJECT_DIR$/build/RelWithDebInfo" />
+            <excludedPath local="true" path="$PROJECT_DIR$/build/Debug" />
+            <excludedPath local="true" path="$PROJECT_DIR$/build/Release" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
