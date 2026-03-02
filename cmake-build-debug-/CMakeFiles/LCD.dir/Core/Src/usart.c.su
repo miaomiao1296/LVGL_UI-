@@ -1,0 +1,4 @@
+/tmp/tmp.I5nRtdLoE0/10Khz_Git/Core/Src/usart.c:32:6:MX_USART1_UART_Init	8	static
+/tmp/tmp.I5nRtdLoE0/10Khz_Git/Core/Src/usart.c:61:6:MX_USART6_UART_Init	8	static
+/tmp/tmp.I5nRtdLoE0/10Khz_Git/Core/Src/usart.c:89:6:HAL_UART_MspInit	56	static
+/tmp/tmp.I5nRtdLoE0/10Khz_Git/Core/Src/usart.c:146:6:HAL_UART_MspDeInit	16	static

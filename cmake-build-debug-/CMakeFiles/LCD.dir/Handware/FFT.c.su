@@ -1,0 +1,5 @@
+/tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/FFT.c:19:6:fft_module_init	16	static
+/tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/FFT.c:38:18:get_precise_index	32	static
+/tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/FFT.c:44:18:get_precise_amplitude	32	static
+/tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/FFT.c:54:6:fft_module_execute	72	static
+/tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/FFT.c:108:15:fft_get_result	4	static

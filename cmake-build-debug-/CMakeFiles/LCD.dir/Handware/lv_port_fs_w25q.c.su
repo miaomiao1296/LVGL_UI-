@@ -1,0 +1,7 @@
+/tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/lv_port_fs_w25q.c:112:13:W25Q_Read_DMA_Blocking	24	static
+/tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/lv_port_fs_w25q.c:128:15:fs_open	32	static
+/tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/lv_port_fs_w25q.c:147:20:fs_read	32	static
+/tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/lv_port_fs_w25q.c:171:20:fs_seek	32	static
+/tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/lv_port_fs_w25q.c:180:20:fs_tell	32	static
+/tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/lv_port_fs_w25q.c:187:20:fs_close	16	static
+/tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/lv_port_fs_w25q.c:194:6:lv_port_fs_init	8	static

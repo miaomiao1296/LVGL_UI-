@@ -1,0 +1,5 @@
+/tmp/tmp.I5nRtdLoE0/10Khz_Git/LCD/ft6336.c:9:20:FT6336U_ParseXY	24	static
+/tmp/tmp.I5nRtdLoE0/10Khz_Git/LCD/ft6336.c:15:20:FT6336U_Transform	24	static
+/tmp/tmp.I5nRtdLoE0/10Khz_Git/LCD/ft6336.c:34:16:FT6336U_Read	24	static
+/tmp/tmp.I5nRtdLoE0/10Khz_Git/LCD/ft6336.c:43:6:FT6336U_Init	8	static
+/tmp/tmp.I5nRtdLoE0/10Khz_Git/LCD/ft6336.c:52:6:FT6336U_Task	24	static

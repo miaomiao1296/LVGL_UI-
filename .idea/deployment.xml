@@ -8,11 +8,16 @@
             <mapping deploy="/tmp/tmp.I5nRtdLoE0/10Khz_Git" local="$PROJECT_DIR$" />
           </mappings>
           <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/build/RelWithDebInfo" />
+            <excludedPath local="true" path="$PROJECT_DIR$/build/Release" />
             <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug-" />
+            <excludedPath local="true" path="$PROJECT_DIR$/build/MinSizeRel" />
             <excludedPath local="true" path="$PROJECT_DIR$/build/MinSizeRel" />
             <excludedPath local="true" path="$PROJECT_DIR$/build/RelWithDebInfo" />
             <excludedPath local="true" path="$PROJECT_DIR$/build/Debug" />
             <excludedPath local="true" path="$PROJECT_DIR$/build/Release" />
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug-" />
+            <excludedPath local="true" path="$PROJECT_DIR$/build/Debug" />
           </excludedPaths>
         </serverdata>
       </paths>

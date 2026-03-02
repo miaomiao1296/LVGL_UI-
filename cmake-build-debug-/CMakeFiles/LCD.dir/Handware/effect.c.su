@@ -1,0 +1,11 @@
+/tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/misc/lv_anim.h:126:20:lv_anim_set_var	16	static
+/tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/misc/lv_anim.h:138:20:lv_anim_set_exec_cb	16	static
+/tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/misc/lv_anim.h:148:20:lv_anim_set_time	16	static
+/tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/misc/lv_anim.h:169:20:lv_anim_set_values	24	static
+/tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/misc/lv_anim.h:227:20:lv_anim_set_ready_cb	16	static
+/tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/misc/lv_anim.h:299:20:lv_anim_set_user_data	16	static
+/tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/core/lv_disp.h:182:26:lv_scr_act	8	static
+/tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/effect.c:8:6:effect_init	8	static
+/tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/effect.c:13:13:anim_opa_cb	16	static
+/tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/effect.c:18:13:anim_delete_cb	24	static
+/tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/effect.c:25:6:effect_on_move	96	static
