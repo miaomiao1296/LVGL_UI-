@@ -40,6 +40,43 @@ add_executable(${CMAKE_PROJECT_NAME})
 # Add STM32CubeMX generated sources
 add_subdirectory(cmake/stm32cubemx)
 
+# --- LVGL Configuration ---
+# 1. Include paths
+target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE
+    ${CMAKE_SOURCE_DIR}/LVGL
+    ${CMAKE_SOURCE_DIR}/LVGL/src
+    ${CMAKE_SOURCE_DIR}/LVGL/examples/porting
+    ${CMAKE_SOURCE_DIR}/LVGL/src/extra
+)
+
+# 2. Source files
+file(GLOB_RECURSE LVGL_SOURCES
+    "${CMAKE_SOURCE_DIR}/LVGL/src/*.c"
+)
+target_sources(${CMAKE_PROJECT_NAME} PRIVATE
+    ${LVGL_SOURCES}
+    ${CMAKE_SOURCE_DIR}/LVGL/examples/porting/lv_port_disp.c
+    ${CMAKE_SOURCE_DIR}/LVGL/examples/porting/lv_port_indev.c
+    ${CMAKE_SOURCE_DIR}/LVGL/examples/porting/lv_port_fs.c
+)
+
+# --- Hardware Configuration ---
+# 1. Include paths
+target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE
+    ${CMAKE_SOURCE_DIR}/Handware
+    ${CMAKE_SOURCE_DIR}/LCD
+    ${CMAKE_SOURCE_DIR}/Core/Inc
+)
+
+# 2. Source files
+file(GLOB HARDWARE_SOURCES
+    "${CMAKE_SOURCE_DIR}/Handware/*.c"
+    "${CMAKE_SOURCE_DIR}/LCD/*.c"
+)
+target_sources(${CMAKE_PROJECT_NAME} PRIVATE
+    ${HARDWARE_SOURCES}
+)
+
 # Link directories setup
 target_link_directories(${CMAKE_PROJECT_NAME} PRIVATE
     # Add user defined library search paths
@@ -66,3 +103,4 @@ target_link_libraries(${CMAKE_PROJECT_NAME}
 
     # Add user defined libraries
 )
+

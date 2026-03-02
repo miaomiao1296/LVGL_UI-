@@ -340,7 +340,7 @@
               <MiscControls></MiscControls>
               <Define>USE_HAL_DRIVER,STM32F407xx</Define>
               <Undefine></Undefine>
-              <IncludePath>../Core/Inc;../Drivers/STM32F4xx_HAL_Driver/Inc;../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Device/ST/STM32F4xx/Include;../Drivers/CMSIS/Include;../Handware;../Middlewares/ST/ARM/DSP/Inc;../LVGL;../LVGL/examples/porting;../LVGL/src;../LVGL/myGUI/custom;../LVGL/myGUI/generated;../LVGL/myGUI/generated/guider_customer_fonts;../LCD</IncludePath>
+              <IncludePath>../Core/Inc;../Drivers/STM32F4xx_HAL_Driver/Inc;../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Device/ST/STM32F4xx/Include;../Drivers/CMSIS/Include;../Handware;../Middlewares/ST/ARM/DSP/Inc;../LVGL;../LVGL/src;../LCD;..\LVGL\porting;..\LVGL\examples\porting</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -930,31 +930,6 @@
               <FileName>ft6336.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\LCD\ft6336.h</FilePath>
-            </File>
-          </Files>
-        </Group>
-        <Group>
-          <GroupName>LVGL_porting</GroupName>
-          <Files>
-            <File>
-              <FileName>lv_port_disp.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\LVGL\examples\porting\lv_port_disp.c</FilePath>
-            </File>
-            <File>
-              <FileName>lv_port_disp.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\LVGL\examples\porting\lv_port_disp.h</FilePath>
-            </File>
-            <File>
-              <FileName>lv_port_indev.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\LVGL\examples\porting\lv_port_indev.c</FilePath>
-            </File>
-            <File>
-              <FileName>lv_port_indev.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\LVGL\examples\porting\lv_port_indev.h</FilePath>
             </File>
           </Files>
         </Group>
@@ -1935,6 +1910,31 @@
               <FileName>lv_textarea.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\LVGL\src\widgets\lv_textarea.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>LVGL_port</GroupName>
+          <Files>
+            <File>
+              <FileName>lv_port_disp.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\LVGL\examples\porting\lv_port_disp.c</FilePath>
+            </File>
+            <File>
+              <FileName>lv_port_disp.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\LVGL\examples\porting\lv_port_disp.h</FilePath>
+            </File>
+            <File>
+              <FileName>lv_port_indev.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\LVGL\examples\porting\lv_port_indev.c</FilePath>
+            </File>
+            <File>
+              <FileName>lv_port_indev.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\LVGL\examples\porting\lv_port_indev.h</FilePath>
             </File>
           </Files>
         </Group>

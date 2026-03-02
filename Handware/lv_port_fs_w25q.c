@@ -2,7 +2,7 @@
 #include "spi_flash.h" 
 #include "resource_map.h"
 #include "stdio.h"
-#include "lcd.h"
+#include "LCD.h"
 
 /* ================= 资源表映射 ================= */
 typedef struct {
@@ -126,8 +126,9 @@ static void W25Q_Read_DMA_Blocking(uint8_t* pBuffer, uint32_t addr, uint32_t siz
 /* --- LVGL 回调实现 --- */
 
 static void * fs_open(lv_fs_drv_t * drv, const char * path, lv_fs_mode_t mode) {
-	
-    for(int i = 0; i < sizeof(flash_res_table)/sizeof(FlashResource_t); i++) {
+    (void)drv;
+    (void)mode;
+    for(uint32_t i = 0; i < sizeof(flash_res_table)/sizeof(FlashResource_t); i++) {
         if(strcmp(path, flash_res_table[i].name) == 0) {
             w25q_file_t * f = lv_mem_alloc(sizeof(w25q_file_t));
             f->start_addr = flash_res_table[i].offset;
@@ -144,6 +145,7 @@ static void * fs_open(lv_fs_drv_t * drv, const char * path, lv_fs_mode_t mode) {
 extern SPI_HandleTypeDef hspi1;
 
 static lv_fs_res_t fs_read(lv_fs_drv_t * drv, void * file_p, void * buf, uint32_t btr, uint32_t * br) {
+    (void)drv;
     w25q_file_t * f = (w25q_file_t *)file_p;
     
     if(f->current_pos + btr > f->file_size) btr = f->file_size - f->current_pos;
@@ -167,6 +169,7 @@ static lv_fs_res_t fs_read(lv_fs_drv_t * drv, void * file_p, void * buf, uint32_
 
 
 static lv_fs_res_t fs_seek(lv_fs_drv_t * drv, void * file_p, uint32_t pos, lv_fs_whence_t whence) {
+    (void)drv;
     w25q_file_t * f = (w25q_file_t *)file_p;
     if(whence == LV_FS_SEEK_SET) f->current_pos = pos;
     if(whence == LV_FS_SEEK_CUR) f->current_pos += pos;
@@ -175,12 +178,14 @@ static lv_fs_res_t fs_seek(lv_fs_drv_t * drv, void * file_p, uint32_t pos, lv_fs
 }
 
 static lv_fs_res_t fs_tell(lv_fs_drv_t * drv, void * file_p, uint32_t * pos_p) {
+    (void)drv;
     w25q_file_t * f = (w25q_file_t *)file_p;
     *pos_p = f->current_pos;
     return LV_FS_RES_OK;
 }
 
 static lv_fs_res_t fs_close(lv_fs_drv_t * drv, void * file_p) {
+    (void)drv;
     lv_mem_free(file_p);
     return LV_FS_RES_OK;
 }

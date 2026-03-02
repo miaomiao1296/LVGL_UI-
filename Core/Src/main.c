@@ -33,8 +33,8 @@
 #include "stdio.h"
 #include "stdint.h"
 #include "stdlib.h"
-#include "lcd.h"
-#include "spi_flash.h"        
+#include "LCD.h"
+#include "spi_flash.h"
 #include "encoder.h"
 #include "menu_system.h"
 #include "LoRa.h"
@@ -191,13 +191,12 @@ void custom_ccm_monitor_init(void) {
 
 /**
  * 链接器符号说明：
- * 这些 Image$$... 符号是 Keil 在编译链接阶段自动生成的。
- * 它们不占用 Flash 空间，而是代表了内存布局的“地标”地址。
+ * 从 GCC 链接脚本 (STM32F407XX_FLASH.ld) 引入地标符号。
  */
-extern uint32_t Image$$RW_IRAM1$$Base;           // SRAM 的起始地址（通常是 0x20000000）
-extern uint32_t Image$$ARM_LIB_STACK$$ZI$$Limit; // 栈的最高地址（栈顶，SP 的起点）
-extern uint32_t Image$$ARM_LIB_STACK$$ZI$$Length;// 栈的总大小（即你在 .sct 或 startup 中设置的大小）
-extern uint32_t Image$$RW_IRAM1$$ZI$$Limit;    // 静态变量区（RW+ZI数据）的结束地址
+extern uint32_t _sdata;          // SRAM 数据区开始 (0x20000000)
+extern uint32_t _estack;         // 栈顶 (SRAM 结束地址)
+extern uint32_t _Min_Stack_Size; // 链接脚本中定义的最小栈大小
+extern uint32_t _ebss;           // BSS 段结束地址 (ZI 数据结束)
 
 /**
  * LVGL 定时器回调函数：定期检测并刷新内存占用显示
@@ -207,47 +206,30 @@ static void sram_keil_timer_cb(lv_timer_t * timer) {
     lv_obj_t * label = (lv_obj_t *)timer->user_data;
 
     /* --- 1. 获取基础硬件参数 --- */
-    uint32_t sram_base   = (uint32_t)&Image$$RW_IRAM1$$Base;
-    uint32_t sram_limit  = (uint32_t)&Image$$ARM_LIB_STACK$$ZI$$Limit;
-    uint32_t stack_size  = (uint32_t)&Image$$ARM_LIB_STACK$$ZI$$Length;
-    
-    // 动态计算总 SRAM 大小：终点减去起点
-    // 这样无论你是 112K 还是 128K，代码都能自动识别，不需要写死
-    uint32_t total_sram_kb = (sram_limit - sram_base) / 1024;
+    uint32_t sram_base   = (uint32_t)&_sdata;
+    uint32_t sram_limit  = (uint32_t)&_estack;
+    uint32_t stack_size  = (uint32_t)&_Min_Stack_Size;
 
-    /* --- 2. 寻找栈的历史最高点（High Water Mark） --- */
-    /**
-     * 原理：栈是从高地址向低地址“生长”的。
-     * 我们在启动时将栈区填满了 0xAAAAAAAA（涂油漆）。
-     * 只要栈运行到过某个位置，该位置的 0xAAAAAAAA 就会被覆盖。
-     * 我们从栈底（最低地址）向上扫描，第一个不是 0xAAAAAAAA 的地方，就是栈曾经到达的最深处。
-     */
-    uint32_t * stack_bottom_ptr = (uint32_t *)(sram_limit - stack_size); // 指向栈底（低地址）
-    uint32_t peak_sp_addr = sram_limit; // 默认初始化为最高点
+    // 动态计算总 SRAM 大小
+    uint32_t total_sram_kb = 128; // STM32F407VG 有 128KB RAM
 
-    // 以 4 字节（32位）为单位进行扫描
+    /* --- 2. 寻找栈的历史最高点 --- */
+    uint32_t * stack_bottom_ptr = (uint32_t *)(sram_limit - stack_size);
+    uint32_t peak_sp_addr = sram_limit;
+
     for (uint32_t i = 0; i < (stack_size / 4); i++) {
         if (stack_bottom_ptr[i] != 0xAAAAAAAA) {
-            // 发现“油漆”被破坏，说明栈指针 SP 曾经到过这里
-            // 记录下这个地址，它就是历史最高水位的物理地址
             peak_sp_addr = (uint32_t)&stack_bottom_ptr[i];
-            break; // 找到最深处即可停止扫描
+            break;
         }
     }
 
     /* --- 3. 计算栈的峰值数据 --- */
-    // 峰值用量 = 初始栈顶地址 - 历史最低 SP 地址
     uint32_t peak_used = sram_limit - peak_sp_addr;
-    // 计算百分比：(当前用量 * 100) / 总大小
     uint32_t peak_pct  = (peak_used * 100) / stack_size;
 
-    /* --- 4. 计算 SRAM 整体的最大风险占用 --- */
-    /**
-     * 静态内存（全局变量）是固定的，而栈波动的。
-     * 系统最危险的时候，就是静态内存加上栈的峰值。
-     */
-    uint32_t static_end = (uint32_t)&Image$$RW_IRAM1$$ZI$$Limit;
-    // 总已用 = (静态变量结束 - SRAM 起点) + 栈的峰值
+    /* --- 4. 计算 SRAM 整体占用 --- */
+    uint32_t static_end = (uint32_t)&_ebss;
     uint32_t total_used_bytes = (static_end - sram_base) + peak_used;
     uint32_t total_pct = (total_used_bytes * 100) / (total_sram_kb * 1024);
 
@@ -492,8 +474,9 @@ void SystemClock_Config(void)
 }
 
 /* USER CODE BEGIN 4 */
-int fputc(int ch, FILE *f)   { 
- uint8_t temp[1] = {ch};
+int fputc(int ch, FILE *f)   {
+    (void)f;
+    uint8_t temp[1] = {ch};
  HAL_UART_Transmit(&huart1, temp, 1, 2);
  return ch;
 }

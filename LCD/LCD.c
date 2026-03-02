@@ -1,4 +1,4 @@
-#include "lcd.h"
+#include "LCD.h"
 #include "spi.h"
 
 extern SPI_HandleTypeDef hspi2;

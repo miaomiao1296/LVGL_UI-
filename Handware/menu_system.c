@@ -3,7 +3,7 @@
 #include "stdio.h"
 #include "stdint.h"
 #include "stdlib.h"
-#include "lcd.h"
+#include "LCD.h"
 #include "spi_flash.h"        
 #include "encoder.h"
 #include "menu_system.h"
