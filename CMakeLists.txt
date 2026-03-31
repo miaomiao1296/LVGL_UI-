@@ -45,7 +45,7 @@ add_subdirectory(cmake/stm32cubemx)
 target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE
     ${CMAKE_SOURCE_DIR}/LVGL
     ${CMAKE_SOURCE_DIR}/LVGL/src
-    ${CMAKE_SOURCE_DIR}/LVGL/examples/porting
+    ${CMAKE_SOURCE_DIR}/LVGL/porting
     ${CMAKE_SOURCE_DIR}/LVGL/src/extra
 )
 
@@ -55,9 +55,9 @@ file(GLOB_RECURSE LVGL_SOURCES
 )
 target_sources(${CMAKE_PROJECT_NAME} PRIVATE
     ${LVGL_SOURCES}
-    ${CMAKE_SOURCE_DIR}/LVGL/examples/porting/lv_port_disp.c
-    ${CMAKE_SOURCE_DIR}/LVGL/examples/porting/lv_port_indev.c
-    ${CMAKE_SOURCE_DIR}/LVGL/examples/porting/lv_port_fs.c
+    ${CMAKE_SOURCE_DIR}/LVGL/porting/lv_port_disp.c
+    ${CMAKE_SOURCE_DIR}/LVGL/porting/lv_port_indev.c
+    ${CMAKE_SOURCE_DIR}/LVGL/porting/lv_port_fs.c
 )
 
 # --- Hardware Configuration ---
@@ -104,3 +104,11 @@ target_link_libraries(${CMAKE_PROJECT_NAME}
     # Add user defined libraries
 )
 
+
+# 缂栬瘧瀹屾垚鍚庯紝鎶婄敓鎴愮殑 elf 鏂囦欢寮哄埗澶嶅埗鍒颁竴涓笉浼氳 CLion 灞忚斀鐨?bin 鏂囦欢澶?
+add_custom_command(TARGET ${PROJECT_NAME} POST_BUILD
+        COMMAND ${CMAKE_COMMAND} -E make_directory ${CMAKE_SOURCE_DIR}/bin
+        COMMAND ${CMAKE_COMMAND} -E copy $<TARGET_FILE:${PROJECT_NAME}> ${CMAKE_SOURCE_DIR}/bin/${PROJECT_NAME}.elf
+        COMMAND arm-none-eabi-size $<TARGET_FILE:${PROJECT_NAME}>
+        COMMENT "Auto-syncing ELF to local Windows and printing sizes..."
+)

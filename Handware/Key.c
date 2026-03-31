@@ -57,8 +57,6 @@ static inline void Key_PostEvent(uint8_t id, KeyEvent event)
         case KEY_EVENT_REPEAT:
             e.type = EVT_KEY_REPEAT; 
             break;
-		 default:
-            return;                  //return 跳出整个函数
     }                       
     Event_Enqueue(&e);   
 }
