@@ -1,6 +1,0 @@
-/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles/LCD.dir
-/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles/edit_cache.dir
-/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles/rebuild_cache.dir
-/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir
-/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/cmake/stm32cubemx/CMakeFiles/edit_cache.dir
-/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/cmake/stm32cubemx/CMakeFiles/rebuild_cache.dir

@@ -1,4 +1,0 @@
-/tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/encoder.c:18:6:Encoder_Init	8	static
-/tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/encoder.c:30:6:Encoder_Scan	16	static
-/tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/encoder.c:67:9:Encoder_Get_Diff	16	static
-/tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/encoder.c:77:18:Encoder_Get_State	4	static

@@ -1,5 +1,0 @@
-/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=/usr/bin/arm-none-eabi-gcc -DCMAKE_CXX_COMPILER=/usr/bin/arm-none-eabi-g++ -DCMAKE_BUILD_TYPE=Debug -G "Unix Makefiles" -S /tmp/tmp.I5nRtdLoE0/10Khz_Git -B /tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-
-Build type: Debug
--- Configuring done
--- Generating done
--- Build files have been written to: /tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-

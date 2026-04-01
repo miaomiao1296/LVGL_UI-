@@ -27,3 +27,16 @@ JLinkLog.txt
 # *.uvprojx (Keil5 工程文件)
 # *.uvoptx (工程配置选项)
 # *.c, *.h, *.s (源码)
+
+# --- CMake / 现代工具链编译输出 (必须过滤) ---
+build/
+cmake-build-*/
+bin/
+*.elf
+*.hex
+*.bin
+compile_commands.json
+
+# --- IDE 私有配置 (不同电脑会冲突，建议过滤) ---
+.idea/
+*.iml

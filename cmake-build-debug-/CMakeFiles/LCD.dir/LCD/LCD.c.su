@@ -1,5 +1,0 @@
-/tmp/tmp.I5nRtdLoE0/10Khz_Git/LCD/LCD.c:9:13:LCD_SendCmd	16	static
-/tmp/tmp.I5nRtdLoE0/10Khz_Git/LCD/LCD.c:20:13:LCD_SendData	16	static
-/tmp/tmp.I5nRtdLoE0/10Khz_Git/LCD/LCD.c:29:6:LCD_Address_Set	32	static
-/tmp/tmp.I5nRtdLoE0/10Khz_Git/LCD/LCD.c:41:6:LCD_Write_DMA_Async	16	static
-/tmp/tmp.I5nRtdLoE0/10Khz_Git/LCD/LCD.c:51:6:LCD_Init	120	static

@@ -1,6 +1,0 @@
-/tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/event.c:24:24:evt_next	16	static
-/tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/event.c:28:6:Event_Init	4	static
-/tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/event.c:35:6:Event_EnqueueFromISR	24	static
-/tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/event.c:48:6:Event_Enqueue	24	static
-/tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/event.c:62:6:Event_Dequeue	16	static
-/tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/event.c:73:10:Event_GetCount	16	static
