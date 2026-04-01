@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="OCD_LCD" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LCD" TARGET_NAME="LCD" CONFIG_NAME="Debug-远程主机" version="1" RUN_PATH="$PROJECT_DIR$/bin/LCD.elf">
+    <openocd version="1" gdb-port="3333" telnet-port="4444" board-config="D:\stm32\git\10Khz_Git\openocd.cfg" reset-type="HALT" download-type="ALL">
+      <debugger kind="GDB" isBundled="true" />
+    </openocd>
+    <method v="2">
+      <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider" enabled="true" />
+    </method>
+  </configuration>
+</component>
