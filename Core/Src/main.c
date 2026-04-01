@@ -303,12 +303,11 @@ int main(void)
 {
 
   /* USER CODE BEGIN 1 */
-//栈区是 0x2001E000 到 0x20020000 (8KB)	
-uint32_t *stack_ptr = (uint32_t *)0x2001E000;
-for(int i=0; i < (8192/4); i++) {
-    stack_ptr[i] = 0xAAAAAAAA; // 涂上“油漆”
-}
-
+// //栈区是 0x2001E000 到 0x20020000 (8KB)
+// uint32_t *stack_ptr = (uint32_t *)0x2001E000;
+// for(int i=0; i < (8192/4); i++) {
+//     stack_ptr[i] = 0xAAAAAAAA; // 涂上“油漆”
+// }
   /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
@@ -373,6 +372,7 @@ for(int i=0; i < (8192/4); i++) {
 
    font_load ();
    UI_Init();
+    printf("EVT_KEY_LONG   1\r\n");
 	 
 
   /* USER CODE END 2 */
@@ -412,7 +412,7 @@ for(int i=0; i < (8192/4); i++) {
 	   Event_t evt;                     //Event Pump（事件泵）模型       Run-to-completion event loop
         if (Event_Dequeue(&evt))
         {
-            Menu_OnEvent(&evt); 
+            Menu_OnEvent(&evt);
         }
 	  
 	  HAL_Delay(1-1);

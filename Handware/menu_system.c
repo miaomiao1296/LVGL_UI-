@@ -416,7 +416,7 @@ static void page_home_enter(void) {
     add_list_item(list, LV_SYMBOL_LIST,     "测试",               UI_PAGE_2);
     add_list_item(list, LV_SYMBOL_AUDIO,    "频谱",               UI_PAGE_3);             
     add_list_item(list, LV_SYMBOL_EYE_OPEN, "示波",               UI_PAGE_4);
-    add_list_item(list, LV_SYMBOL_LIST,     "小猫咪",             UI_PAGE_5);
+    add_list_item(list, LV_SYMBOL_LIST,     "猫",             UI_PAGE_5);
 	
 	
 	 //每次进入后老大获得焦点
@@ -962,7 +962,7 @@ void Menu_OnEvent(const Event_t *e)
 				
 					break;
 			    case 1:  
-					  UI_Back();
+		    		printf("EVT_KEY_LONG   1\r\n");
 				break;
 				case 2:  
 				      lv_touchpad_toggle( );
