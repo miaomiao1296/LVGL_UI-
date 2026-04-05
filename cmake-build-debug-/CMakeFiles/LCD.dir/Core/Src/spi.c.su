@@ -1,4 +1,0 @@
-/tmp/tmp.I5nRtdLoE0/10Khz_Git/Core/Src/spi.c:34:6:MX_SPI1_Init	8	static
-/tmp/tmp.I5nRtdLoE0/10Khz_Git/Core/Src/spi.c:66:6:MX_SPI2_Init	8	static
-/tmp/tmp.I5nRtdLoE0/10Khz_Git/Core/Src/spi.c:98:6:HAL_SPI_MspInit	56	static
-/tmp/tmp.I5nRtdLoE0/10Khz_Git/Core/Src/spi.c:218:6:HAL_SPI_MspDeInit	16	static

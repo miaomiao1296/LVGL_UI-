@@ -1,7 +1,0 @@
-/tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/lv_font_external.c:14:15:ccm_alloc	24	static
-/tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/lv_font_external.c:32:21:read_bits	32	static
-/tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/lv_font_external.c:48:12:read_bits_signed	32	static
-/tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/lv_font_external.c:56:17:get_glyph_id	56	static
-/tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/lv_font_external.c:88:24:custom_get_glyph_bitmap	40	static
-/tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/lv_font_external.c:106:13:lv_font_external_load	208	static
-/tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/lv_font_external.c:230:6:lv_font_external_free	16	static

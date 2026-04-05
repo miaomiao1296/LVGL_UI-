@@ -1,4 +1,0 @@
-/tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/examples/porting/lv_port_indev.c:35:6:lv_port_indev_init	8	static
-/tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/examples/porting/lv_port_indev.c:85:6:lv_touchpad_toggle	8	static
-/tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/examples/porting/lv_port_indev.c:96:13:touchpad_read	16	static
-/tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/examples/porting/lv_port_indev.c:121:13:encoder_read	16	static

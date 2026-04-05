@@ -34,6 +34,8 @@ message("Build type: " ${CMAKE_BUILD_TYPE})
 # Enable CMake support for ASM and C languages
 enable_language(C ASM)
 
+# Removed custom bin/ directory generation for remote sync compatibility
+
 # Create an executable object type
 add_executable(${CMAKE_PROJECT_NAME})
 
@@ -63,14 +65,14 @@ target_sources(${CMAKE_PROJECT_NAME} PRIVATE
 # --- Hardware Configuration ---
 # 1. Include paths
 target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE
-    ${CMAKE_SOURCE_DIR}/Handware
+    ${CMAKE_SOURCE_DIR}/Hardware
     ${CMAKE_SOURCE_DIR}/LCD
     ${CMAKE_SOURCE_DIR}/Core/Inc
 )
 
 # 2. Source files
 file(GLOB HARDWARE_SOURCES
-    "${CMAKE_SOURCE_DIR}/Handware/*.c"
+    "${CMAKE_SOURCE_DIR}/Hardware/*.c"
     "${CMAKE_SOURCE_DIR}/LCD/*.c"
 )
 target_sources(${CMAKE_PROJECT_NAME} PRIVATE
@@ -104,11 +106,8 @@ target_link_libraries(${CMAKE_PROJECT_NAME}
     # Add user defined libraries
 )
 
-
-# 缂栬瘧瀹屾垚鍚庯紝鎶婄敓鎴愮殑 elf 鏂囦欢寮哄埗澶嶅埗鍒颁竴涓笉浼氳 CLion 灞忚斀鐨?bin 鏂囦欢澶?
+# 打印编译出来的固件占用大小信�?
 add_custom_command(TARGET ${PROJECT_NAME} POST_BUILD
-        COMMAND ${CMAKE_COMMAND} -E make_directory ${CMAKE_SOURCE_DIR}/bin
-        COMMAND ${CMAKE_COMMAND} -E copy $<TARGET_FILE:${PROJECT_NAME}> ${CMAKE_SOURCE_DIR}/bin/${PROJECT_NAME}.elf
         COMMAND arm-none-eabi-size $<TARGET_FILE:${PROJECT_NAME}>
-        COMMENT "Auto-syncing ELF to local Windows and printing sizes..."
+        COMMENT "Printing sizes..."
 )

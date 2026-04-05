@@ -250,178 +250,10 @@ CMakeFiles/LCD.dir/startup_stm32f407xx.s.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/LCD.dir/startup_stm32f407xx.s.s"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /tmp/tmp.I5nRtdLoE0/10Khz_Git/startup_stm32f407xx.s -o CMakeFiles/LCD.dir/startup_stm32f407xx.s.s
 
-CMakeFiles/LCD.dir/Handware/FFT.c.obj: CMakeFiles/LCD.dir/flags.make
-CMakeFiles/LCD.dir/Handware/FFT.c.obj: ../Handware/FFT.c
-CMakeFiles/LCD.dir/Handware/FFT.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/LCD.dir/Handware/FFT.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/Handware/FFT.c.obj -MF CMakeFiles/LCD.dir/Handware/FFT.c.obj.d -o CMakeFiles/LCD.dir/Handware/FFT.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/FFT.c
-
-CMakeFiles/LCD.dir/Handware/FFT.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LCD.dir/Handware/FFT.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/FFT.c > CMakeFiles/LCD.dir/Handware/FFT.c.i
-
-CMakeFiles/LCD.dir/Handware/FFT.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LCD.dir/Handware/FFT.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/FFT.c -o CMakeFiles/LCD.dir/Handware/FFT.c.s
-
-CMakeFiles/LCD.dir/Handware/Key.c.obj: CMakeFiles/LCD.dir/flags.make
-CMakeFiles/LCD.dir/Handware/Key.c.obj: ../Handware/Key.c
-CMakeFiles/LCD.dir/Handware/Key.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/LCD.dir/Handware/Key.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/Handware/Key.c.obj -MF CMakeFiles/LCD.dir/Handware/Key.c.obj.d -o CMakeFiles/LCD.dir/Handware/Key.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/Key.c
-
-CMakeFiles/LCD.dir/Handware/Key.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LCD.dir/Handware/Key.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/Key.c > CMakeFiles/LCD.dir/Handware/Key.c.i
-
-CMakeFiles/LCD.dir/Handware/Key.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LCD.dir/Handware/Key.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/Key.c -o CMakeFiles/LCD.dir/Handware/Key.c.s
-
-CMakeFiles/LCD.dir/Handware/LoRa.c.obj: CMakeFiles/LCD.dir/flags.make
-CMakeFiles/LCD.dir/Handware/LoRa.c.obj: ../Handware/LoRa.c
-CMakeFiles/LCD.dir/Handware/LoRa.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/LCD.dir/Handware/LoRa.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/Handware/LoRa.c.obj -MF CMakeFiles/LCD.dir/Handware/LoRa.c.obj.d -o CMakeFiles/LCD.dir/Handware/LoRa.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/LoRa.c
-
-CMakeFiles/LCD.dir/Handware/LoRa.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LCD.dir/Handware/LoRa.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/LoRa.c > CMakeFiles/LCD.dir/Handware/LoRa.c.i
-
-CMakeFiles/LCD.dir/Handware/LoRa.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LCD.dir/Handware/LoRa.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/LoRa.c -o CMakeFiles/LCD.dir/Handware/LoRa.c.s
-
-CMakeFiles/LCD.dir/Handware/effect.c.obj: CMakeFiles/LCD.dir/flags.make
-CMakeFiles/LCD.dir/Handware/effect.c.obj: ../Handware/effect.c
-CMakeFiles/LCD.dir/Handware/effect.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/LCD.dir/Handware/effect.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/Handware/effect.c.obj -MF CMakeFiles/LCD.dir/Handware/effect.c.obj.d -o CMakeFiles/LCD.dir/Handware/effect.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/effect.c
-
-CMakeFiles/LCD.dir/Handware/effect.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LCD.dir/Handware/effect.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/effect.c > CMakeFiles/LCD.dir/Handware/effect.c.i
-
-CMakeFiles/LCD.dir/Handware/effect.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LCD.dir/Handware/effect.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/effect.c -o CMakeFiles/LCD.dir/Handware/effect.c.s
-
-CMakeFiles/LCD.dir/Handware/encoder.c.obj: CMakeFiles/LCD.dir/flags.make
-CMakeFiles/LCD.dir/Handware/encoder.c.obj: ../Handware/encoder.c
-CMakeFiles/LCD.dir/Handware/encoder.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/LCD.dir/Handware/encoder.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/Handware/encoder.c.obj -MF CMakeFiles/LCD.dir/Handware/encoder.c.obj.d -o CMakeFiles/LCD.dir/Handware/encoder.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/encoder.c
-
-CMakeFiles/LCD.dir/Handware/encoder.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LCD.dir/Handware/encoder.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/encoder.c > CMakeFiles/LCD.dir/Handware/encoder.c.i
-
-CMakeFiles/LCD.dir/Handware/encoder.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LCD.dir/Handware/encoder.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/encoder.c -o CMakeFiles/LCD.dir/Handware/encoder.c.s
-
-CMakeFiles/LCD.dir/Handware/event.c.obj: CMakeFiles/LCD.dir/flags.make
-CMakeFiles/LCD.dir/Handware/event.c.obj: ../Handware/event.c
-CMakeFiles/LCD.dir/Handware/event.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/LCD.dir/Handware/event.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/Handware/event.c.obj -MF CMakeFiles/LCD.dir/Handware/event.c.obj.d -o CMakeFiles/LCD.dir/Handware/event.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/event.c
-
-CMakeFiles/LCD.dir/Handware/event.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LCD.dir/Handware/event.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/event.c > CMakeFiles/LCD.dir/Handware/event.c.i
-
-CMakeFiles/LCD.dir/Handware/event.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LCD.dir/Handware/event.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/event.c -o CMakeFiles/LCD.dir/Handware/event.c.s
-
-CMakeFiles/LCD.dir/Handware/lv_font_external.c.obj: CMakeFiles/LCD.dir/flags.make
-CMakeFiles/LCD.dir/Handware/lv_font_external.c.obj: ../Handware/lv_font_external.c
-CMakeFiles/LCD.dir/Handware/lv_font_external.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/LCD.dir/Handware/lv_font_external.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/Handware/lv_font_external.c.obj -MF CMakeFiles/LCD.dir/Handware/lv_font_external.c.obj.d -o CMakeFiles/LCD.dir/Handware/lv_font_external.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/lv_font_external.c
-
-CMakeFiles/LCD.dir/Handware/lv_font_external.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LCD.dir/Handware/lv_font_external.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/lv_font_external.c > CMakeFiles/LCD.dir/Handware/lv_font_external.c.i
-
-CMakeFiles/LCD.dir/Handware/lv_font_external.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LCD.dir/Handware/lv_font_external.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/lv_font_external.c -o CMakeFiles/LCD.dir/Handware/lv_font_external.c.s
-
-CMakeFiles/LCD.dir/Handware/lv_port_fs_w25q.c.obj: CMakeFiles/LCD.dir/flags.make
-CMakeFiles/LCD.dir/Handware/lv_port_fs_w25q.c.obj: ../Handware/lv_port_fs_w25q.c
-CMakeFiles/LCD.dir/Handware/lv_port_fs_w25q.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/LCD.dir/Handware/lv_port_fs_w25q.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/Handware/lv_port_fs_w25q.c.obj -MF CMakeFiles/LCD.dir/Handware/lv_port_fs_w25q.c.obj.d -o CMakeFiles/LCD.dir/Handware/lv_port_fs_w25q.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/lv_port_fs_w25q.c
-
-CMakeFiles/LCD.dir/Handware/lv_port_fs_w25q.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LCD.dir/Handware/lv_port_fs_w25q.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/lv_port_fs_w25q.c > CMakeFiles/LCD.dir/Handware/lv_port_fs_w25q.c.i
-
-CMakeFiles/LCD.dir/Handware/lv_port_fs_w25q.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LCD.dir/Handware/lv_port_fs_w25q.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/lv_port_fs_w25q.c -o CMakeFiles/LCD.dir/Handware/lv_port_fs_w25q.c.s
-
-CMakeFiles/LCD.dir/Handware/menu_system.c.obj: CMakeFiles/LCD.dir/flags.make
-CMakeFiles/LCD.dir/Handware/menu_system.c.obj: ../Handware/menu_system.c
-CMakeFiles/LCD.dir/Handware/menu_system.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/LCD.dir/Handware/menu_system.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/Handware/menu_system.c.obj -MF CMakeFiles/LCD.dir/Handware/menu_system.c.obj.d -o CMakeFiles/LCD.dir/Handware/menu_system.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/menu_system.c
-
-CMakeFiles/LCD.dir/Handware/menu_system.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LCD.dir/Handware/menu_system.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/menu_system.c > CMakeFiles/LCD.dir/Handware/menu_system.c.i
-
-CMakeFiles/LCD.dir/Handware/menu_system.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LCD.dir/Handware/menu_system.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/menu_system.c -o CMakeFiles/LCD.dir/Handware/menu_system.c.s
-
-CMakeFiles/LCD.dir/Handware/spi_flash.c.obj: CMakeFiles/LCD.dir/flags.make
-CMakeFiles/LCD.dir/Handware/spi_flash.c.obj: ../Handware/spi_flash.c
-CMakeFiles/LCD.dir/Handware/spi_flash.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/LCD.dir/Handware/spi_flash.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/Handware/spi_flash.c.obj -MF CMakeFiles/LCD.dir/Handware/spi_flash.c.obj.d -o CMakeFiles/LCD.dir/Handware/spi_flash.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/spi_flash.c
-
-CMakeFiles/LCD.dir/Handware/spi_flash.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LCD.dir/Handware/spi_flash.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/spi_flash.c > CMakeFiles/LCD.dir/Handware/spi_flash.c.i
-
-CMakeFiles/LCD.dir/Handware/spi_flash.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LCD.dir/Handware/spi_flash.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/spi_flash.c -o CMakeFiles/LCD.dir/Handware/spi_flash.c.s
-
-CMakeFiles/LCD.dir/LCD/LCD.c.obj: CMakeFiles/LCD.dir/flags.make
-CMakeFiles/LCD.dir/LCD/LCD.c.obj: ../LCD/LCD.c
-CMakeFiles/LCD.dir/LCD/LCD.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/LCD.dir/LCD/LCD.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LCD/LCD.c.obj -MF CMakeFiles/LCD.dir/LCD/LCD.c.obj.d -o CMakeFiles/LCD.dir/LCD/LCD.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LCD/LCD.c
-
-CMakeFiles/LCD.dir/LCD/LCD.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LCD.dir/LCD/LCD.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/tmp.I5nRtdLoE0/10Khz_Git/LCD/LCD.c > CMakeFiles/LCD.dir/LCD/LCD.c.i
-
-CMakeFiles/LCD.dir/LCD/LCD.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LCD.dir/LCD/LCD.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/tmp.I5nRtdLoE0/10Khz_Git/LCD/LCD.c -o CMakeFiles/LCD.dir/LCD/LCD.c.s
-
-CMakeFiles/LCD.dir/LCD/ft6336.c.obj: CMakeFiles/LCD.dir/flags.make
-CMakeFiles/LCD.dir/LCD/ft6336.c.obj: ../LCD/ft6336.c
-CMakeFiles/LCD.dir/LCD/ft6336.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/LCD.dir/LCD/ft6336.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LCD/ft6336.c.obj -MF CMakeFiles/LCD.dir/LCD/ft6336.c.obj.d -o CMakeFiles/LCD.dir/LCD/ft6336.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LCD/ft6336.c
-
-CMakeFiles/LCD.dir/LCD/ft6336.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LCD.dir/LCD/ft6336.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/tmp.I5nRtdLoE0/10Khz_Git/LCD/ft6336.c > CMakeFiles/LCD.dir/LCD/ft6336.c.i
-
-CMakeFiles/LCD.dir/LCD/ft6336.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LCD.dir/LCD/ft6336.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/tmp.I5nRtdLoE0/10Khz_Git/LCD/ft6336.c -o CMakeFiles/LCD.dir/LCD/ft6336.c.s
-
 CMakeFiles/LCD.dir/LVGL/src/core/lv_disp.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/core/lv_disp.c.obj: ../LVGL/src/core/lv_disp.c
 CMakeFiles/LCD.dir/LVGL/src/core/lv_disp.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/LCD.dir/LVGL/src/core/lv_disp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/LCD.dir/LVGL/src/core/lv_disp.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/core/lv_disp.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/core/lv_disp.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/core/lv_disp.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/core/lv_disp.c
 
 CMakeFiles/LCD.dir/LVGL/src/core/lv_disp.c.i: cmake_force
@@ -435,7 +267,7 @@ CMakeFiles/LCD.dir/LVGL/src/core/lv_disp.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/core/lv_event.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/core/lv_event.c.obj: ../LVGL/src/core/lv_event.c
 CMakeFiles/LCD.dir/LVGL/src/core/lv_event.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/LCD.dir/LVGL/src/core/lv_event.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/LCD.dir/LVGL/src/core/lv_event.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/core/lv_event.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/core/lv_event.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/core/lv_event.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/core/lv_event.c
 
 CMakeFiles/LCD.dir/LVGL/src/core/lv_event.c.i: cmake_force
@@ -449,7 +281,7 @@ CMakeFiles/LCD.dir/LVGL/src/core/lv_event.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/core/lv_group.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/core/lv_group.c.obj: ../LVGL/src/core/lv_group.c
 CMakeFiles/LCD.dir/LVGL/src/core/lv_group.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/LCD.dir/LVGL/src/core/lv_group.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/LCD.dir/LVGL/src/core/lv_group.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/core/lv_group.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/core/lv_group.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/core/lv_group.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/core/lv_group.c
 
 CMakeFiles/LCD.dir/LVGL/src/core/lv_group.c.i: cmake_force
@@ -463,7 +295,7 @@ CMakeFiles/LCD.dir/LVGL/src/core/lv_group.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/core/lv_indev.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/core/lv_indev.c.obj: ../LVGL/src/core/lv_indev.c
 CMakeFiles/LCD.dir/LVGL/src/core/lv_indev.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/LCD.dir/LVGL/src/core/lv_indev.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/LCD.dir/LVGL/src/core/lv_indev.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/core/lv_indev.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/core/lv_indev.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/core/lv_indev.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/core/lv_indev.c
 
 CMakeFiles/LCD.dir/LVGL/src/core/lv_indev.c.i: cmake_force
@@ -477,7 +309,7 @@ CMakeFiles/LCD.dir/LVGL/src/core/lv_indev.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/core/lv_indev_scroll.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/core/lv_indev_scroll.c.obj: ../LVGL/src/core/lv_indev_scroll.c
 CMakeFiles/LCD.dir/LVGL/src/core/lv_indev_scroll.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/LCD.dir/LVGL/src/core/lv_indev_scroll.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/LCD.dir/LVGL/src/core/lv_indev_scroll.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/core/lv_indev_scroll.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/core/lv_indev_scroll.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/core/lv_indev_scroll.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/core/lv_indev_scroll.c
 
 CMakeFiles/LCD.dir/LVGL/src/core/lv_indev_scroll.c.i: cmake_force
@@ -491,7 +323,7 @@ CMakeFiles/LCD.dir/LVGL/src/core/lv_indev_scroll.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/core/lv_obj.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/core/lv_obj.c.obj: ../LVGL/src/core/lv_obj.c
 CMakeFiles/LCD.dir/LVGL/src/core/lv_obj.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/LCD.dir/LVGL/src/core/lv_obj.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/LCD.dir/LVGL/src/core/lv_obj.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/core/lv_obj.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/core/lv_obj.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/core/lv_obj.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/core/lv_obj.c
 
 CMakeFiles/LCD.dir/LVGL/src/core/lv_obj.c.i: cmake_force
@@ -505,7 +337,7 @@ CMakeFiles/LCD.dir/LVGL/src/core/lv_obj.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/core/lv_obj_class.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/core/lv_obj_class.c.obj: ../LVGL/src/core/lv_obj_class.c
 CMakeFiles/LCD.dir/LVGL/src/core/lv_obj_class.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/LCD.dir/LVGL/src/core/lv_obj_class.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/LCD.dir/LVGL/src/core/lv_obj_class.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/core/lv_obj_class.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/core/lv_obj_class.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/core/lv_obj_class.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/core/lv_obj_class.c
 
 CMakeFiles/LCD.dir/LVGL/src/core/lv_obj_class.c.i: cmake_force
@@ -519,7 +351,7 @@ CMakeFiles/LCD.dir/LVGL/src/core/lv_obj_class.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/core/lv_obj_draw.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/core/lv_obj_draw.c.obj: ../LVGL/src/core/lv_obj_draw.c
 CMakeFiles/LCD.dir/LVGL/src/core/lv_obj_draw.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/LCD.dir/LVGL/src/core/lv_obj_draw.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/LCD.dir/LVGL/src/core/lv_obj_draw.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/core/lv_obj_draw.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/core/lv_obj_draw.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/core/lv_obj_draw.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/core/lv_obj_draw.c
 
 CMakeFiles/LCD.dir/LVGL/src/core/lv_obj_draw.c.i: cmake_force
@@ -533,7 +365,7 @@ CMakeFiles/LCD.dir/LVGL/src/core/lv_obj_draw.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/core/lv_obj_pos.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/core/lv_obj_pos.c.obj: ../LVGL/src/core/lv_obj_pos.c
 CMakeFiles/LCD.dir/LVGL/src/core/lv_obj_pos.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/LCD.dir/LVGL/src/core/lv_obj_pos.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/LCD.dir/LVGL/src/core/lv_obj_pos.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/core/lv_obj_pos.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/core/lv_obj_pos.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/core/lv_obj_pos.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/core/lv_obj_pos.c
 
 CMakeFiles/LCD.dir/LVGL/src/core/lv_obj_pos.c.i: cmake_force
@@ -547,7 +379,7 @@ CMakeFiles/LCD.dir/LVGL/src/core/lv_obj_pos.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/core/lv_obj_scroll.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/core/lv_obj_scroll.c.obj: ../LVGL/src/core/lv_obj_scroll.c
 CMakeFiles/LCD.dir/LVGL/src/core/lv_obj_scroll.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/LCD.dir/LVGL/src/core/lv_obj_scroll.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/LCD.dir/LVGL/src/core/lv_obj_scroll.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/core/lv_obj_scroll.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/core/lv_obj_scroll.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/core/lv_obj_scroll.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/core/lv_obj_scroll.c
 
 CMakeFiles/LCD.dir/LVGL/src/core/lv_obj_scroll.c.i: cmake_force
@@ -561,7 +393,7 @@ CMakeFiles/LCD.dir/LVGL/src/core/lv_obj_scroll.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/core/lv_obj_style.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/core/lv_obj_style.c.obj: ../LVGL/src/core/lv_obj_style.c
 CMakeFiles/LCD.dir/LVGL/src/core/lv_obj_style.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/LCD.dir/LVGL/src/core/lv_obj_style.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/LCD.dir/LVGL/src/core/lv_obj_style.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/core/lv_obj_style.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/core/lv_obj_style.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/core/lv_obj_style.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/core/lv_obj_style.c
 
 CMakeFiles/LCD.dir/LVGL/src/core/lv_obj_style.c.i: cmake_force
@@ -575,7 +407,7 @@ CMakeFiles/LCD.dir/LVGL/src/core/lv_obj_style.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/core/lv_obj_style_gen.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/core/lv_obj_style_gen.c.obj: ../LVGL/src/core/lv_obj_style_gen.c
 CMakeFiles/LCD.dir/LVGL/src/core/lv_obj_style_gen.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/LCD.dir/LVGL/src/core/lv_obj_style_gen.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/LCD.dir/LVGL/src/core/lv_obj_style_gen.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/core/lv_obj_style_gen.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/core/lv_obj_style_gen.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/core/lv_obj_style_gen.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/core/lv_obj_style_gen.c
 
 CMakeFiles/LCD.dir/LVGL/src/core/lv_obj_style_gen.c.i: cmake_force
@@ -589,7 +421,7 @@ CMakeFiles/LCD.dir/LVGL/src/core/lv_obj_style_gen.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/core/lv_obj_tree.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/core/lv_obj_tree.c.obj: ../LVGL/src/core/lv_obj_tree.c
 CMakeFiles/LCD.dir/LVGL/src/core/lv_obj_tree.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/LCD.dir/LVGL/src/core/lv_obj_tree.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/LCD.dir/LVGL/src/core/lv_obj_tree.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/core/lv_obj_tree.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/core/lv_obj_tree.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/core/lv_obj_tree.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/core/lv_obj_tree.c
 
 CMakeFiles/LCD.dir/LVGL/src/core/lv_obj_tree.c.i: cmake_force
@@ -603,7 +435,7 @@ CMakeFiles/LCD.dir/LVGL/src/core/lv_obj_tree.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/core/lv_refr.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/core/lv_refr.c.obj: ../LVGL/src/core/lv_refr.c
 CMakeFiles/LCD.dir/LVGL/src/core/lv_refr.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/LCD.dir/LVGL/src/core/lv_refr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/LCD.dir/LVGL/src/core/lv_refr.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/core/lv_refr.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/core/lv_refr.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/core/lv_refr.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/core/lv_refr.c
 
 CMakeFiles/LCD.dir/LVGL/src/core/lv_refr.c.i: cmake_force
@@ -617,7 +449,7 @@ CMakeFiles/LCD.dir/LVGL/src/core/lv_refr.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/core/lv_theme.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/core/lv_theme.c.obj: ../LVGL/src/core/lv_theme.c
 CMakeFiles/LCD.dir/LVGL/src/core/lv_theme.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/LCD.dir/LVGL/src/core/lv_theme.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/LCD.dir/LVGL/src/core/lv_theme.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/core/lv_theme.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/core/lv_theme.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/core/lv_theme.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/core/lv_theme.c
 
 CMakeFiles/LCD.dir/LVGL/src/core/lv_theme.c.i: cmake_force
@@ -631,7 +463,7 @@ CMakeFiles/LCD.dir/LVGL/src/core/lv_theme.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/draw/arm2d/lv_gpu_arm2d.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/draw/arm2d/lv_gpu_arm2d.c.obj: ../LVGL/src/draw/arm2d/lv_gpu_arm2d.c
 CMakeFiles/LCD.dir/LVGL/src/draw/arm2d/lv_gpu_arm2d.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/arm2d/lv_gpu_arm2d.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/arm2d/lv_gpu_arm2d.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/draw/arm2d/lv_gpu_arm2d.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/draw/arm2d/lv_gpu_arm2d.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/draw/arm2d/lv_gpu_arm2d.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/draw/arm2d/lv_gpu_arm2d.c
 
 CMakeFiles/LCD.dir/LVGL/src/draw/arm2d/lv_gpu_arm2d.c.i: cmake_force
@@ -645,7 +477,7 @@ CMakeFiles/LCD.dir/LVGL/src/draw/arm2d/lv_gpu_arm2d.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw.c.obj: ../LVGL/src/draw/lv_draw.c
 CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/draw/lv_draw.c
 
 CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw.c.i: cmake_force
@@ -659,7 +491,7 @@ CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_arc.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_arc.c.obj: ../LVGL/src/draw/lv_draw_arc.c
 CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_arc.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_arc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_arc.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_arc.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_arc.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_arc.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/draw/lv_draw_arc.c
 
 CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_arc.c.i: cmake_force
@@ -673,7 +505,7 @@ CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_arc.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_img.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_img.c.obj: ../LVGL/src/draw/lv_draw_img.c
 CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_img.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_img.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_img.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_img.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_img.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_img.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/draw/lv_draw_img.c
 
 CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_img.c.i: cmake_force
@@ -687,7 +519,7 @@ CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_img.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_label.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_label.c.obj: ../LVGL/src/draw/lv_draw_label.c
 CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_label.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_label.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_label.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_label.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_label.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_label.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/draw/lv_draw_label.c
 
 CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_label.c.i: cmake_force
@@ -701,7 +533,7 @@ CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_label.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_layer.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_layer.c.obj: ../LVGL/src/draw/lv_draw_layer.c
 CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_layer.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_layer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_layer.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_layer.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_layer.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_layer.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/draw/lv_draw_layer.c
 
 CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_layer.c.i: cmake_force
@@ -715,7 +547,7 @@ CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_layer.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_line.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_line.c.obj: ../LVGL/src/draw/lv_draw_line.c
 CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_line.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_line.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_line.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_line.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_line.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_line.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/draw/lv_draw_line.c
 
 CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_line.c.i: cmake_force
@@ -729,7 +561,7 @@ CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_line.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_mask.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_mask.c.obj: ../LVGL/src/draw/lv_draw_mask.c
 CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_mask.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_mask.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_mask.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_mask.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_mask.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_mask.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/draw/lv_draw_mask.c
 
 CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_mask.c.i: cmake_force
@@ -743,7 +575,7 @@ CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_mask.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_rect.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_rect.c.obj: ../LVGL/src/draw/lv_draw_rect.c
 CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_rect.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_rect.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_rect.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_rect.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_rect.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_rect.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/draw/lv_draw_rect.c
 
 CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_rect.c.i: cmake_force
@@ -757,7 +589,7 @@ CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_rect.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_transform.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_transform.c.obj: ../LVGL/src/draw/lv_draw_transform.c
 CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_transform.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_transform.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_transform.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_transform.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_transform.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_transform.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/draw/lv_draw_transform.c
 
 CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_transform.c.i: cmake_force
@@ -771,7 +603,7 @@ CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_transform.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_triangle.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_triangle.c.obj: ../LVGL/src/draw/lv_draw_triangle.c
 CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_triangle.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_triangle.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_triangle.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_triangle.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_triangle.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_triangle.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/draw/lv_draw_triangle.c
 
 CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_triangle.c.i: cmake_force
@@ -785,7 +617,7 @@ CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_triangle.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/draw/lv_img_buf.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/draw/lv_img_buf.c.obj: ../LVGL/src/draw/lv_img_buf.c
 CMakeFiles/LCD.dir/LVGL/src/draw/lv_img_buf.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/lv_img_buf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/lv_img_buf.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/draw/lv_img_buf.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/draw/lv_img_buf.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/draw/lv_img_buf.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/draw/lv_img_buf.c
 
 CMakeFiles/LCD.dir/LVGL/src/draw/lv_img_buf.c.i: cmake_force
@@ -799,7 +631,7 @@ CMakeFiles/LCD.dir/LVGL/src/draw/lv_img_buf.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/draw/lv_img_cache.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/draw/lv_img_cache.c.obj: ../LVGL/src/draw/lv_img_cache.c
 CMakeFiles/LCD.dir/LVGL/src/draw/lv_img_cache.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/lv_img_cache.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/lv_img_cache.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/draw/lv_img_cache.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/draw/lv_img_cache.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/draw/lv_img_cache.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/draw/lv_img_cache.c
 
 CMakeFiles/LCD.dir/LVGL/src/draw/lv_img_cache.c.i: cmake_force
@@ -813,7 +645,7 @@ CMakeFiles/LCD.dir/LVGL/src/draw/lv_img_cache.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/draw/lv_img_decoder.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/draw/lv_img_decoder.c.obj: ../LVGL/src/draw/lv_img_decoder.c
 CMakeFiles/LCD.dir/LVGL/src/draw/lv_img_decoder.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/lv_img_decoder.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/lv_img_decoder.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/draw/lv_img_decoder.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/draw/lv_img_decoder.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/draw/lv_img_decoder.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/draw/lv_img_decoder.c
 
 CMakeFiles/LCD.dir/LVGL/src/draw/lv_img_decoder.c.i: cmake_force
@@ -827,7 +659,7 @@ CMakeFiles/LCD.dir/LVGL/src/draw/lv_img_decoder.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/draw/nxp/pxp/lv_draw_pxp.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/draw/nxp/pxp/lv_draw_pxp.c.obj: ../LVGL/src/draw/nxp/pxp/lv_draw_pxp.c
 CMakeFiles/LCD.dir/LVGL/src/draw/nxp/pxp/lv_draw_pxp.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/nxp/pxp/lv_draw_pxp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/nxp/pxp/lv_draw_pxp.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/draw/nxp/pxp/lv_draw_pxp.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/draw/nxp/pxp/lv_draw_pxp.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/draw/nxp/pxp/lv_draw_pxp.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/draw/nxp/pxp/lv_draw_pxp.c
 
 CMakeFiles/LCD.dir/LVGL/src/draw/nxp/pxp/lv_draw_pxp.c.i: cmake_force
@@ -841,7 +673,7 @@ CMakeFiles/LCD.dir/LVGL/src/draw/nxp/pxp/lv_draw_pxp.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/draw/nxp/pxp/lv_draw_pxp_blend.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/draw/nxp/pxp/lv_draw_pxp_blend.c.obj: ../LVGL/src/draw/nxp/pxp/lv_draw_pxp_blend.c
 CMakeFiles/LCD.dir/LVGL/src/draw/nxp/pxp/lv_draw_pxp_blend.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/nxp/pxp/lv_draw_pxp_blend.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/nxp/pxp/lv_draw_pxp_blend.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/draw/nxp/pxp/lv_draw_pxp_blend.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/draw/nxp/pxp/lv_draw_pxp_blend.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/draw/nxp/pxp/lv_draw_pxp_blend.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/draw/nxp/pxp/lv_draw_pxp_blend.c
 
 CMakeFiles/LCD.dir/LVGL/src/draw/nxp/pxp/lv_draw_pxp_blend.c.i: cmake_force
@@ -855,7 +687,7 @@ CMakeFiles/LCD.dir/LVGL/src/draw/nxp/pxp/lv_draw_pxp_blend.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.obj: ../LVGL/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c
 CMakeFiles/LCD.dir/LVGL/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c
 
 CMakeFiles/LCD.dir/LVGL/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.i: cmake_force
@@ -869,7 +701,7 @@ CMakeFiles/LCD.dir/LVGL/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.obj: ../LVGL/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c
 CMakeFiles/LCD.dir/LVGL/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c
 
 CMakeFiles/LCD.dir/LVGL/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.i: cmake_force
@@ -883,7 +715,7 @@ CMakeFiles/LCD.dir/LVGL/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/draw/nxp/vglite/lv_draw_vglite.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/draw/nxp/vglite/lv_draw_vglite.c.obj: ../LVGL/src/draw/nxp/vglite/lv_draw_vglite.c
 CMakeFiles/LCD.dir/LVGL/src/draw/nxp/vglite/lv_draw_vglite.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/nxp/vglite/lv_draw_vglite.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/nxp/vglite/lv_draw_vglite.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/draw/nxp/vglite/lv_draw_vglite.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/draw/nxp/vglite/lv_draw_vglite.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/draw/nxp/vglite/lv_draw_vglite.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/draw/nxp/vglite/lv_draw_vglite.c
 
 CMakeFiles/LCD.dir/LVGL/src/draw/nxp/vglite/lv_draw_vglite.c.i: cmake_force
@@ -897,7 +729,7 @@ CMakeFiles/LCD.dir/LVGL/src/draw/nxp/vglite/lv_draw_vglite.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/draw/nxp/vglite/lv_draw_vglite_arc.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/draw/nxp/vglite/lv_draw_vglite_arc.c.obj: ../LVGL/src/draw/nxp/vglite/lv_draw_vglite_arc.c
 CMakeFiles/LCD.dir/LVGL/src/draw/nxp/vglite/lv_draw_vglite_arc.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/nxp/vglite/lv_draw_vglite_arc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/nxp/vglite/lv_draw_vglite_arc.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/draw/nxp/vglite/lv_draw_vglite_arc.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/draw/nxp/vglite/lv_draw_vglite_arc.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/draw/nxp/vglite/lv_draw_vglite_arc.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/draw/nxp/vglite/lv_draw_vglite_arc.c
 
 CMakeFiles/LCD.dir/LVGL/src/draw/nxp/vglite/lv_draw_vglite_arc.c.i: cmake_force
@@ -911,7 +743,7 @@ CMakeFiles/LCD.dir/LVGL/src/draw/nxp/vglite/lv_draw_vglite_arc.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/draw/nxp/vglite/lv_draw_vglite_blend.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/draw/nxp/vglite/lv_draw_vglite_blend.c.obj: ../LVGL/src/draw/nxp/vglite/lv_draw_vglite_blend.c
 CMakeFiles/LCD.dir/LVGL/src/draw/nxp/vglite/lv_draw_vglite_blend.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/nxp/vglite/lv_draw_vglite_blend.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/nxp/vglite/lv_draw_vglite_blend.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/draw/nxp/vglite/lv_draw_vglite_blend.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/draw/nxp/vglite/lv_draw_vglite_blend.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/draw/nxp/vglite/lv_draw_vglite_blend.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/draw/nxp/vglite/lv_draw_vglite_blend.c
 
 CMakeFiles/LCD.dir/LVGL/src/draw/nxp/vglite/lv_draw_vglite_blend.c.i: cmake_force
@@ -925,7 +757,7 @@ CMakeFiles/LCD.dir/LVGL/src/draw/nxp/vglite/lv_draw_vglite_blend.c.s: cmake_forc
 CMakeFiles/LCD.dir/LVGL/src/draw/nxp/vglite/lv_draw_vglite_line.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/draw/nxp/vglite/lv_draw_vglite_line.c.obj: ../LVGL/src/draw/nxp/vglite/lv_draw_vglite_line.c
 CMakeFiles/LCD.dir/LVGL/src/draw/nxp/vglite/lv_draw_vglite_line.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/nxp/vglite/lv_draw_vglite_line.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/nxp/vglite/lv_draw_vglite_line.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/draw/nxp/vglite/lv_draw_vglite_line.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/draw/nxp/vglite/lv_draw_vglite_line.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/draw/nxp/vglite/lv_draw_vglite_line.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/draw/nxp/vglite/lv_draw_vglite_line.c
 
 CMakeFiles/LCD.dir/LVGL/src/draw/nxp/vglite/lv_draw_vglite_line.c.i: cmake_force
@@ -939,7 +771,7 @@ CMakeFiles/LCD.dir/LVGL/src/draw/nxp/vglite/lv_draw_vglite_line.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/draw/nxp/vglite/lv_draw_vglite_rect.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/draw/nxp/vglite/lv_draw_vglite_rect.c.obj: ../LVGL/src/draw/nxp/vglite/lv_draw_vglite_rect.c
 CMakeFiles/LCD.dir/LVGL/src/draw/nxp/vglite/lv_draw_vglite_rect.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/nxp/vglite/lv_draw_vglite_rect.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/nxp/vglite/lv_draw_vglite_rect.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/draw/nxp/vglite/lv_draw_vglite_rect.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/draw/nxp/vglite/lv_draw_vglite_rect.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/draw/nxp/vglite/lv_draw_vglite_rect.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/draw/nxp/vglite/lv_draw_vglite_rect.c
 
 CMakeFiles/LCD.dir/LVGL/src/draw/nxp/vglite/lv_draw_vglite_rect.c.i: cmake_force
@@ -953,7 +785,7 @@ CMakeFiles/LCD.dir/LVGL/src/draw/nxp/vglite/lv_draw_vglite_rect.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/draw/nxp/vglite/lv_vglite_buf.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/draw/nxp/vglite/lv_vglite_buf.c.obj: ../LVGL/src/draw/nxp/vglite/lv_vglite_buf.c
 CMakeFiles/LCD.dir/LVGL/src/draw/nxp/vglite/lv_vglite_buf.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/nxp/vglite/lv_vglite_buf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/nxp/vglite/lv_vglite_buf.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/draw/nxp/vglite/lv_vglite_buf.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/draw/nxp/vglite/lv_vglite_buf.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/draw/nxp/vglite/lv_vglite_buf.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/draw/nxp/vglite/lv_vglite_buf.c
 
 CMakeFiles/LCD.dir/LVGL/src/draw/nxp/vglite/lv_vglite_buf.c.i: cmake_force
@@ -967,7 +799,7 @@ CMakeFiles/LCD.dir/LVGL/src/draw/nxp/vglite/lv_vglite_buf.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/draw/nxp/vglite/lv_vglite_utils.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/draw/nxp/vglite/lv_vglite_utils.c.obj: ../LVGL/src/draw/nxp/vglite/lv_vglite_utils.c
 CMakeFiles/LCD.dir/LVGL/src/draw/nxp/vglite/lv_vglite_utils.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/nxp/vglite/lv_vglite_utils.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/nxp/vglite/lv_vglite_utils.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/draw/nxp/vglite/lv_vglite_utils.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/draw/nxp/vglite/lv_vglite_utils.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/draw/nxp/vglite/lv_vglite_utils.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/draw/nxp/vglite/lv_vglite_utils.c
 
 CMakeFiles/LCD.dir/LVGL/src/draw/nxp/vglite/lv_vglite_utils.c.i: cmake_force
@@ -981,7 +813,7 @@ CMakeFiles/LCD.dir/LVGL/src/draw/nxp/vglite/lv_vglite_utils.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/draw/renesas/lv_gpu_d2_draw_label.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/draw/renesas/lv_gpu_d2_draw_label.c.obj: ../LVGL/src/draw/renesas/lv_gpu_d2_draw_label.c
 CMakeFiles/LCD.dir/LVGL/src/draw/renesas/lv_gpu_d2_draw_label.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/renesas/lv_gpu_d2_draw_label.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/renesas/lv_gpu_d2_draw_label.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/draw/renesas/lv_gpu_d2_draw_label.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/draw/renesas/lv_gpu_d2_draw_label.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/draw/renesas/lv_gpu_d2_draw_label.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/draw/renesas/lv_gpu_d2_draw_label.c
 
 CMakeFiles/LCD.dir/LVGL/src/draw/renesas/lv_gpu_d2_draw_label.c.i: cmake_force
@@ -995,7 +827,7 @@ CMakeFiles/LCD.dir/LVGL/src/draw/renesas/lv_gpu_d2_draw_label.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/draw/renesas/lv_gpu_d2_ra6m3.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/draw/renesas/lv_gpu_d2_ra6m3.c.obj: ../LVGL/src/draw/renesas/lv_gpu_d2_ra6m3.c
 CMakeFiles/LCD.dir/LVGL/src/draw/renesas/lv_gpu_d2_ra6m3.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/renesas/lv_gpu_d2_ra6m3.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/renesas/lv_gpu_d2_ra6m3.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/draw/renesas/lv_gpu_d2_ra6m3.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/draw/renesas/lv_gpu_d2_ra6m3.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/draw/renesas/lv_gpu_d2_ra6m3.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/draw/renesas/lv_gpu_d2_ra6m3.c
 
 CMakeFiles/LCD.dir/LVGL/src/draw/renesas/lv_gpu_d2_ra6m3.c.i: cmake_force
@@ -1009,7 +841,7 @@ CMakeFiles/LCD.dir/LVGL/src/draw/renesas/lv_gpu_d2_ra6m3.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl.c.obj: ../LVGL/src/draw/sdl/lv_draw_sdl.c
 CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/draw/sdl/lv_draw_sdl.c
 
 CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl.c.i: cmake_force
@@ -1023,7 +855,7 @@ CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_arc.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_arc.c.obj: ../LVGL/src/draw/sdl/lv_draw_sdl_arc.c
 CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_arc.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_arc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_arc.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_arc.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_arc.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_arc.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/draw/sdl/lv_draw_sdl_arc.c
 
 CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_arc.c.i: cmake_force
@@ -1037,7 +869,7 @@ CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_arc.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_bg.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_bg.c.obj: ../LVGL/src/draw/sdl/lv_draw_sdl_bg.c
 CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_bg.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_bg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_bg.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_bg.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_bg.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_bg.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/draw/sdl/lv_draw_sdl_bg.c
 
 CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_bg.c.i: cmake_force
@@ -1051,7 +883,7 @@ CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_bg.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_composite.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_composite.c.obj: ../LVGL/src/draw/sdl/lv_draw_sdl_composite.c
 CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_composite.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_composite.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_composite.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_composite.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_composite.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_composite.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/draw/sdl/lv_draw_sdl_composite.c
 
 CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_composite.c.i: cmake_force
@@ -1065,7 +897,7 @@ CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_composite.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_img.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_img.c.obj: ../LVGL/src/draw/sdl/lv_draw_sdl_img.c
 CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_img.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_img.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_img.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_img.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_img.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_img.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/draw/sdl/lv_draw_sdl_img.c
 
 CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_img.c.i: cmake_force
@@ -1079,7 +911,7 @@ CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_img.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_label.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_label.c.obj: ../LVGL/src/draw/sdl/lv_draw_sdl_label.c
 CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_label.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_label.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_label.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_label.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_label.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_label.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/draw/sdl/lv_draw_sdl_label.c
 
 CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_label.c.i: cmake_force
@@ -1093,7 +925,7 @@ CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_label.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_layer.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_layer.c.obj: ../LVGL/src/draw/sdl/lv_draw_sdl_layer.c
 CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_layer.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_layer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_layer.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_layer.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_layer.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_layer.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/draw/sdl/lv_draw_sdl_layer.c
 
 CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_layer.c.i: cmake_force
@@ -1107,7 +939,7 @@ CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_layer.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_line.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_line.c.obj: ../LVGL/src/draw/sdl/lv_draw_sdl_line.c
 CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_line.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_line.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_line.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_line.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_line.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_line.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/draw/sdl/lv_draw_sdl_line.c
 
 CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_line.c.i: cmake_force
@@ -1121,7 +953,7 @@ CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_line.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_mask.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_mask.c.obj: ../LVGL/src/draw/sdl/lv_draw_sdl_mask.c
 CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_mask.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_mask.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_mask.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_mask.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_mask.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_mask.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/draw/sdl/lv_draw_sdl_mask.c
 
 CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_mask.c.i: cmake_force
@@ -1135,7 +967,7 @@ CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_mask.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_polygon.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_polygon.c.obj: ../LVGL/src/draw/sdl/lv_draw_sdl_polygon.c
 CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_polygon.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_polygon.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_polygon.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_polygon.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_polygon.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_polygon.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/draw/sdl/lv_draw_sdl_polygon.c
 
 CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_polygon.c.i: cmake_force
@@ -1149,7 +981,7 @@ CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_polygon.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_rect.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_rect.c.obj: ../LVGL/src/draw/sdl/lv_draw_sdl_rect.c
 CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_rect.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_rect.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_rect.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_rect.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_rect.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_rect.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/draw/sdl/lv_draw_sdl_rect.c
 
 CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_rect.c.i: cmake_force
@@ -1163,7 +995,7 @@ CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_rect.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_stack_blur.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_stack_blur.c.obj: ../LVGL/src/draw/sdl/lv_draw_sdl_stack_blur.c
 CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_stack_blur.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_stack_blur.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_stack_blur.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_stack_blur.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_stack_blur.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_stack_blur.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/draw/sdl/lv_draw_sdl_stack_blur.c
 
 CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_stack_blur.c.i: cmake_force
@@ -1177,7 +1009,7 @@ CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_stack_blur.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_texture_cache.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_texture_cache.c.obj: ../LVGL/src/draw/sdl/lv_draw_sdl_texture_cache.c
 CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_texture_cache.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_texture_cache.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_texture_cache.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_texture_cache.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_texture_cache.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_texture_cache.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/draw/sdl/lv_draw_sdl_texture_cache.c
 
 CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_texture_cache.c.i: cmake_force
@@ -1191,7 +1023,7 @@ CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_texture_cache.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_utils.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_utils.c.obj: ../LVGL/src/draw/sdl/lv_draw_sdl_utils.c
 CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_utils.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_utils.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_utils.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_utils.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_utils.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_utils.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/draw/sdl/lv_draw_sdl_utils.c
 
 CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_utils.c.i: cmake_force
@@ -1205,7 +1037,7 @@ CMakeFiles/LCD.dir/LVGL/src/draw/sdl/lv_draw_sdl_utils.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.obj: ../LVGL/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c
 CMakeFiles/LCD.dir/LVGL/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c
 
 CMakeFiles/LCD.dir/LVGL/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.i: cmake_force
@@ -1219,7 +1051,7 @@ CMakeFiles/LCD.dir/LVGL/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw.c.obj: ../LVGL/src/draw/sw/lv_draw_sw.c
 CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/draw/sw/lv_draw_sw.c
 
 CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw.c.i: cmake_force
@@ -1233,7 +1065,7 @@ CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_arc.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_arc.c.obj: ../LVGL/src/draw/sw/lv_draw_sw_arc.c
 CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_arc.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_arc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_arc.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_arc.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_arc.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_arc.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/draw/sw/lv_draw_sw_arc.c
 
 CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_arc.c.i: cmake_force
@@ -1247,7 +1079,7 @@ CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_arc.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_blend.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_blend.c.obj: ../LVGL/src/draw/sw/lv_draw_sw_blend.c
 CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_blend.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_blend.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_blend.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_blend.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_blend.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_blend.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/draw/sw/lv_draw_sw_blend.c
 
 CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_blend.c.i: cmake_force
@@ -1261,7 +1093,7 @@ CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_blend.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_dither.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_dither.c.obj: ../LVGL/src/draw/sw/lv_draw_sw_dither.c
 CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_dither.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_dither.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_dither.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_dither.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_dither.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_dither.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/draw/sw/lv_draw_sw_dither.c
 
 CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_dither.c.i: cmake_force
@@ -1275,7 +1107,7 @@ CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_dither.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_gradient.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_gradient.c.obj: ../LVGL/src/draw/sw/lv_draw_sw_gradient.c
 CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_gradient.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_gradient.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_gradient.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_gradient.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_gradient.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_gradient.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/draw/sw/lv_draw_sw_gradient.c
 
 CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_gradient.c.i: cmake_force
@@ -1289,7 +1121,7 @@ CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_gradient.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_img.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_img.c.obj: ../LVGL/src/draw/sw/lv_draw_sw_img.c
 CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_img.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_img.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_img.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_img.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_img.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_img.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/draw/sw/lv_draw_sw_img.c
 
 CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_img.c.i: cmake_force
@@ -1303,7 +1135,7 @@ CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_img.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_layer.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_layer.c.obj: ../LVGL/src/draw/sw/lv_draw_sw_layer.c
 CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_layer.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_layer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_layer.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_layer.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_layer.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_layer.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/draw/sw/lv_draw_sw_layer.c
 
 CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_layer.c.i: cmake_force
@@ -1317,7 +1149,7 @@ CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_layer.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_letter.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_letter.c.obj: ../LVGL/src/draw/sw/lv_draw_sw_letter.c
 CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_letter.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_letter.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_letter.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_letter.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_letter.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_letter.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/draw/sw/lv_draw_sw_letter.c
 
 CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_letter.c.i: cmake_force
@@ -1331,7 +1163,7 @@ CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_letter.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_line.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_line.c.obj: ../LVGL/src/draw/sw/lv_draw_sw_line.c
 CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_line.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_line.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_line.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_line.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_line.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_line.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/draw/sw/lv_draw_sw_line.c
 
 CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_line.c.i: cmake_force
@@ -1345,7 +1177,7 @@ CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_line.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_polygon.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_polygon.c.obj: ../LVGL/src/draw/sw/lv_draw_sw_polygon.c
 CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_polygon.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_polygon.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_polygon.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_polygon.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_polygon.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_polygon.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/draw/sw/lv_draw_sw_polygon.c
 
 CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_polygon.c.i: cmake_force
@@ -1359,7 +1191,7 @@ CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_polygon.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_rect.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_rect.c.obj: ../LVGL/src/draw/sw/lv_draw_sw_rect.c
 CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_rect.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_rect.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_rect.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_rect.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_rect.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_rect.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/draw/sw/lv_draw_sw_rect.c
 
 CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_rect.c.i: cmake_force
@@ -1373,7 +1205,7 @@ CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_rect.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_transform.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_transform.c.obj: ../LVGL/src/draw/sw/lv_draw_sw_transform.c
 CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_transform.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_transform.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_transform.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_transform.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_transform.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_transform.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/draw/sw/lv_draw_sw_transform.c
 
 CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_transform.c.i: cmake_force
@@ -1387,7 +1219,7 @@ CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_transform.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.obj: ../LVGL/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c
 CMakeFiles/LCD.dir/LVGL/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/LCD.dir/LVGL/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c
 
 CMakeFiles/LCD.dir/LVGL/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.i: cmake_force
@@ -1401,7 +1233,7 @@ CMakeFiles/LCD.dir/LVGL/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.s: cmake_for
 CMakeFiles/LCD.dir/LVGL/src/extra/layouts/flex/lv_flex.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/extra/layouts/flex/lv_flex.c.obj: ../LVGL/src/extra/layouts/flex/lv_flex.c
 CMakeFiles/LCD.dir/LVGL/src/extra/layouts/flex/lv_flex.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/layouts/flex/lv_flex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/layouts/flex/lv_flex.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/extra/layouts/flex/lv_flex.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/extra/layouts/flex/lv_flex.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/extra/layouts/flex/lv_flex.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/extra/layouts/flex/lv_flex.c
 
 CMakeFiles/LCD.dir/LVGL/src/extra/layouts/flex/lv_flex.c.i: cmake_force
@@ -1415,7 +1247,7 @@ CMakeFiles/LCD.dir/LVGL/src/extra/layouts/flex/lv_flex.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/extra/layouts/grid/lv_grid.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/extra/layouts/grid/lv_grid.c.obj: ../LVGL/src/extra/layouts/grid/lv_grid.c
 CMakeFiles/LCD.dir/LVGL/src/extra/layouts/grid/lv_grid.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/layouts/grid/lv_grid.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/layouts/grid/lv_grid.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/extra/layouts/grid/lv_grid.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/extra/layouts/grid/lv_grid.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/extra/layouts/grid/lv_grid.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/extra/layouts/grid/lv_grid.c
 
 CMakeFiles/LCD.dir/LVGL/src/extra/layouts/grid/lv_grid.c.i: cmake_force
@@ -1429,7 +1261,7 @@ CMakeFiles/LCD.dir/LVGL/src/extra/layouts/grid/lv_grid.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/extra/libs/bmp/lv_bmp.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/extra/libs/bmp/lv_bmp.c.obj: ../LVGL/src/extra/libs/bmp/lv_bmp.c
 CMakeFiles/LCD.dir/LVGL/src/extra/libs/bmp/lv_bmp.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/libs/bmp/lv_bmp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/libs/bmp/lv_bmp.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/extra/libs/bmp/lv_bmp.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/extra/libs/bmp/lv_bmp.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/extra/libs/bmp/lv_bmp.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/extra/libs/bmp/lv_bmp.c
 
 CMakeFiles/LCD.dir/LVGL/src/extra/libs/bmp/lv_bmp.c.i: cmake_force
@@ -1443,7 +1275,7 @@ CMakeFiles/LCD.dir/LVGL/src/extra/libs/bmp/lv_bmp.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/extra/libs/ffmpeg/lv_ffmpeg.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/extra/libs/ffmpeg/lv_ffmpeg.c.obj: ../LVGL/src/extra/libs/ffmpeg/lv_ffmpeg.c
 CMakeFiles/LCD.dir/LVGL/src/extra/libs/ffmpeg/lv_ffmpeg.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/libs/ffmpeg/lv_ffmpeg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/libs/ffmpeg/lv_ffmpeg.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/extra/libs/ffmpeg/lv_ffmpeg.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/extra/libs/ffmpeg/lv_ffmpeg.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/extra/libs/ffmpeg/lv_ffmpeg.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/extra/libs/ffmpeg/lv_ffmpeg.c
 
 CMakeFiles/LCD.dir/LVGL/src/extra/libs/ffmpeg/lv_ffmpeg.c.i: cmake_force
@@ -1457,7 +1289,7 @@ CMakeFiles/LCD.dir/LVGL/src/extra/libs/ffmpeg/lv_ffmpeg.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/extra/libs/freetype/lv_freetype.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/extra/libs/freetype/lv_freetype.c.obj: ../LVGL/src/extra/libs/freetype/lv_freetype.c
 CMakeFiles/LCD.dir/LVGL/src/extra/libs/freetype/lv_freetype.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/libs/freetype/lv_freetype.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/libs/freetype/lv_freetype.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/extra/libs/freetype/lv_freetype.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/extra/libs/freetype/lv_freetype.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/extra/libs/freetype/lv_freetype.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/extra/libs/freetype/lv_freetype.c
 
 CMakeFiles/LCD.dir/LVGL/src/extra/libs/freetype/lv_freetype.c.i: cmake_force
@@ -1471,7 +1303,7 @@ CMakeFiles/LCD.dir/LVGL/src/extra/libs/freetype/lv_freetype.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/extra/libs/fsdrv/lv_fs_fatfs.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/extra/libs/fsdrv/lv_fs_fatfs.c.obj: ../LVGL/src/extra/libs/fsdrv/lv_fs_fatfs.c
 CMakeFiles/LCD.dir/LVGL/src/extra/libs/fsdrv/lv_fs_fatfs.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/libs/fsdrv/lv_fs_fatfs.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/libs/fsdrv/lv_fs_fatfs.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/extra/libs/fsdrv/lv_fs_fatfs.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/extra/libs/fsdrv/lv_fs_fatfs.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/extra/libs/fsdrv/lv_fs_fatfs.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/extra/libs/fsdrv/lv_fs_fatfs.c
 
 CMakeFiles/LCD.dir/LVGL/src/extra/libs/fsdrv/lv_fs_fatfs.c.i: cmake_force
@@ -1485,7 +1317,7 @@ CMakeFiles/LCD.dir/LVGL/src/extra/libs/fsdrv/lv_fs_fatfs.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/extra/libs/fsdrv/lv_fs_littlefs.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/extra/libs/fsdrv/lv_fs_littlefs.c.obj: ../LVGL/src/extra/libs/fsdrv/lv_fs_littlefs.c
 CMakeFiles/LCD.dir/LVGL/src/extra/libs/fsdrv/lv_fs_littlefs.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/libs/fsdrv/lv_fs_littlefs.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/libs/fsdrv/lv_fs_littlefs.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/extra/libs/fsdrv/lv_fs_littlefs.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/extra/libs/fsdrv/lv_fs_littlefs.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/extra/libs/fsdrv/lv_fs_littlefs.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/extra/libs/fsdrv/lv_fs_littlefs.c
 
 CMakeFiles/LCD.dir/LVGL/src/extra/libs/fsdrv/lv_fs_littlefs.c.i: cmake_force
@@ -1499,7 +1331,7 @@ CMakeFiles/LCD.dir/LVGL/src/extra/libs/fsdrv/lv_fs_littlefs.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/extra/libs/fsdrv/lv_fs_posix.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/extra/libs/fsdrv/lv_fs_posix.c.obj: ../LVGL/src/extra/libs/fsdrv/lv_fs_posix.c
 CMakeFiles/LCD.dir/LVGL/src/extra/libs/fsdrv/lv_fs_posix.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/libs/fsdrv/lv_fs_posix.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/libs/fsdrv/lv_fs_posix.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/extra/libs/fsdrv/lv_fs_posix.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/extra/libs/fsdrv/lv_fs_posix.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/extra/libs/fsdrv/lv_fs_posix.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/extra/libs/fsdrv/lv_fs_posix.c
 
 CMakeFiles/LCD.dir/LVGL/src/extra/libs/fsdrv/lv_fs_posix.c.i: cmake_force
@@ -1513,7 +1345,7 @@ CMakeFiles/LCD.dir/LVGL/src/extra/libs/fsdrv/lv_fs_posix.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/extra/libs/fsdrv/lv_fs_stdio.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/extra/libs/fsdrv/lv_fs_stdio.c.obj: ../LVGL/src/extra/libs/fsdrv/lv_fs_stdio.c
 CMakeFiles/LCD.dir/LVGL/src/extra/libs/fsdrv/lv_fs_stdio.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/libs/fsdrv/lv_fs_stdio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/libs/fsdrv/lv_fs_stdio.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/extra/libs/fsdrv/lv_fs_stdio.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/extra/libs/fsdrv/lv_fs_stdio.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/extra/libs/fsdrv/lv_fs_stdio.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/extra/libs/fsdrv/lv_fs_stdio.c
 
 CMakeFiles/LCD.dir/LVGL/src/extra/libs/fsdrv/lv_fs_stdio.c.i: cmake_force
@@ -1527,7 +1359,7 @@ CMakeFiles/LCD.dir/LVGL/src/extra/libs/fsdrv/lv_fs_stdio.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/extra/libs/fsdrv/lv_fs_win32.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/extra/libs/fsdrv/lv_fs_win32.c.obj: ../LVGL/src/extra/libs/fsdrv/lv_fs_win32.c
 CMakeFiles/LCD.dir/LVGL/src/extra/libs/fsdrv/lv_fs_win32.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/libs/fsdrv/lv_fs_win32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/libs/fsdrv/lv_fs_win32.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/extra/libs/fsdrv/lv_fs_win32.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/extra/libs/fsdrv/lv_fs_win32.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/extra/libs/fsdrv/lv_fs_win32.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/extra/libs/fsdrv/lv_fs_win32.c
 
 CMakeFiles/LCD.dir/LVGL/src/extra/libs/fsdrv/lv_fs_win32.c.i: cmake_force
@@ -1541,7 +1373,7 @@ CMakeFiles/LCD.dir/LVGL/src/extra/libs/fsdrv/lv_fs_win32.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/extra/libs/gif/gifdec.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/extra/libs/gif/gifdec.c.obj: ../LVGL/src/extra/libs/gif/gifdec.c
 CMakeFiles/LCD.dir/LVGL/src/extra/libs/gif/gifdec.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/libs/gif/gifdec.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/libs/gif/gifdec.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/extra/libs/gif/gifdec.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/extra/libs/gif/gifdec.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/extra/libs/gif/gifdec.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/extra/libs/gif/gifdec.c
 
 CMakeFiles/LCD.dir/LVGL/src/extra/libs/gif/gifdec.c.i: cmake_force
@@ -1555,7 +1387,7 @@ CMakeFiles/LCD.dir/LVGL/src/extra/libs/gif/gifdec.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/extra/libs/gif/lv_gif.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/extra/libs/gif/lv_gif.c.obj: ../LVGL/src/extra/libs/gif/lv_gif.c
 CMakeFiles/LCD.dir/LVGL/src/extra/libs/gif/lv_gif.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/libs/gif/lv_gif.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/libs/gif/lv_gif.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/extra/libs/gif/lv_gif.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/extra/libs/gif/lv_gif.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/extra/libs/gif/lv_gif.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/extra/libs/gif/lv_gif.c
 
 CMakeFiles/LCD.dir/LVGL/src/extra/libs/gif/lv_gif.c.i: cmake_force
@@ -1569,7 +1401,7 @@ CMakeFiles/LCD.dir/LVGL/src/extra/libs/gif/lv_gif.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/extra/libs/png/lodepng.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/extra/libs/png/lodepng.c.obj: ../LVGL/src/extra/libs/png/lodepng.c
 CMakeFiles/LCD.dir/LVGL/src/extra/libs/png/lodepng.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/libs/png/lodepng.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/libs/png/lodepng.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/extra/libs/png/lodepng.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/extra/libs/png/lodepng.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/extra/libs/png/lodepng.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/extra/libs/png/lodepng.c
 
 CMakeFiles/LCD.dir/LVGL/src/extra/libs/png/lodepng.c.i: cmake_force
@@ -1583,7 +1415,7 @@ CMakeFiles/LCD.dir/LVGL/src/extra/libs/png/lodepng.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/extra/libs/png/lv_png.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/extra/libs/png/lv_png.c.obj: ../LVGL/src/extra/libs/png/lv_png.c
 CMakeFiles/LCD.dir/LVGL/src/extra/libs/png/lv_png.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/libs/png/lv_png.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/libs/png/lv_png.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/extra/libs/png/lv_png.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/extra/libs/png/lv_png.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/extra/libs/png/lv_png.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/extra/libs/png/lv_png.c
 
 CMakeFiles/LCD.dir/LVGL/src/extra/libs/png/lv_png.c.i: cmake_force
@@ -1597,7 +1429,7 @@ CMakeFiles/LCD.dir/LVGL/src/extra/libs/png/lv_png.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/extra/libs/qrcode/lv_qrcode.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/extra/libs/qrcode/lv_qrcode.c.obj: ../LVGL/src/extra/libs/qrcode/lv_qrcode.c
 CMakeFiles/LCD.dir/LVGL/src/extra/libs/qrcode/lv_qrcode.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/libs/qrcode/lv_qrcode.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/libs/qrcode/lv_qrcode.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/extra/libs/qrcode/lv_qrcode.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/extra/libs/qrcode/lv_qrcode.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/extra/libs/qrcode/lv_qrcode.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/extra/libs/qrcode/lv_qrcode.c
 
 CMakeFiles/LCD.dir/LVGL/src/extra/libs/qrcode/lv_qrcode.c.i: cmake_force
@@ -1611,7 +1443,7 @@ CMakeFiles/LCD.dir/LVGL/src/extra/libs/qrcode/lv_qrcode.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/extra/libs/qrcode/qrcodegen.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/extra/libs/qrcode/qrcodegen.c.obj: ../LVGL/src/extra/libs/qrcode/qrcodegen.c
 CMakeFiles/LCD.dir/LVGL/src/extra/libs/qrcode/qrcodegen.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/libs/qrcode/qrcodegen.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/libs/qrcode/qrcodegen.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/extra/libs/qrcode/qrcodegen.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/extra/libs/qrcode/qrcodegen.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/extra/libs/qrcode/qrcodegen.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/extra/libs/qrcode/qrcodegen.c
 
 CMakeFiles/LCD.dir/LVGL/src/extra/libs/qrcode/qrcodegen.c.i: cmake_force
@@ -1625,7 +1457,7 @@ CMakeFiles/LCD.dir/LVGL/src/extra/libs/qrcode/qrcodegen.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/extra/libs/rlottie/lv_rlottie.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/extra/libs/rlottie/lv_rlottie.c.obj: ../LVGL/src/extra/libs/rlottie/lv_rlottie.c
 CMakeFiles/LCD.dir/LVGL/src/extra/libs/rlottie/lv_rlottie.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/libs/rlottie/lv_rlottie.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/libs/rlottie/lv_rlottie.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/extra/libs/rlottie/lv_rlottie.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/extra/libs/rlottie/lv_rlottie.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/extra/libs/rlottie/lv_rlottie.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/extra/libs/rlottie/lv_rlottie.c
 
 CMakeFiles/LCD.dir/LVGL/src/extra/libs/rlottie/lv_rlottie.c.i: cmake_force
@@ -1639,7 +1471,7 @@ CMakeFiles/LCD.dir/LVGL/src/extra/libs/rlottie/lv_rlottie.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/extra/libs/sjpg/lv_sjpg.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/extra/libs/sjpg/lv_sjpg.c.obj: ../LVGL/src/extra/libs/sjpg/lv_sjpg.c
 CMakeFiles/LCD.dir/LVGL/src/extra/libs/sjpg/lv_sjpg.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/libs/sjpg/lv_sjpg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/libs/sjpg/lv_sjpg.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/extra/libs/sjpg/lv_sjpg.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/extra/libs/sjpg/lv_sjpg.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/extra/libs/sjpg/lv_sjpg.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/extra/libs/sjpg/lv_sjpg.c
 
 CMakeFiles/LCD.dir/LVGL/src/extra/libs/sjpg/lv_sjpg.c.i: cmake_force
@@ -1653,7 +1485,7 @@ CMakeFiles/LCD.dir/LVGL/src/extra/libs/sjpg/lv_sjpg.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/extra/libs/sjpg/tjpgd.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/extra/libs/sjpg/tjpgd.c.obj: ../LVGL/src/extra/libs/sjpg/tjpgd.c
 CMakeFiles/LCD.dir/LVGL/src/extra/libs/sjpg/tjpgd.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/libs/sjpg/tjpgd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/libs/sjpg/tjpgd.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/extra/libs/sjpg/tjpgd.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/extra/libs/sjpg/tjpgd.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/extra/libs/sjpg/tjpgd.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/extra/libs/sjpg/tjpgd.c
 
 CMakeFiles/LCD.dir/LVGL/src/extra/libs/sjpg/tjpgd.c.i: cmake_force
@@ -1667,7 +1499,7 @@ CMakeFiles/LCD.dir/LVGL/src/extra/libs/sjpg/tjpgd.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/extra/libs/tiny_ttf/lv_tiny_ttf.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/extra/libs/tiny_ttf/lv_tiny_ttf.c.obj: ../LVGL/src/extra/libs/tiny_ttf/lv_tiny_ttf.c
 CMakeFiles/LCD.dir/LVGL/src/extra/libs/tiny_ttf/lv_tiny_ttf.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/libs/tiny_ttf/lv_tiny_ttf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/libs/tiny_ttf/lv_tiny_ttf.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/extra/libs/tiny_ttf/lv_tiny_ttf.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/extra/libs/tiny_ttf/lv_tiny_ttf.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/extra/libs/tiny_ttf/lv_tiny_ttf.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/extra/libs/tiny_ttf/lv_tiny_ttf.c
 
 CMakeFiles/LCD.dir/LVGL/src/extra/libs/tiny_ttf/lv_tiny_ttf.c.i: cmake_force
@@ -1681,7 +1513,7 @@ CMakeFiles/LCD.dir/LVGL/src/extra/libs/tiny_ttf/lv_tiny_ttf.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/extra/lv_extra.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/extra/lv_extra.c.obj: ../LVGL/src/extra/lv_extra.c
 CMakeFiles/LCD.dir/LVGL/src/extra/lv_extra.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/lv_extra.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/lv_extra.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/extra/lv_extra.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/extra/lv_extra.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/extra/lv_extra.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/extra/lv_extra.c
 
 CMakeFiles/LCD.dir/LVGL/src/extra/lv_extra.c.i: cmake_force
@@ -1695,7 +1527,7 @@ CMakeFiles/LCD.dir/LVGL/src/extra/lv_extra.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/extra/others/fragment/lv_fragment.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/extra/others/fragment/lv_fragment.c.obj: ../LVGL/src/extra/others/fragment/lv_fragment.c
 CMakeFiles/LCD.dir/LVGL/src/extra/others/fragment/lv_fragment.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/others/fragment/lv_fragment.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/others/fragment/lv_fragment.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/extra/others/fragment/lv_fragment.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/extra/others/fragment/lv_fragment.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/extra/others/fragment/lv_fragment.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/extra/others/fragment/lv_fragment.c
 
 CMakeFiles/LCD.dir/LVGL/src/extra/others/fragment/lv_fragment.c.i: cmake_force
@@ -1709,7 +1541,7 @@ CMakeFiles/LCD.dir/LVGL/src/extra/others/fragment/lv_fragment.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/extra/others/fragment/lv_fragment_manager.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/extra/others/fragment/lv_fragment_manager.c.obj: ../LVGL/src/extra/others/fragment/lv_fragment_manager.c
 CMakeFiles/LCD.dir/LVGL/src/extra/others/fragment/lv_fragment_manager.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/others/fragment/lv_fragment_manager.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/others/fragment/lv_fragment_manager.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/extra/others/fragment/lv_fragment_manager.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/extra/others/fragment/lv_fragment_manager.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/extra/others/fragment/lv_fragment_manager.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/extra/others/fragment/lv_fragment_manager.c
 
 CMakeFiles/LCD.dir/LVGL/src/extra/others/fragment/lv_fragment_manager.c.i: cmake_force
@@ -1723,7 +1555,7 @@ CMakeFiles/LCD.dir/LVGL/src/extra/others/fragment/lv_fragment_manager.c.s: cmake
 CMakeFiles/LCD.dir/LVGL/src/extra/others/gridnav/lv_gridnav.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/extra/others/gridnav/lv_gridnav.c.obj: ../LVGL/src/extra/others/gridnav/lv_gridnav.c
 CMakeFiles/LCD.dir/LVGL/src/extra/others/gridnav/lv_gridnav.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/others/gridnav/lv_gridnav.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/others/gridnav/lv_gridnav.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/extra/others/gridnav/lv_gridnav.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/extra/others/gridnav/lv_gridnav.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/extra/others/gridnav/lv_gridnav.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/extra/others/gridnav/lv_gridnav.c
 
 CMakeFiles/LCD.dir/LVGL/src/extra/others/gridnav/lv_gridnav.c.i: cmake_force
@@ -1737,7 +1569,7 @@ CMakeFiles/LCD.dir/LVGL/src/extra/others/gridnav/lv_gridnav.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/extra/others/ime/lv_ime_pinyin.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/extra/others/ime/lv_ime_pinyin.c.obj: ../LVGL/src/extra/others/ime/lv_ime_pinyin.c
 CMakeFiles/LCD.dir/LVGL/src/extra/others/ime/lv_ime_pinyin.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/others/ime/lv_ime_pinyin.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/others/ime/lv_ime_pinyin.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/extra/others/ime/lv_ime_pinyin.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/extra/others/ime/lv_ime_pinyin.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/extra/others/ime/lv_ime_pinyin.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/extra/others/ime/lv_ime_pinyin.c
 
 CMakeFiles/LCD.dir/LVGL/src/extra/others/ime/lv_ime_pinyin.c.i: cmake_force
@@ -1751,7 +1583,7 @@ CMakeFiles/LCD.dir/LVGL/src/extra/others/ime/lv_ime_pinyin.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/extra/others/imgfont/lv_imgfont.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/extra/others/imgfont/lv_imgfont.c.obj: ../LVGL/src/extra/others/imgfont/lv_imgfont.c
 CMakeFiles/LCD.dir/LVGL/src/extra/others/imgfont/lv_imgfont.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/others/imgfont/lv_imgfont.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/others/imgfont/lv_imgfont.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/extra/others/imgfont/lv_imgfont.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/extra/others/imgfont/lv_imgfont.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/extra/others/imgfont/lv_imgfont.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/extra/others/imgfont/lv_imgfont.c
 
 CMakeFiles/LCD.dir/LVGL/src/extra/others/imgfont/lv_imgfont.c.i: cmake_force
@@ -1765,7 +1597,7 @@ CMakeFiles/LCD.dir/LVGL/src/extra/others/imgfont/lv_imgfont.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/extra/others/monkey/lv_monkey.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/extra/others/monkey/lv_monkey.c.obj: ../LVGL/src/extra/others/monkey/lv_monkey.c
 CMakeFiles/LCD.dir/LVGL/src/extra/others/monkey/lv_monkey.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/others/monkey/lv_monkey.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/others/monkey/lv_monkey.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/extra/others/monkey/lv_monkey.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/extra/others/monkey/lv_monkey.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/extra/others/monkey/lv_monkey.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/extra/others/monkey/lv_monkey.c
 
 CMakeFiles/LCD.dir/LVGL/src/extra/others/monkey/lv_monkey.c.i: cmake_force
@@ -1779,7 +1611,7 @@ CMakeFiles/LCD.dir/LVGL/src/extra/others/monkey/lv_monkey.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/extra/others/msg/lv_msg.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/extra/others/msg/lv_msg.c.obj: ../LVGL/src/extra/others/msg/lv_msg.c
 CMakeFiles/LCD.dir/LVGL/src/extra/others/msg/lv_msg.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/others/msg/lv_msg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/others/msg/lv_msg.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/extra/others/msg/lv_msg.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/extra/others/msg/lv_msg.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/extra/others/msg/lv_msg.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/extra/others/msg/lv_msg.c
 
 CMakeFiles/LCD.dir/LVGL/src/extra/others/msg/lv_msg.c.i: cmake_force
@@ -1793,7 +1625,7 @@ CMakeFiles/LCD.dir/LVGL/src/extra/others/msg/lv_msg.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/extra/others/snapshot/lv_snapshot.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/extra/others/snapshot/lv_snapshot.c.obj: ../LVGL/src/extra/others/snapshot/lv_snapshot.c
 CMakeFiles/LCD.dir/LVGL/src/extra/others/snapshot/lv_snapshot.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/others/snapshot/lv_snapshot.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/others/snapshot/lv_snapshot.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/extra/others/snapshot/lv_snapshot.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/extra/others/snapshot/lv_snapshot.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/extra/others/snapshot/lv_snapshot.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/extra/others/snapshot/lv_snapshot.c
 
 CMakeFiles/LCD.dir/LVGL/src/extra/others/snapshot/lv_snapshot.c.i: cmake_force
@@ -1807,7 +1639,7 @@ CMakeFiles/LCD.dir/LVGL/src/extra/others/snapshot/lv_snapshot.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/extra/themes/basic/lv_theme_basic.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/extra/themes/basic/lv_theme_basic.c.obj: ../LVGL/src/extra/themes/basic/lv_theme_basic.c
 CMakeFiles/LCD.dir/LVGL/src/extra/themes/basic/lv_theme_basic.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/themes/basic/lv_theme_basic.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/themes/basic/lv_theme_basic.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/extra/themes/basic/lv_theme_basic.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/extra/themes/basic/lv_theme_basic.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/extra/themes/basic/lv_theme_basic.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/extra/themes/basic/lv_theme_basic.c
 
 CMakeFiles/LCD.dir/LVGL/src/extra/themes/basic/lv_theme_basic.c.i: cmake_force
@@ -1821,7 +1653,7 @@ CMakeFiles/LCD.dir/LVGL/src/extra/themes/basic/lv_theme_basic.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/extra/themes/default/lv_theme_default.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/extra/themes/default/lv_theme_default.c.obj: ../LVGL/src/extra/themes/default/lv_theme_default.c
 CMakeFiles/LCD.dir/LVGL/src/extra/themes/default/lv_theme_default.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/themes/default/lv_theme_default.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/themes/default/lv_theme_default.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/extra/themes/default/lv_theme_default.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/extra/themes/default/lv_theme_default.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/extra/themes/default/lv_theme_default.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/extra/themes/default/lv_theme_default.c
 
 CMakeFiles/LCD.dir/LVGL/src/extra/themes/default/lv_theme_default.c.i: cmake_force
@@ -1835,7 +1667,7 @@ CMakeFiles/LCD.dir/LVGL/src/extra/themes/default/lv_theme_default.c.s: cmake_for
 CMakeFiles/LCD.dir/LVGL/src/extra/themes/mono/lv_theme_mono.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/extra/themes/mono/lv_theme_mono.c.obj: ../LVGL/src/extra/themes/mono/lv_theme_mono.c
 CMakeFiles/LCD.dir/LVGL/src/extra/themes/mono/lv_theme_mono.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/themes/mono/lv_theme_mono.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/themes/mono/lv_theme_mono.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/extra/themes/mono/lv_theme_mono.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/extra/themes/mono/lv_theme_mono.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/extra/themes/mono/lv_theme_mono.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/extra/themes/mono/lv_theme_mono.c
 
 CMakeFiles/LCD.dir/LVGL/src/extra/themes/mono/lv_theme_mono.c.i: cmake_force
@@ -1849,7 +1681,7 @@ CMakeFiles/LCD.dir/LVGL/src/extra/themes/mono/lv_theme_mono.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/extra/widgets/animimg/lv_animimg.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/extra/widgets/animimg/lv_animimg.c.obj: ../LVGL/src/extra/widgets/animimg/lv_animimg.c
 CMakeFiles/LCD.dir/LVGL/src/extra/widgets/animimg/lv_animimg.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/widgets/animimg/lv_animimg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/widgets/animimg/lv_animimg.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/extra/widgets/animimg/lv_animimg.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/extra/widgets/animimg/lv_animimg.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/extra/widgets/animimg/lv_animimg.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/extra/widgets/animimg/lv_animimg.c
 
 CMakeFiles/LCD.dir/LVGL/src/extra/widgets/animimg/lv_animimg.c.i: cmake_force
@@ -1863,7 +1695,7 @@ CMakeFiles/LCD.dir/LVGL/src/extra/widgets/animimg/lv_animimg.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/extra/widgets/calendar/lv_calendar.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/extra/widgets/calendar/lv_calendar.c.obj: ../LVGL/src/extra/widgets/calendar/lv_calendar.c
 CMakeFiles/LCD.dir/LVGL/src/extra/widgets/calendar/lv_calendar.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/widgets/calendar/lv_calendar.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/widgets/calendar/lv_calendar.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/extra/widgets/calendar/lv_calendar.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/extra/widgets/calendar/lv_calendar.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/extra/widgets/calendar/lv_calendar.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/extra/widgets/calendar/lv_calendar.c
 
 CMakeFiles/LCD.dir/LVGL/src/extra/widgets/calendar/lv_calendar.c.i: cmake_force
@@ -1877,7 +1709,7 @@ CMakeFiles/LCD.dir/LVGL/src/extra/widgets/calendar/lv_calendar.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/extra/widgets/calendar/lv_calendar_header_arrow.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/extra/widgets/calendar/lv_calendar_header_arrow.c.obj: ../LVGL/src/extra/widgets/calendar/lv_calendar_header_arrow.c
 CMakeFiles/LCD.dir/LVGL/src/extra/widgets/calendar/lv_calendar_header_arrow.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/widgets/calendar/lv_calendar_header_arrow.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/widgets/calendar/lv_calendar_header_arrow.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/extra/widgets/calendar/lv_calendar_header_arrow.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/extra/widgets/calendar/lv_calendar_header_arrow.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/extra/widgets/calendar/lv_calendar_header_arrow.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/extra/widgets/calendar/lv_calendar_header_arrow.c
 
 CMakeFiles/LCD.dir/LVGL/src/extra/widgets/calendar/lv_calendar_header_arrow.c.i: cmake_force
@@ -1891,7 +1723,7 @@ CMakeFiles/LCD.dir/LVGL/src/extra/widgets/calendar/lv_calendar_header_arrow.c.s:
 CMakeFiles/LCD.dir/LVGL/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.obj: ../LVGL/src/extra/widgets/calendar/lv_calendar_header_dropdown.c
 CMakeFiles/LCD.dir/LVGL/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/extra/widgets/calendar/lv_calendar_header_dropdown.c
 
 CMakeFiles/LCD.dir/LVGL/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.i: cmake_force
@@ -1905,7 +1737,7 @@ CMakeFiles/LCD.dir/LVGL/src/extra/widgets/calendar/lv_calendar_header_dropdown.c
 CMakeFiles/LCD.dir/LVGL/src/extra/widgets/chart/lv_chart.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/extra/widgets/chart/lv_chart.c.obj: ../LVGL/src/extra/widgets/chart/lv_chart.c
 CMakeFiles/LCD.dir/LVGL/src/extra/widgets/chart/lv_chart.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/widgets/chart/lv_chart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/widgets/chart/lv_chart.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/extra/widgets/chart/lv_chart.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/extra/widgets/chart/lv_chart.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/extra/widgets/chart/lv_chart.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/extra/widgets/chart/lv_chart.c
 
 CMakeFiles/LCD.dir/LVGL/src/extra/widgets/chart/lv_chart.c.i: cmake_force
@@ -1919,7 +1751,7 @@ CMakeFiles/LCD.dir/LVGL/src/extra/widgets/chart/lv_chart.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/extra/widgets/colorwheel/lv_colorwheel.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/extra/widgets/colorwheel/lv_colorwheel.c.obj: ../LVGL/src/extra/widgets/colorwheel/lv_colorwheel.c
 CMakeFiles/LCD.dir/LVGL/src/extra/widgets/colorwheel/lv_colorwheel.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/widgets/colorwheel/lv_colorwheel.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/widgets/colorwheel/lv_colorwheel.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/extra/widgets/colorwheel/lv_colorwheel.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/extra/widgets/colorwheel/lv_colorwheel.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/extra/widgets/colorwheel/lv_colorwheel.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/extra/widgets/colorwheel/lv_colorwheel.c
 
 CMakeFiles/LCD.dir/LVGL/src/extra/widgets/colorwheel/lv_colorwheel.c.i: cmake_force
@@ -1933,7 +1765,7 @@ CMakeFiles/LCD.dir/LVGL/src/extra/widgets/colorwheel/lv_colorwheel.c.s: cmake_fo
 CMakeFiles/LCD.dir/LVGL/src/extra/widgets/imgbtn/lv_imgbtn.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/extra/widgets/imgbtn/lv_imgbtn.c.obj: ../LVGL/src/extra/widgets/imgbtn/lv_imgbtn.c
 CMakeFiles/LCD.dir/LVGL/src/extra/widgets/imgbtn/lv_imgbtn.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/widgets/imgbtn/lv_imgbtn.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/widgets/imgbtn/lv_imgbtn.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/extra/widgets/imgbtn/lv_imgbtn.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/extra/widgets/imgbtn/lv_imgbtn.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/extra/widgets/imgbtn/lv_imgbtn.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/extra/widgets/imgbtn/lv_imgbtn.c
 
 CMakeFiles/LCD.dir/LVGL/src/extra/widgets/imgbtn/lv_imgbtn.c.i: cmake_force
@@ -1947,7 +1779,7 @@ CMakeFiles/LCD.dir/LVGL/src/extra/widgets/imgbtn/lv_imgbtn.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/extra/widgets/keyboard/lv_keyboard.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/extra/widgets/keyboard/lv_keyboard.c.obj: ../LVGL/src/extra/widgets/keyboard/lv_keyboard.c
 CMakeFiles/LCD.dir/LVGL/src/extra/widgets/keyboard/lv_keyboard.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/widgets/keyboard/lv_keyboard.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/widgets/keyboard/lv_keyboard.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/extra/widgets/keyboard/lv_keyboard.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/extra/widgets/keyboard/lv_keyboard.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/extra/widgets/keyboard/lv_keyboard.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/extra/widgets/keyboard/lv_keyboard.c
 
 CMakeFiles/LCD.dir/LVGL/src/extra/widgets/keyboard/lv_keyboard.c.i: cmake_force
@@ -1961,7 +1793,7 @@ CMakeFiles/LCD.dir/LVGL/src/extra/widgets/keyboard/lv_keyboard.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/extra/widgets/led/lv_led.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/extra/widgets/led/lv_led.c.obj: ../LVGL/src/extra/widgets/led/lv_led.c
 CMakeFiles/LCD.dir/LVGL/src/extra/widgets/led/lv_led.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/widgets/led/lv_led.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/widgets/led/lv_led.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/extra/widgets/led/lv_led.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/extra/widgets/led/lv_led.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/extra/widgets/led/lv_led.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/extra/widgets/led/lv_led.c
 
 CMakeFiles/LCD.dir/LVGL/src/extra/widgets/led/lv_led.c.i: cmake_force
@@ -1975,7 +1807,7 @@ CMakeFiles/LCD.dir/LVGL/src/extra/widgets/led/lv_led.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/extra/widgets/list/lv_list.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/extra/widgets/list/lv_list.c.obj: ../LVGL/src/extra/widgets/list/lv_list.c
 CMakeFiles/LCD.dir/LVGL/src/extra/widgets/list/lv_list.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/widgets/list/lv_list.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/widgets/list/lv_list.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/extra/widgets/list/lv_list.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/extra/widgets/list/lv_list.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/extra/widgets/list/lv_list.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/extra/widgets/list/lv_list.c
 
 CMakeFiles/LCD.dir/LVGL/src/extra/widgets/list/lv_list.c.i: cmake_force
@@ -1989,7 +1821,7 @@ CMakeFiles/LCD.dir/LVGL/src/extra/widgets/list/lv_list.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/extra/widgets/menu/lv_menu.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/extra/widgets/menu/lv_menu.c.obj: ../LVGL/src/extra/widgets/menu/lv_menu.c
 CMakeFiles/LCD.dir/LVGL/src/extra/widgets/menu/lv_menu.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/widgets/menu/lv_menu.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/widgets/menu/lv_menu.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/extra/widgets/menu/lv_menu.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/extra/widgets/menu/lv_menu.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/extra/widgets/menu/lv_menu.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/extra/widgets/menu/lv_menu.c
 
 CMakeFiles/LCD.dir/LVGL/src/extra/widgets/menu/lv_menu.c.i: cmake_force
@@ -2003,7 +1835,7 @@ CMakeFiles/LCD.dir/LVGL/src/extra/widgets/menu/lv_menu.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/extra/widgets/meter/lv_meter.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/extra/widgets/meter/lv_meter.c.obj: ../LVGL/src/extra/widgets/meter/lv_meter.c
 CMakeFiles/LCD.dir/LVGL/src/extra/widgets/meter/lv_meter.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/widgets/meter/lv_meter.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/widgets/meter/lv_meter.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/extra/widgets/meter/lv_meter.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/extra/widgets/meter/lv_meter.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/extra/widgets/meter/lv_meter.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/extra/widgets/meter/lv_meter.c
 
 CMakeFiles/LCD.dir/LVGL/src/extra/widgets/meter/lv_meter.c.i: cmake_force
@@ -2017,7 +1849,7 @@ CMakeFiles/LCD.dir/LVGL/src/extra/widgets/meter/lv_meter.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/extra/widgets/msgbox/lv_msgbox.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/extra/widgets/msgbox/lv_msgbox.c.obj: ../LVGL/src/extra/widgets/msgbox/lv_msgbox.c
 CMakeFiles/LCD.dir/LVGL/src/extra/widgets/msgbox/lv_msgbox.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/widgets/msgbox/lv_msgbox.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/widgets/msgbox/lv_msgbox.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/extra/widgets/msgbox/lv_msgbox.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/extra/widgets/msgbox/lv_msgbox.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/extra/widgets/msgbox/lv_msgbox.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/extra/widgets/msgbox/lv_msgbox.c
 
 CMakeFiles/LCD.dir/LVGL/src/extra/widgets/msgbox/lv_msgbox.c.i: cmake_force
@@ -2031,7 +1863,7 @@ CMakeFiles/LCD.dir/LVGL/src/extra/widgets/msgbox/lv_msgbox.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/extra/widgets/span/lv_span.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/extra/widgets/span/lv_span.c.obj: ../LVGL/src/extra/widgets/span/lv_span.c
 CMakeFiles/LCD.dir/LVGL/src/extra/widgets/span/lv_span.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/widgets/span/lv_span.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/widgets/span/lv_span.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/extra/widgets/span/lv_span.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/extra/widgets/span/lv_span.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/extra/widgets/span/lv_span.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/extra/widgets/span/lv_span.c
 
 CMakeFiles/LCD.dir/LVGL/src/extra/widgets/span/lv_span.c.i: cmake_force
@@ -2045,7 +1877,7 @@ CMakeFiles/LCD.dir/LVGL/src/extra/widgets/span/lv_span.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/extra/widgets/spinbox/lv_spinbox.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/extra/widgets/spinbox/lv_spinbox.c.obj: ../LVGL/src/extra/widgets/spinbox/lv_spinbox.c
 CMakeFiles/LCD.dir/LVGL/src/extra/widgets/spinbox/lv_spinbox.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/widgets/spinbox/lv_spinbox.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/widgets/spinbox/lv_spinbox.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/extra/widgets/spinbox/lv_spinbox.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/extra/widgets/spinbox/lv_spinbox.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/extra/widgets/spinbox/lv_spinbox.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/extra/widgets/spinbox/lv_spinbox.c
 
 CMakeFiles/LCD.dir/LVGL/src/extra/widgets/spinbox/lv_spinbox.c.i: cmake_force
@@ -2059,7 +1891,7 @@ CMakeFiles/LCD.dir/LVGL/src/extra/widgets/spinbox/lv_spinbox.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/extra/widgets/spinner/lv_spinner.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/extra/widgets/spinner/lv_spinner.c.obj: ../LVGL/src/extra/widgets/spinner/lv_spinner.c
 CMakeFiles/LCD.dir/LVGL/src/extra/widgets/spinner/lv_spinner.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/widgets/spinner/lv_spinner.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/widgets/spinner/lv_spinner.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/extra/widgets/spinner/lv_spinner.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/extra/widgets/spinner/lv_spinner.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/extra/widgets/spinner/lv_spinner.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/extra/widgets/spinner/lv_spinner.c
 
 CMakeFiles/LCD.dir/LVGL/src/extra/widgets/spinner/lv_spinner.c.i: cmake_force
@@ -2073,7 +1905,7 @@ CMakeFiles/LCD.dir/LVGL/src/extra/widgets/spinner/lv_spinner.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/extra/widgets/tabview/lv_tabview.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/extra/widgets/tabview/lv_tabview.c.obj: ../LVGL/src/extra/widgets/tabview/lv_tabview.c
 CMakeFiles/LCD.dir/LVGL/src/extra/widgets/tabview/lv_tabview.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/widgets/tabview/lv_tabview.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/widgets/tabview/lv_tabview.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/extra/widgets/tabview/lv_tabview.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/extra/widgets/tabview/lv_tabview.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/extra/widgets/tabview/lv_tabview.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/extra/widgets/tabview/lv_tabview.c
 
 CMakeFiles/LCD.dir/LVGL/src/extra/widgets/tabview/lv_tabview.c.i: cmake_force
@@ -2087,7 +1919,7 @@ CMakeFiles/LCD.dir/LVGL/src/extra/widgets/tabview/lv_tabview.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/extra/widgets/tileview/lv_tileview.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/extra/widgets/tileview/lv_tileview.c.obj: ../LVGL/src/extra/widgets/tileview/lv_tileview.c
 CMakeFiles/LCD.dir/LVGL/src/extra/widgets/tileview/lv_tileview.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/widgets/tileview/lv_tileview.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/widgets/tileview/lv_tileview.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/extra/widgets/tileview/lv_tileview.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/extra/widgets/tileview/lv_tileview.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/extra/widgets/tileview/lv_tileview.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/extra/widgets/tileview/lv_tileview.c
 
 CMakeFiles/LCD.dir/LVGL/src/extra/widgets/tileview/lv_tileview.c.i: cmake_force
@@ -2101,7 +1933,7 @@ CMakeFiles/LCD.dir/LVGL/src/extra/widgets/tileview/lv_tileview.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/extra/widgets/win/lv_win.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/extra/widgets/win/lv_win.c.obj: ../LVGL/src/extra/widgets/win/lv_win.c
 CMakeFiles/LCD.dir/LVGL/src/extra/widgets/win/lv_win.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/widgets/win/lv_win.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building C object CMakeFiles/LCD.dir/LVGL/src/extra/widgets/win/lv_win.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/extra/widgets/win/lv_win.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/extra/widgets/win/lv_win.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/extra/widgets/win/lv_win.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/extra/widgets/win/lv_win.c
 
 CMakeFiles/LCD.dir/LVGL/src/extra/widgets/win/lv_win.c.i: cmake_force
@@ -2115,7 +1947,7 @@ CMakeFiles/LCD.dir/LVGL/src/extra/widgets/win/lv_win.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font.c.obj: ../LVGL/src/font/lv_font.c
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building C object CMakeFiles/LCD.dir/LVGL/src/font/lv_font.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building C object CMakeFiles/LCD.dir/LVGL/src/font/lv_font.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/font/lv_font.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/font/lv_font.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/font/lv_font.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/font/lv_font.c
 
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font.c.i: cmake_force
@@ -2129,7 +1961,7 @@ CMakeFiles/LCD.dir/LVGL/src/font/lv_font.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_dejavu_16_persian_hebrew.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_dejavu_16_persian_hebrew.c.obj: ../LVGL/src/font/lv_font_dejavu_16_persian_hebrew.c
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_dejavu_16_persian_hebrew.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building C object CMakeFiles/LCD.dir/LVGL/src/font/lv_font_dejavu_16_persian_hebrew.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building C object CMakeFiles/LCD.dir/LVGL/src/font/lv_font_dejavu_16_persian_hebrew.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/font/lv_font_dejavu_16_persian_hebrew.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/font/lv_font_dejavu_16_persian_hebrew.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/font/lv_font_dejavu_16_persian_hebrew.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/font/lv_font_dejavu_16_persian_hebrew.c
 
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_dejavu_16_persian_hebrew.c.i: cmake_force
@@ -2143,7 +1975,7 @@ CMakeFiles/LCD.dir/LVGL/src/font/lv_font_dejavu_16_persian_hebrew.c.s: cmake_for
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_fmt_txt.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_fmt_txt.c.obj: ../LVGL/src/font/lv_font_fmt_txt.c
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_fmt_txt.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building C object CMakeFiles/LCD.dir/LVGL/src/font/lv_font_fmt_txt.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building C object CMakeFiles/LCD.dir/LVGL/src/font/lv_font_fmt_txt.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/font/lv_font_fmt_txt.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/font/lv_font_fmt_txt.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/font/lv_font_fmt_txt.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/font/lv_font_fmt_txt.c
 
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_fmt_txt.c.i: cmake_force
@@ -2157,7 +1989,7 @@ CMakeFiles/LCD.dir/LVGL/src/font/lv_font_fmt_txt.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_loader.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_loader.c.obj: ../LVGL/src/font/lv_font_loader.c
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_loader.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building C object CMakeFiles/LCD.dir/LVGL/src/font/lv_font_loader.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building C object CMakeFiles/LCD.dir/LVGL/src/font/lv_font_loader.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/font/lv_font_loader.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/font/lv_font_loader.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/font/lv_font_loader.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/font/lv_font_loader.c
 
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_loader.c.i: cmake_force
@@ -2171,7 +2003,7 @@ CMakeFiles/LCD.dir/LVGL/src/font/lv_font_loader.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_10.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_10.c.obj: ../LVGL/src/font/lv_font_montserrat_10.c
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_10.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building C object CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_10.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building C object CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_10.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_10.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_10.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_10.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/font/lv_font_montserrat_10.c
 
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_10.c.i: cmake_force
@@ -2185,7 +2017,7 @@ CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_10.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_12.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_12.c.obj: ../LVGL/src/font/lv_font_montserrat_12.c
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_12.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building C object CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_12.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building C object CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_12.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_12.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_12.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_12.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/font/lv_font_montserrat_12.c
 
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_12.c.i: cmake_force
@@ -2199,7 +2031,7 @@ CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_12.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_12_subpx.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_12_subpx.c.obj: ../LVGL/src/font/lv_font_montserrat_12_subpx.c
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_12_subpx.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building C object CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_12_subpx.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building C object CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_12_subpx.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_12_subpx.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_12_subpx.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_12_subpx.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/font/lv_font_montserrat_12_subpx.c
 
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_12_subpx.c.i: cmake_force
@@ -2213,7 +2045,7 @@ CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_12_subpx.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_14.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_14.c.obj: ../LVGL/src/font/lv_font_montserrat_14.c
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_14.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building C object CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_14.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building C object CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_14.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_14.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_14.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_14.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/font/lv_font_montserrat_14.c
 
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_14.c.i: cmake_force
@@ -2227,7 +2059,7 @@ CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_14.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_16.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_16.c.obj: ../LVGL/src/font/lv_font_montserrat_16.c
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_16.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building C object CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_16.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building C object CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_16.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_16.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_16.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_16.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/font/lv_font_montserrat_16.c
 
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_16.c.i: cmake_force
@@ -2241,7 +2073,7 @@ CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_16.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_18.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_18.c.obj: ../LVGL/src/font/lv_font_montserrat_18.c
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_18.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building C object CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_18.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building C object CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_18.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_18.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_18.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_18.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/font/lv_font_montserrat_18.c
 
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_18.c.i: cmake_force
@@ -2255,7 +2087,7 @@ CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_18.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_20.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_20.c.obj: ../LVGL/src/font/lv_font_montserrat_20.c
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_20.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building C object CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_20.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building C object CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_20.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_20.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_20.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_20.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/font/lv_font_montserrat_20.c
 
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_20.c.i: cmake_force
@@ -2269,7 +2101,7 @@ CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_20.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_22.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_22.c.obj: ../LVGL/src/font/lv_font_montserrat_22.c
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_22.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building C object CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_22.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building C object CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_22.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_22.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_22.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_22.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/font/lv_font_montserrat_22.c
 
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_22.c.i: cmake_force
@@ -2283,7 +2115,7 @@ CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_22.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_24.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_24.c.obj: ../LVGL/src/font/lv_font_montserrat_24.c
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_24.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building C object CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_24.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building C object CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_24.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_24.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_24.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_24.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/font/lv_font_montserrat_24.c
 
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_24.c.i: cmake_force
@@ -2297,7 +2129,7 @@ CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_24.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_26.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_26.c.obj: ../LVGL/src/font/lv_font_montserrat_26.c
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_26.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building C object CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_26.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building C object CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_26.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_26.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_26.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_26.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/font/lv_font_montserrat_26.c
 
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_26.c.i: cmake_force
@@ -2311,7 +2143,7 @@ CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_26.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_28.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_28.c.obj: ../LVGL/src/font/lv_font_montserrat_28.c
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_28.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building C object CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_28.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building C object CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_28.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_28.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_28.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_28.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/font/lv_font_montserrat_28.c
 
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_28.c.i: cmake_force
@@ -2325,7 +2157,7 @@ CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_28.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_28_compressed.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_28_compressed.c.obj: ../LVGL/src/font/lv_font_montserrat_28_compressed.c
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_28_compressed.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building C object CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_28_compressed.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building C object CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_28_compressed.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_28_compressed.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_28_compressed.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_28_compressed.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/font/lv_font_montserrat_28_compressed.c
 
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_28_compressed.c.i: cmake_force
@@ -2339,7 +2171,7 @@ CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_28_compressed.c.s: cmake_for
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_30.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_30.c.obj: ../LVGL/src/font/lv_font_montserrat_30.c
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_30.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building C object CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_30.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building C object CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_30.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_30.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_30.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_30.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/font/lv_font_montserrat_30.c
 
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_30.c.i: cmake_force
@@ -2353,7 +2185,7 @@ CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_30.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_32.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_32.c.obj: ../LVGL/src/font/lv_font_montserrat_32.c
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_32.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building C object CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building C object CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_32.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_32.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_32.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_32.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/font/lv_font_montserrat_32.c
 
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_32.c.i: cmake_force
@@ -2367,7 +2199,7 @@ CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_32.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_34.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_34.c.obj: ../LVGL/src/font/lv_font_montserrat_34.c
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_34.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building C object CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_34.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building C object CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_34.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_34.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_34.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_34.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/font/lv_font_montserrat_34.c
 
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_34.c.i: cmake_force
@@ -2381,7 +2213,7 @@ CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_34.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_36.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_36.c.obj: ../LVGL/src/font/lv_font_montserrat_36.c
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_36.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building C object CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_36.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building C object CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_36.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_36.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_36.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_36.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/font/lv_font_montserrat_36.c
 
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_36.c.i: cmake_force
@@ -2395,7 +2227,7 @@ CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_36.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_38.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_38.c.obj: ../LVGL/src/font/lv_font_montserrat_38.c
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_38.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building C object CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_38.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building C object CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_38.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_38.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_38.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_38.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/font/lv_font_montserrat_38.c
 
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_38.c.i: cmake_force
@@ -2409,7 +2241,7 @@ CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_38.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_40.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_40.c.obj: ../LVGL/src/font/lv_font_montserrat_40.c
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_40.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building C object CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_40.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building C object CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_40.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_40.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_40.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_40.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/font/lv_font_montserrat_40.c
 
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_40.c.i: cmake_force
@@ -2423,7 +2255,7 @@ CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_40.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_42.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_42.c.obj: ../LVGL/src/font/lv_font_montserrat_42.c
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_42.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building C object CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_42.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building C object CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_42.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_42.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_42.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_42.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/font/lv_font_montserrat_42.c
 
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_42.c.i: cmake_force
@@ -2437,7 +2269,7 @@ CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_42.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_44.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_44.c.obj: ../LVGL/src/font/lv_font_montserrat_44.c
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_44.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building C object CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_44.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building C object CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_44.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_44.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_44.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_44.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/font/lv_font_montserrat_44.c
 
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_44.c.i: cmake_force
@@ -2451,7 +2283,7 @@ CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_44.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_46.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_46.c.obj: ../LVGL/src/font/lv_font_montserrat_46.c
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_46.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building C object CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_46.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building C object CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_46.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_46.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_46.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_46.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/font/lv_font_montserrat_46.c
 
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_46.c.i: cmake_force
@@ -2465,7 +2297,7 @@ CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_46.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_48.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_48.c.obj: ../LVGL/src/font/lv_font_montserrat_48.c
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_48.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building C object CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_48.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building C object CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_48.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_48.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_48.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_48.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/font/lv_font_montserrat_48.c
 
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_48.c.i: cmake_force
@@ -2479,7 +2311,7 @@ CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_48.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_8.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_8.c.obj: ../LVGL/src/font/lv_font_montserrat_8.c
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_8.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building C object CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_8.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building C object CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_8.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_8.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_8.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_8.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/font/lv_font_montserrat_8.c
 
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_8.c.i: cmake_force
@@ -2493,7 +2325,7 @@ CMakeFiles/LCD.dir/LVGL/src/font/lv_font_montserrat_8.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_simsun_16_cjk.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_simsun_16_cjk.c.obj: ../LVGL/src/font/lv_font_simsun_16_cjk.c
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_simsun_16_cjk.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building C object CMakeFiles/LCD.dir/LVGL/src/font/lv_font_simsun_16_cjk.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building C object CMakeFiles/LCD.dir/LVGL/src/font/lv_font_simsun_16_cjk.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/font/lv_font_simsun_16_cjk.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/font/lv_font_simsun_16_cjk.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/font/lv_font_simsun_16_cjk.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/font/lv_font_simsun_16_cjk.c
 
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_simsun_16_cjk.c.i: cmake_force
@@ -2507,7 +2339,7 @@ CMakeFiles/LCD.dir/LVGL/src/font/lv_font_simsun_16_cjk.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_unscii_16.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_unscii_16.c.obj: ../LVGL/src/font/lv_font_unscii_16.c
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_unscii_16.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building C object CMakeFiles/LCD.dir/LVGL/src/font/lv_font_unscii_16.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building C object CMakeFiles/LCD.dir/LVGL/src/font/lv_font_unscii_16.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/font/lv_font_unscii_16.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/font/lv_font_unscii_16.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/font/lv_font_unscii_16.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/font/lv_font_unscii_16.c
 
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_unscii_16.c.i: cmake_force
@@ -2521,7 +2353,7 @@ CMakeFiles/LCD.dir/LVGL/src/font/lv_font_unscii_16.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_unscii_8.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_unscii_8.c.obj: ../LVGL/src/font/lv_font_unscii_8.c
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_unscii_8.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building C object CMakeFiles/LCD.dir/LVGL/src/font/lv_font_unscii_8.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building C object CMakeFiles/LCD.dir/LVGL/src/font/lv_font_unscii_8.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/font/lv_font_unscii_8.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/font/lv_font_unscii_8.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/font/lv_font_unscii_8.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/font/lv_font_unscii_8.c
 
 CMakeFiles/LCD.dir/LVGL/src/font/lv_font_unscii_8.c.i: cmake_force
@@ -2535,7 +2367,7 @@ CMakeFiles/LCD.dir/LVGL/src/font/lv_font_unscii_8.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/hal/lv_hal_disp.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/hal/lv_hal_disp.c.obj: ../LVGL/src/hal/lv_hal_disp.c
 CMakeFiles/LCD.dir/LVGL/src/hal/lv_hal_disp.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building C object CMakeFiles/LCD.dir/LVGL/src/hal/lv_hal_disp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building C object CMakeFiles/LCD.dir/LVGL/src/hal/lv_hal_disp.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/hal/lv_hal_disp.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/hal/lv_hal_disp.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/hal/lv_hal_disp.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/hal/lv_hal_disp.c
 
 CMakeFiles/LCD.dir/LVGL/src/hal/lv_hal_disp.c.i: cmake_force
@@ -2549,7 +2381,7 @@ CMakeFiles/LCD.dir/LVGL/src/hal/lv_hal_disp.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/hal/lv_hal_indev.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/hal/lv_hal_indev.c.obj: ../LVGL/src/hal/lv_hal_indev.c
 CMakeFiles/LCD.dir/LVGL/src/hal/lv_hal_indev.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building C object CMakeFiles/LCD.dir/LVGL/src/hal/lv_hal_indev.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building C object CMakeFiles/LCD.dir/LVGL/src/hal/lv_hal_indev.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/hal/lv_hal_indev.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/hal/lv_hal_indev.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/hal/lv_hal_indev.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/hal/lv_hal_indev.c
 
 CMakeFiles/LCD.dir/LVGL/src/hal/lv_hal_indev.c.i: cmake_force
@@ -2563,7 +2395,7 @@ CMakeFiles/LCD.dir/LVGL/src/hal/lv_hal_indev.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/hal/lv_hal_tick.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/hal/lv_hal_tick.c.obj: ../LVGL/src/hal/lv_hal_tick.c
 CMakeFiles/LCD.dir/LVGL/src/hal/lv_hal_tick.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building C object CMakeFiles/LCD.dir/LVGL/src/hal/lv_hal_tick.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building C object CMakeFiles/LCD.dir/LVGL/src/hal/lv_hal_tick.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/hal/lv_hal_tick.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/hal/lv_hal_tick.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/hal/lv_hal_tick.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/hal/lv_hal_tick.c
 
 CMakeFiles/LCD.dir/LVGL/src/hal/lv_hal_tick.c.i: cmake_force
@@ -2577,7 +2409,7 @@ CMakeFiles/LCD.dir/LVGL/src/hal/lv_hal_tick.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_anim.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_anim.c.obj: ../LVGL/src/misc/lv_anim.c
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_anim.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building C object CMakeFiles/LCD.dir/LVGL/src/misc/lv_anim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building C object CMakeFiles/LCD.dir/LVGL/src/misc/lv_anim.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/misc/lv_anim.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/misc/lv_anim.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/misc/lv_anim.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/misc/lv_anim.c
 
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_anim.c.i: cmake_force
@@ -2591,7 +2423,7 @@ CMakeFiles/LCD.dir/LVGL/src/misc/lv_anim.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_anim_timeline.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_anim_timeline.c.obj: ../LVGL/src/misc/lv_anim_timeline.c
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_anim_timeline.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building C object CMakeFiles/LCD.dir/LVGL/src/misc/lv_anim_timeline.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building C object CMakeFiles/LCD.dir/LVGL/src/misc/lv_anim_timeline.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/misc/lv_anim_timeline.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/misc/lv_anim_timeline.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/misc/lv_anim_timeline.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/misc/lv_anim_timeline.c
 
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_anim_timeline.c.i: cmake_force
@@ -2605,7 +2437,7 @@ CMakeFiles/LCD.dir/LVGL/src/misc/lv_anim_timeline.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_area.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_area.c.obj: ../LVGL/src/misc/lv_area.c
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_area.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building C object CMakeFiles/LCD.dir/LVGL/src/misc/lv_area.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building C object CMakeFiles/LCD.dir/LVGL/src/misc/lv_area.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/misc/lv_area.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/misc/lv_area.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/misc/lv_area.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/misc/lv_area.c
 
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_area.c.i: cmake_force
@@ -2619,7 +2451,7 @@ CMakeFiles/LCD.dir/LVGL/src/misc/lv_area.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_async.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_async.c.obj: ../LVGL/src/misc/lv_async.c
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_async.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Building C object CMakeFiles/LCD.dir/LVGL/src/misc/lv_async.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building C object CMakeFiles/LCD.dir/LVGL/src/misc/lv_async.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/misc/lv_async.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/misc/lv_async.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/misc/lv_async.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/misc/lv_async.c
 
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_async.c.i: cmake_force
@@ -2633,7 +2465,7 @@ CMakeFiles/LCD.dir/LVGL/src/misc/lv_async.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_bidi.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_bidi.c.obj: ../LVGL/src/misc/lv_bidi.c
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_bidi.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Building C object CMakeFiles/LCD.dir/LVGL/src/misc/lv_bidi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building C object CMakeFiles/LCD.dir/LVGL/src/misc/lv_bidi.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/misc/lv_bidi.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/misc/lv_bidi.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/misc/lv_bidi.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/misc/lv_bidi.c
 
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_bidi.c.i: cmake_force
@@ -2647,7 +2479,7 @@ CMakeFiles/LCD.dir/LVGL/src/misc/lv_bidi.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_color.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_color.c.obj: ../LVGL/src/misc/lv_color.c
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_color.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_185) "Building C object CMakeFiles/LCD.dir/LVGL/src/misc/lv_color.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building C object CMakeFiles/LCD.dir/LVGL/src/misc/lv_color.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/misc/lv_color.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/misc/lv_color.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/misc/lv_color.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/misc/lv_color.c
 
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_color.c.i: cmake_force
@@ -2661,7 +2493,7 @@ CMakeFiles/LCD.dir/LVGL/src/misc/lv_color.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_fs.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_fs.c.obj: ../LVGL/src/misc/lv_fs.c
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_fs.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_186) "Building C object CMakeFiles/LCD.dir/LVGL/src/misc/lv_fs.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building C object CMakeFiles/LCD.dir/LVGL/src/misc/lv_fs.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/misc/lv_fs.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/misc/lv_fs.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/misc/lv_fs.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/misc/lv_fs.c
 
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_fs.c.i: cmake_force
@@ -2675,7 +2507,7 @@ CMakeFiles/LCD.dir/LVGL/src/misc/lv_fs.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_gc.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_gc.c.obj: ../LVGL/src/misc/lv_gc.c
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_gc.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_187) "Building C object CMakeFiles/LCD.dir/LVGL/src/misc/lv_gc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building C object CMakeFiles/LCD.dir/LVGL/src/misc/lv_gc.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/misc/lv_gc.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/misc/lv_gc.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/misc/lv_gc.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/misc/lv_gc.c
 
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_gc.c.i: cmake_force
@@ -2689,7 +2521,7 @@ CMakeFiles/LCD.dir/LVGL/src/misc/lv_gc.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_ll.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_ll.c.obj: ../LVGL/src/misc/lv_ll.c
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_ll.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_188) "Building C object CMakeFiles/LCD.dir/LVGL/src/misc/lv_ll.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building C object CMakeFiles/LCD.dir/LVGL/src/misc/lv_ll.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/misc/lv_ll.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/misc/lv_ll.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/misc/lv_ll.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/misc/lv_ll.c
 
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_ll.c.i: cmake_force
@@ -2703,7 +2535,7 @@ CMakeFiles/LCD.dir/LVGL/src/misc/lv_ll.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_log.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_log.c.obj: ../LVGL/src/misc/lv_log.c
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_log.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_189) "Building C object CMakeFiles/LCD.dir/LVGL/src/misc/lv_log.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building C object CMakeFiles/LCD.dir/LVGL/src/misc/lv_log.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/misc/lv_log.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/misc/lv_log.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/misc/lv_log.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/misc/lv_log.c
 
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_log.c.i: cmake_force
@@ -2717,7 +2549,7 @@ CMakeFiles/LCD.dir/LVGL/src/misc/lv_log.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_lru.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_lru.c.obj: ../LVGL/src/misc/lv_lru.c
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_lru.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_190) "Building C object CMakeFiles/LCD.dir/LVGL/src/misc/lv_lru.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building C object CMakeFiles/LCD.dir/LVGL/src/misc/lv_lru.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/misc/lv_lru.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/misc/lv_lru.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/misc/lv_lru.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/misc/lv_lru.c
 
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_lru.c.i: cmake_force
@@ -2731,7 +2563,7 @@ CMakeFiles/LCD.dir/LVGL/src/misc/lv_lru.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_math.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_math.c.obj: ../LVGL/src/misc/lv_math.c
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_math.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_191) "Building C object CMakeFiles/LCD.dir/LVGL/src/misc/lv_math.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building C object CMakeFiles/LCD.dir/LVGL/src/misc/lv_math.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/misc/lv_math.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/misc/lv_math.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/misc/lv_math.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/misc/lv_math.c
 
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_math.c.i: cmake_force
@@ -2745,7 +2577,7 @@ CMakeFiles/LCD.dir/LVGL/src/misc/lv_math.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_mem.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_mem.c.obj: ../LVGL/src/misc/lv_mem.c
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_mem.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_192) "Building C object CMakeFiles/LCD.dir/LVGL/src/misc/lv_mem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building C object CMakeFiles/LCD.dir/LVGL/src/misc/lv_mem.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/misc/lv_mem.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/misc/lv_mem.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/misc/lv_mem.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/misc/lv_mem.c
 
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_mem.c.i: cmake_force
@@ -2759,7 +2591,7 @@ CMakeFiles/LCD.dir/LVGL/src/misc/lv_mem.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_printf.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_printf.c.obj: ../LVGL/src/misc/lv_printf.c
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_printf.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_193) "Building C object CMakeFiles/LCD.dir/LVGL/src/misc/lv_printf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building C object CMakeFiles/LCD.dir/LVGL/src/misc/lv_printf.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/misc/lv_printf.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/misc/lv_printf.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/misc/lv_printf.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/misc/lv_printf.c
 
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_printf.c.i: cmake_force
@@ -2773,7 +2605,7 @@ CMakeFiles/LCD.dir/LVGL/src/misc/lv_printf.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_style.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_style.c.obj: ../LVGL/src/misc/lv_style.c
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_style.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_194) "Building C object CMakeFiles/LCD.dir/LVGL/src/misc/lv_style.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building C object CMakeFiles/LCD.dir/LVGL/src/misc/lv_style.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/misc/lv_style.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/misc/lv_style.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/misc/lv_style.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/misc/lv_style.c
 
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_style.c.i: cmake_force
@@ -2787,7 +2619,7 @@ CMakeFiles/LCD.dir/LVGL/src/misc/lv_style.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_style_gen.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_style_gen.c.obj: ../LVGL/src/misc/lv_style_gen.c
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_style_gen.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_195) "Building C object CMakeFiles/LCD.dir/LVGL/src/misc/lv_style_gen.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Building C object CMakeFiles/LCD.dir/LVGL/src/misc/lv_style_gen.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/misc/lv_style_gen.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/misc/lv_style_gen.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/misc/lv_style_gen.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/misc/lv_style_gen.c
 
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_style_gen.c.i: cmake_force
@@ -2801,7 +2633,7 @@ CMakeFiles/LCD.dir/LVGL/src/misc/lv_style_gen.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_templ.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_templ.c.obj: ../LVGL/src/misc/lv_templ.c
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_templ.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_196) "Building C object CMakeFiles/LCD.dir/LVGL/src/misc/lv_templ.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Building C object CMakeFiles/LCD.dir/LVGL/src/misc/lv_templ.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/misc/lv_templ.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/misc/lv_templ.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/misc/lv_templ.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/misc/lv_templ.c
 
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_templ.c.i: cmake_force
@@ -2815,7 +2647,7 @@ CMakeFiles/LCD.dir/LVGL/src/misc/lv_templ.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_timer.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_timer.c.obj: ../LVGL/src/misc/lv_timer.c
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_timer.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_197) "Building C object CMakeFiles/LCD.dir/LVGL/src/misc/lv_timer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_185) "Building C object CMakeFiles/LCD.dir/LVGL/src/misc/lv_timer.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/misc/lv_timer.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/misc/lv_timer.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/misc/lv_timer.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/misc/lv_timer.c
 
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_timer.c.i: cmake_force
@@ -2829,7 +2661,7 @@ CMakeFiles/LCD.dir/LVGL/src/misc/lv_timer.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_tlsf.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_tlsf.c.obj: ../LVGL/src/misc/lv_tlsf.c
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_tlsf.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_198) "Building C object CMakeFiles/LCD.dir/LVGL/src/misc/lv_tlsf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_186) "Building C object CMakeFiles/LCD.dir/LVGL/src/misc/lv_tlsf.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/misc/lv_tlsf.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/misc/lv_tlsf.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/misc/lv_tlsf.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/misc/lv_tlsf.c
 
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_tlsf.c.i: cmake_force
@@ -2843,7 +2675,7 @@ CMakeFiles/LCD.dir/LVGL/src/misc/lv_tlsf.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_txt.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_txt.c.obj: ../LVGL/src/misc/lv_txt.c
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_txt.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_199) "Building C object CMakeFiles/LCD.dir/LVGL/src/misc/lv_txt.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_187) "Building C object CMakeFiles/LCD.dir/LVGL/src/misc/lv_txt.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/misc/lv_txt.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/misc/lv_txt.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/misc/lv_txt.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/misc/lv_txt.c
 
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_txt.c.i: cmake_force
@@ -2857,7 +2689,7 @@ CMakeFiles/LCD.dir/LVGL/src/misc/lv_txt.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_txt_ap.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_txt_ap.c.obj: ../LVGL/src/misc/lv_txt_ap.c
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_txt_ap.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_200) "Building C object CMakeFiles/LCD.dir/LVGL/src/misc/lv_txt_ap.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_188) "Building C object CMakeFiles/LCD.dir/LVGL/src/misc/lv_txt_ap.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/misc/lv_txt_ap.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/misc/lv_txt_ap.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/misc/lv_txt_ap.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/misc/lv_txt_ap.c
 
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_txt_ap.c.i: cmake_force
@@ -2871,7 +2703,7 @@ CMakeFiles/LCD.dir/LVGL/src/misc/lv_txt_ap.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_utils.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_utils.c.obj: ../LVGL/src/misc/lv_utils.c
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_utils.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_201) "Building C object CMakeFiles/LCD.dir/LVGL/src/misc/lv_utils.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_189) "Building C object CMakeFiles/LCD.dir/LVGL/src/misc/lv_utils.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/misc/lv_utils.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/misc/lv_utils.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/misc/lv_utils.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/misc/lv_utils.c
 
 CMakeFiles/LCD.dir/LVGL/src/misc/lv_utils.c.i: cmake_force
@@ -2885,7 +2717,7 @@ CMakeFiles/LCD.dir/LVGL/src/misc/lv_utils.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/widgets/lv_arc.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/widgets/lv_arc.c.obj: ../LVGL/src/widgets/lv_arc.c
 CMakeFiles/LCD.dir/LVGL/src/widgets/lv_arc.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_202) "Building C object CMakeFiles/LCD.dir/LVGL/src/widgets/lv_arc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_190) "Building C object CMakeFiles/LCD.dir/LVGL/src/widgets/lv_arc.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/widgets/lv_arc.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/widgets/lv_arc.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/widgets/lv_arc.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/widgets/lv_arc.c
 
 CMakeFiles/LCD.dir/LVGL/src/widgets/lv_arc.c.i: cmake_force
@@ -2899,7 +2731,7 @@ CMakeFiles/LCD.dir/LVGL/src/widgets/lv_arc.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/widgets/lv_bar.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/widgets/lv_bar.c.obj: ../LVGL/src/widgets/lv_bar.c
 CMakeFiles/LCD.dir/LVGL/src/widgets/lv_bar.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_203) "Building C object CMakeFiles/LCD.dir/LVGL/src/widgets/lv_bar.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_191) "Building C object CMakeFiles/LCD.dir/LVGL/src/widgets/lv_bar.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/widgets/lv_bar.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/widgets/lv_bar.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/widgets/lv_bar.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/widgets/lv_bar.c
 
 CMakeFiles/LCD.dir/LVGL/src/widgets/lv_bar.c.i: cmake_force
@@ -2913,7 +2745,7 @@ CMakeFiles/LCD.dir/LVGL/src/widgets/lv_bar.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/widgets/lv_btn.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/widgets/lv_btn.c.obj: ../LVGL/src/widgets/lv_btn.c
 CMakeFiles/LCD.dir/LVGL/src/widgets/lv_btn.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_204) "Building C object CMakeFiles/LCD.dir/LVGL/src/widgets/lv_btn.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_192) "Building C object CMakeFiles/LCD.dir/LVGL/src/widgets/lv_btn.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/widgets/lv_btn.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/widgets/lv_btn.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/widgets/lv_btn.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/widgets/lv_btn.c
 
 CMakeFiles/LCD.dir/LVGL/src/widgets/lv_btn.c.i: cmake_force
@@ -2927,7 +2759,7 @@ CMakeFiles/LCD.dir/LVGL/src/widgets/lv_btn.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/widgets/lv_btnmatrix.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/widgets/lv_btnmatrix.c.obj: ../LVGL/src/widgets/lv_btnmatrix.c
 CMakeFiles/LCD.dir/LVGL/src/widgets/lv_btnmatrix.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_205) "Building C object CMakeFiles/LCD.dir/LVGL/src/widgets/lv_btnmatrix.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_193) "Building C object CMakeFiles/LCD.dir/LVGL/src/widgets/lv_btnmatrix.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/widgets/lv_btnmatrix.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/widgets/lv_btnmatrix.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/widgets/lv_btnmatrix.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/widgets/lv_btnmatrix.c
 
 CMakeFiles/LCD.dir/LVGL/src/widgets/lv_btnmatrix.c.i: cmake_force
@@ -2941,7 +2773,7 @@ CMakeFiles/LCD.dir/LVGL/src/widgets/lv_btnmatrix.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/widgets/lv_canvas.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/widgets/lv_canvas.c.obj: ../LVGL/src/widgets/lv_canvas.c
 CMakeFiles/LCD.dir/LVGL/src/widgets/lv_canvas.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_206) "Building C object CMakeFiles/LCD.dir/LVGL/src/widgets/lv_canvas.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_194) "Building C object CMakeFiles/LCD.dir/LVGL/src/widgets/lv_canvas.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/widgets/lv_canvas.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/widgets/lv_canvas.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/widgets/lv_canvas.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/widgets/lv_canvas.c
 
 CMakeFiles/LCD.dir/LVGL/src/widgets/lv_canvas.c.i: cmake_force
@@ -2955,7 +2787,7 @@ CMakeFiles/LCD.dir/LVGL/src/widgets/lv_canvas.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/widgets/lv_checkbox.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/widgets/lv_checkbox.c.obj: ../LVGL/src/widgets/lv_checkbox.c
 CMakeFiles/LCD.dir/LVGL/src/widgets/lv_checkbox.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_207) "Building C object CMakeFiles/LCD.dir/LVGL/src/widgets/lv_checkbox.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_195) "Building C object CMakeFiles/LCD.dir/LVGL/src/widgets/lv_checkbox.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/widgets/lv_checkbox.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/widgets/lv_checkbox.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/widgets/lv_checkbox.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/widgets/lv_checkbox.c
 
 CMakeFiles/LCD.dir/LVGL/src/widgets/lv_checkbox.c.i: cmake_force
@@ -2969,7 +2801,7 @@ CMakeFiles/LCD.dir/LVGL/src/widgets/lv_checkbox.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/widgets/lv_dropdown.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/widgets/lv_dropdown.c.obj: ../LVGL/src/widgets/lv_dropdown.c
 CMakeFiles/LCD.dir/LVGL/src/widgets/lv_dropdown.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_208) "Building C object CMakeFiles/LCD.dir/LVGL/src/widgets/lv_dropdown.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_196) "Building C object CMakeFiles/LCD.dir/LVGL/src/widgets/lv_dropdown.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/widgets/lv_dropdown.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/widgets/lv_dropdown.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/widgets/lv_dropdown.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/widgets/lv_dropdown.c
 
 CMakeFiles/LCD.dir/LVGL/src/widgets/lv_dropdown.c.i: cmake_force
@@ -2983,7 +2815,7 @@ CMakeFiles/LCD.dir/LVGL/src/widgets/lv_dropdown.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/widgets/lv_img.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/widgets/lv_img.c.obj: ../LVGL/src/widgets/lv_img.c
 CMakeFiles/LCD.dir/LVGL/src/widgets/lv_img.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_209) "Building C object CMakeFiles/LCD.dir/LVGL/src/widgets/lv_img.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_197) "Building C object CMakeFiles/LCD.dir/LVGL/src/widgets/lv_img.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/widgets/lv_img.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/widgets/lv_img.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/widgets/lv_img.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/widgets/lv_img.c
 
 CMakeFiles/LCD.dir/LVGL/src/widgets/lv_img.c.i: cmake_force
@@ -2997,7 +2829,7 @@ CMakeFiles/LCD.dir/LVGL/src/widgets/lv_img.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/widgets/lv_label.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/widgets/lv_label.c.obj: ../LVGL/src/widgets/lv_label.c
 CMakeFiles/LCD.dir/LVGL/src/widgets/lv_label.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_210) "Building C object CMakeFiles/LCD.dir/LVGL/src/widgets/lv_label.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_198) "Building C object CMakeFiles/LCD.dir/LVGL/src/widgets/lv_label.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/widgets/lv_label.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/widgets/lv_label.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/widgets/lv_label.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/widgets/lv_label.c
 
 CMakeFiles/LCD.dir/LVGL/src/widgets/lv_label.c.i: cmake_force
@@ -3011,7 +2843,7 @@ CMakeFiles/LCD.dir/LVGL/src/widgets/lv_label.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/widgets/lv_line.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/widgets/lv_line.c.obj: ../LVGL/src/widgets/lv_line.c
 CMakeFiles/LCD.dir/LVGL/src/widgets/lv_line.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_211) "Building C object CMakeFiles/LCD.dir/LVGL/src/widgets/lv_line.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_199) "Building C object CMakeFiles/LCD.dir/LVGL/src/widgets/lv_line.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/widgets/lv_line.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/widgets/lv_line.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/widgets/lv_line.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/widgets/lv_line.c
 
 CMakeFiles/LCD.dir/LVGL/src/widgets/lv_line.c.i: cmake_force
@@ -3025,7 +2857,7 @@ CMakeFiles/LCD.dir/LVGL/src/widgets/lv_line.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/widgets/lv_objx_templ.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/widgets/lv_objx_templ.c.obj: ../LVGL/src/widgets/lv_objx_templ.c
 CMakeFiles/LCD.dir/LVGL/src/widgets/lv_objx_templ.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_212) "Building C object CMakeFiles/LCD.dir/LVGL/src/widgets/lv_objx_templ.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_200) "Building C object CMakeFiles/LCD.dir/LVGL/src/widgets/lv_objx_templ.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/widgets/lv_objx_templ.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/widgets/lv_objx_templ.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/widgets/lv_objx_templ.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/widgets/lv_objx_templ.c
 
 CMakeFiles/LCD.dir/LVGL/src/widgets/lv_objx_templ.c.i: cmake_force
@@ -3039,7 +2871,7 @@ CMakeFiles/LCD.dir/LVGL/src/widgets/lv_objx_templ.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/widgets/lv_roller.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/widgets/lv_roller.c.obj: ../LVGL/src/widgets/lv_roller.c
 CMakeFiles/LCD.dir/LVGL/src/widgets/lv_roller.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_213) "Building C object CMakeFiles/LCD.dir/LVGL/src/widgets/lv_roller.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_201) "Building C object CMakeFiles/LCD.dir/LVGL/src/widgets/lv_roller.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/widgets/lv_roller.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/widgets/lv_roller.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/widgets/lv_roller.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/widgets/lv_roller.c
 
 CMakeFiles/LCD.dir/LVGL/src/widgets/lv_roller.c.i: cmake_force
@@ -3053,7 +2885,7 @@ CMakeFiles/LCD.dir/LVGL/src/widgets/lv_roller.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/widgets/lv_slider.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/widgets/lv_slider.c.obj: ../LVGL/src/widgets/lv_slider.c
 CMakeFiles/LCD.dir/LVGL/src/widgets/lv_slider.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_214) "Building C object CMakeFiles/LCD.dir/LVGL/src/widgets/lv_slider.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_202) "Building C object CMakeFiles/LCD.dir/LVGL/src/widgets/lv_slider.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/widgets/lv_slider.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/widgets/lv_slider.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/widgets/lv_slider.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/widgets/lv_slider.c
 
 CMakeFiles/LCD.dir/LVGL/src/widgets/lv_slider.c.i: cmake_force
@@ -3067,7 +2899,7 @@ CMakeFiles/LCD.dir/LVGL/src/widgets/lv_slider.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/widgets/lv_switch.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/widgets/lv_switch.c.obj: ../LVGL/src/widgets/lv_switch.c
 CMakeFiles/LCD.dir/LVGL/src/widgets/lv_switch.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_215) "Building C object CMakeFiles/LCD.dir/LVGL/src/widgets/lv_switch.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_203) "Building C object CMakeFiles/LCD.dir/LVGL/src/widgets/lv_switch.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/widgets/lv_switch.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/widgets/lv_switch.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/widgets/lv_switch.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/widgets/lv_switch.c
 
 CMakeFiles/LCD.dir/LVGL/src/widgets/lv_switch.c.i: cmake_force
@@ -3081,7 +2913,7 @@ CMakeFiles/LCD.dir/LVGL/src/widgets/lv_switch.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/widgets/lv_table.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/widgets/lv_table.c.obj: ../LVGL/src/widgets/lv_table.c
 CMakeFiles/LCD.dir/LVGL/src/widgets/lv_table.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_216) "Building C object CMakeFiles/LCD.dir/LVGL/src/widgets/lv_table.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_204) "Building C object CMakeFiles/LCD.dir/LVGL/src/widgets/lv_table.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/widgets/lv_table.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/widgets/lv_table.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/widgets/lv_table.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/widgets/lv_table.c
 
 CMakeFiles/LCD.dir/LVGL/src/widgets/lv_table.c.i: cmake_force
@@ -3095,7 +2927,7 @@ CMakeFiles/LCD.dir/LVGL/src/widgets/lv_table.c.s: cmake_force
 CMakeFiles/LCD.dir/LVGL/src/widgets/lv_textarea.c.obj: CMakeFiles/LCD.dir/flags.make
 CMakeFiles/LCD.dir/LVGL/src/widgets/lv_textarea.c.obj: ../LVGL/src/widgets/lv_textarea.c
 CMakeFiles/LCD.dir/LVGL/src/widgets/lv_textarea.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_217) "Building C object CMakeFiles/LCD.dir/LVGL/src/widgets/lv_textarea.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_205) "Building C object CMakeFiles/LCD.dir/LVGL/src/widgets/lv_textarea.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/src/widgets/lv_textarea.c.obj -MF CMakeFiles/LCD.dir/LVGL/src/widgets/lv_textarea.c.obj.d -o CMakeFiles/LCD.dir/LVGL/src/widgets/lv_textarea.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/widgets/lv_textarea.c
 
 CMakeFiles/LCD.dir/LVGL/src/widgets/lv_textarea.c.i: cmake_force
@@ -3106,47 +2938,215 @@ CMakeFiles/LCD.dir/LVGL/src/widgets/lv_textarea.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LCD.dir/LVGL/src/widgets/lv_textarea.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/widgets/lv_textarea.c -o CMakeFiles/LCD.dir/LVGL/src/widgets/lv_textarea.c.s
 
-CMakeFiles/LCD.dir/LVGL/examples/porting/lv_port_disp.c.obj: CMakeFiles/LCD.dir/flags.make
-CMakeFiles/LCD.dir/LVGL/examples/porting/lv_port_disp.c.obj: ../LVGL/examples/porting/lv_port_disp.c
-CMakeFiles/LCD.dir/LVGL/examples/porting/lv_port_disp.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_218) "Building C object CMakeFiles/LCD.dir/LVGL/examples/porting/lv_port_disp.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/examples/porting/lv_port_disp.c.obj -MF CMakeFiles/LCD.dir/LVGL/examples/porting/lv_port_disp.c.obj.d -o CMakeFiles/LCD.dir/LVGL/examples/porting/lv_port_disp.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/examples/porting/lv_port_disp.c
+CMakeFiles/LCD.dir/LVGL/porting/lv_port_disp.c.obj: CMakeFiles/LCD.dir/flags.make
+CMakeFiles/LCD.dir/LVGL/porting/lv_port_disp.c.obj: ../LVGL/porting/lv_port_disp.c
+CMakeFiles/LCD.dir/LVGL/porting/lv_port_disp.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_206) "Building C object CMakeFiles/LCD.dir/LVGL/porting/lv_port_disp.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/porting/lv_port_disp.c.obj -MF CMakeFiles/LCD.dir/LVGL/porting/lv_port_disp.c.obj.d -o CMakeFiles/LCD.dir/LVGL/porting/lv_port_disp.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/porting/lv_port_disp.c
 
-CMakeFiles/LCD.dir/LVGL/examples/porting/lv_port_disp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LCD.dir/LVGL/examples/porting/lv_port_disp.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/examples/porting/lv_port_disp.c > CMakeFiles/LCD.dir/LVGL/examples/porting/lv_port_disp.c.i
+CMakeFiles/LCD.dir/LVGL/porting/lv_port_disp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LCD.dir/LVGL/porting/lv_port_disp.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/porting/lv_port_disp.c > CMakeFiles/LCD.dir/LVGL/porting/lv_port_disp.c.i
 
-CMakeFiles/LCD.dir/LVGL/examples/porting/lv_port_disp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LCD.dir/LVGL/examples/porting/lv_port_disp.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/examples/porting/lv_port_disp.c -o CMakeFiles/LCD.dir/LVGL/examples/porting/lv_port_disp.c.s
+CMakeFiles/LCD.dir/LVGL/porting/lv_port_disp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LCD.dir/LVGL/porting/lv_port_disp.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/porting/lv_port_disp.c -o CMakeFiles/LCD.dir/LVGL/porting/lv_port_disp.c.s
 
-CMakeFiles/LCD.dir/LVGL/examples/porting/lv_port_fs.c.obj: CMakeFiles/LCD.dir/flags.make
-CMakeFiles/LCD.dir/LVGL/examples/porting/lv_port_fs.c.obj: ../LVGL/examples/porting/lv_port_fs.c
-CMakeFiles/LCD.dir/LVGL/examples/porting/lv_port_fs.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_219) "Building C object CMakeFiles/LCD.dir/LVGL/examples/porting/lv_port_fs.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/examples/porting/lv_port_fs.c.obj -MF CMakeFiles/LCD.dir/LVGL/examples/porting/lv_port_fs.c.obj.d -o CMakeFiles/LCD.dir/LVGL/examples/porting/lv_port_fs.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/examples/porting/lv_port_fs.c
+CMakeFiles/LCD.dir/LVGL/porting/lv_port_indev.c.obj: CMakeFiles/LCD.dir/flags.make
+CMakeFiles/LCD.dir/LVGL/porting/lv_port_indev.c.obj: ../LVGL/porting/lv_port_indev.c
+CMakeFiles/LCD.dir/LVGL/porting/lv_port_indev.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_207) "Building C object CMakeFiles/LCD.dir/LVGL/porting/lv_port_indev.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/porting/lv_port_indev.c.obj -MF CMakeFiles/LCD.dir/LVGL/porting/lv_port_indev.c.obj.d -o CMakeFiles/LCD.dir/LVGL/porting/lv_port_indev.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/porting/lv_port_indev.c
 
-CMakeFiles/LCD.dir/LVGL/examples/porting/lv_port_fs.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LCD.dir/LVGL/examples/porting/lv_port_fs.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/examples/porting/lv_port_fs.c > CMakeFiles/LCD.dir/LVGL/examples/porting/lv_port_fs.c.i
+CMakeFiles/LCD.dir/LVGL/porting/lv_port_indev.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LCD.dir/LVGL/porting/lv_port_indev.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/porting/lv_port_indev.c > CMakeFiles/LCD.dir/LVGL/porting/lv_port_indev.c.i
 
-CMakeFiles/LCD.dir/LVGL/examples/porting/lv_port_fs.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LCD.dir/LVGL/examples/porting/lv_port_fs.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/examples/porting/lv_port_fs.c -o CMakeFiles/LCD.dir/LVGL/examples/porting/lv_port_fs.c.s
+CMakeFiles/LCD.dir/LVGL/porting/lv_port_indev.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LCD.dir/LVGL/porting/lv_port_indev.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/porting/lv_port_indev.c -o CMakeFiles/LCD.dir/LVGL/porting/lv_port_indev.c.s
 
-CMakeFiles/LCD.dir/LVGL/examples/porting/lv_port_indev.c.obj: CMakeFiles/LCD.dir/flags.make
-CMakeFiles/LCD.dir/LVGL/examples/porting/lv_port_indev.c.obj: ../LVGL/examples/porting/lv_port_indev.c
-CMakeFiles/LCD.dir/LVGL/examples/porting/lv_port_indev.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_220) "Building C object CMakeFiles/LCD.dir/LVGL/examples/porting/lv_port_indev.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/examples/porting/lv_port_indev.c.obj -MF CMakeFiles/LCD.dir/LVGL/examples/porting/lv_port_indev.c.obj.d -o CMakeFiles/LCD.dir/LVGL/examples/porting/lv_port_indev.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/examples/porting/lv_port_indev.c
+CMakeFiles/LCD.dir/LVGL/porting/lv_port_fs.c.obj: CMakeFiles/LCD.dir/flags.make
+CMakeFiles/LCD.dir/LVGL/porting/lv_port_fs.c.obj: ../LVGL/porting/lv_port_fs.c
+CMakeFiles/LCD.dir/LVGL/porting/lv_port_fs.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_208) "Building C object CMakeFiles/LCD.dir/LVGL/porting/lv_port_fs.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LVGL/porting/lv_port_fs.c.obj -MF CMakeFiles/LCD.dir/LVGL/porting/lv_port_fs.c.obj.d -o CMakeFiles/LCD.dir/LVGL/porting/lv_port_fs.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/porting/lv_port_fs.c
 
-CMakeFiles/LCD.dir/LVGL/examples/porting/lv_port_indev.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LCD.dir/LVGL/examples/porting/lv_port_indev.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/examples/porting/lv_port_indev.c > CMakeFiles/LCD.dir/LVGL/examples/porting/lv_port_indev.c.i
+CMakeFiles/LCD.dir/LVGL/porting/lv_port_fs.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LCD.dir/LVGL/porting/lv_port_fs.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/porting/lv_port_fs.c > CMakeFiles/LCD.dir/LVGL/porting/lv_port_fs.c.i
 
-CMakeFiles/LCD.dir/LVGL/examples/porting/lv_port_indev.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LCD.dir/LVGL/examples/porting/lv_port_indev.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/examples/porting/lv_port_indev.c -o CMakeFiles/LCD.dir/LVGL/examples/porting/lv_port_indev.c.s
+CMakeFiles/LCD.dir/LVGL/porting/lv_port_fs.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LCD.dir/LVGL/porting/lv_port_fs.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/porting/lv_port_fs.c -o CMakeFiles/LCD.dir/LVGL/porting/lv_port_fs.c.s
+
+CMakeFiles/LCD.dir/Handware/FFT.c.obj: CMakeFiles/LCD.dir/flags.make
+CMakeFiles/LCD.dir/Handware/FFT.c.obj: ../Handware/FFT.c
+CMakeFiles/LCD.dir/Handware/FFT.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_209) "Building C object CMakeFiles/LCD.dir/Handware/FFT.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/Handware/FFT.c.obj -MF CMakeFiles/LCD.dir/Handware/FFT.c.obj.d -o CMakeFiles/LCD.dir/Handware/FFT.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/FFT.c
+
+CMakeFiles/LCD.dir/Handware/FFT.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LCD.dir/Handware/FFT.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/FFT.c > CMakeFiles/LCD.dir/Handware/FFT.c.i
+
+CMakeFiles/LCD.dir/Handware/FFT.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LCD.dir/Handware/FFT.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/FFT.c -o CMakeFiles/LCD.dir/Handware/FFT.c.s
+
+CMakeFiles/LCD.dir/Handware/Key.c.obj: CMakeFiles/LCD.dir/flags.make
+CMakeFiles/LCD.dir/Handware/Key.c.obj: ../Handware/Key.c
+CMakeFiles/LCD.dir/Handware/Key.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_210) "Building C object CMakeFiles/LCD.dir/Handware/Key.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/Handware/Key.c.obj -MF CMakeFiles/LCD.dir/Handware/Key.c.obj.d -o CMakeFiles/LCD.dir/Handware/Key.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/Key.c
+
+CMakeFiles/LCD.dir/Handware/Key.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LCD.dir/Handware/Key.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/Key.c > CMakeFiles/LCD.dir/Handware/Key.c.i
+
+CMakeFiles/LCD.dir/Handware/Key.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LCD.dir/Handware/Key.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/Key.c -o CMakeFiles/LCD.dir/Handware/Key.c.s
+
+CMakeFiles/LCD.dir/Handware/LoRa.c.obj: CMakeFiles/LCD.dir/flags.make
+CMakeFiles/LCD.dir/Handware/LoRa.c.obj: ../Handware/LoRa.c
+CMakeFiles/LCD.dir/Handware/LoRa.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_211) "Building C object CMakeFiles/LCD.dir/Handware/LoRa.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/Handware/LoRa.c.obj -MF CMakeFiles/LCD.dir/Handware/LoRa.c.obj.d -o CMakeFiles/LCD.dir/Handware/LoRa.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/LoRa.c
+
+CMakeFiles/LCD.dir/Handware/LoRa.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LCD.dir/Handware/LoRa.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/LoRa.c > CMakeFiles/LCD.dir/Handware/LoRa.c.i
+
+CMakeFiles/LCD.dir/Handware/LoRa.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LCD.dir/Handware/LoRa.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/LoRa.c -o CMakeFiles/LCD.dir/Handware/LoRa.c.s
+
+CMakeFiles/LCD.dir/Handware/effect.c.obj: CMakeFiles/LCD.dir/flags.make
+CMakeFiles/LCD.dir/Handware/effect.c.obj: ../Handware/effect.c
+CMakeFiles/LCD.dir/Handware/effect.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_212) "Building C object CMakeFiles/LCD.dir/Handware/effect.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/Handware/effect.c.obj -MF CMakeFiles/LCD.dir/Handware/effect.c.obj.d -o CMakeFiles/LCD.dir/Handware/effect.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/effect.c
+
+CMakeFiles/LCD.dir/Handware/effect.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LCD.dir/Handware/effect.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/effect.c > CMakeFiles/LCD.dir/Handware/effect.c.i
+
+CMakeFiles/LCD.dir/Handware/effect.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LCD.dir/Handware/effect.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/effect.c -o CMakeFiles/LCD.dir/Handware/effect.c.s
+
+CMakeFiles/LCD.dir/Handware/encoder.c.obj: CMakeFiles/LCD.dir/flags.make
+CMakeFiles/LCD.dir/Handware/encoder.c.obj: ../Handware/encoder.c
+CMakeFiles/LCD.dir/Handware/encoder.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_213) "Building C object CMakeFiles/LCD.dir/Handware/encoder.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/Handware/encoder.c.obj -MF CMakeFiles/LCD.dir/Handware/encoder.c.obj.d -o CMakeFiles/LCD.dir/Handware/encoder.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/encoder.c
+
+CMakeFiles/LCD.dir/Handware/encoder.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LCD.dir/Handware/encoder.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/encoder.c > CMakeFiles/LCD.dir/Handware/encoder.c.i
+
+CMakeFiles/LCD.dir/Handware/encoder.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LCD.dir/Handware/encoder.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/encoder.c -o CMakeFiles/LCD.dir/Handware/encoder.c.s
+
+CMakeFiles/LCD.dir/Handware/event.c.obj: CMakeFiles/LCD.dir/flags.make
+CMakeFiles/LCD.dir/Handware/event.c.obj: ../Handware/event.c
+CMakeFiles/LCD.dir/Handware/event.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_214) "Building C object CMakeFiles/LCD.dir/Handware/event.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/Handware/event.c.obj -MF CMakeFiles/LCD.dir/Handware/event.c.obj.d -o CMakeFiles/LCD.dir/Handware/event.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/event.c
+
+CMakeFiles/LCD.dir/Handware/event.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LCD.dir/Handware/event.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/event.c > CMakeFiles/LCD.dir/Handware/event.c.i
+
+CMakeFiles/LCD.dir/Handware/event.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LCD.dir/Handware/event.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/event.c -o CMakeFiles/LCD.dir/Handware/event.c.s
+
+CMakeFiles/LCD.dir/Handware/lv_font_external.c.obj: CMakeFiles/LCD.dir/flags.make
+CMakeFiles/LCD.dir/Handware/lv_font_external.c.obj: ../Handware/lv_font_external.c
+CMakeFiles/LCD.dir/Handware/lv_font_external.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_215) "Building C object CMakeFiles/LCD.dir/Handware/lv_font_external.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/Handware/lv_font_external.c.obj -MF CMakeFiles/LCD.dir/Handware/lv_font_external.c.obj.d -o CMakeFiles/LCD.dir/Handware/lv_font_external.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/lv_font_external.c
+
+CMakeFiles/LCD.dir/Handware/lv_font_external.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LCD.dir/Handware/lv_font_external.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/lv_font_external.c > CMakeFiles/LCD.dir/Handware/lv_font_external.c.i
+
+CMakeFiles/LCD.dir/Handware/lv_font_external.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LCD.dir/Handware/lv_font_external.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/lv_font_external.c -o CMakeFiles/LCD.dir/Handware/lv_font_external.c.s
+
+CMakeFiles/LCD.dir/Handware/lv_port_fs_w25q.c.obj: CMakeFiles/LCD.dir/flags.make
+CMakeFiles/LCD.dir/Handware/lv_port_fs_w25q.c.obj: ../Handware/lv_port_fs_w25q.c
+CMakeFiles/LCD.dir/Handware/lv_port_fs_w25q.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_216) "Building C object CMakeFiles/LCD.dir/Handware/lv_port_fs_w25q.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/Handware/lv_port_fs_w25q.c.obj -MF CMakeFiles/LCD.dir/Handware/lv_port_fs_w25q.c.obj.d -o CMakeFiles/LCD.dir/Handware/lv_port_fs_w25q.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/lv_port_fs_w25q.c
+
+CMakeFiles/LCD.dir/Handware/lv_port_fs_w25q.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LCD.dir/Handware/lv_port_fs_w25q.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/lv_port_fs_w25q.c > CMakeFiles/LCD.dir/Handware/lv_port_fs_w25q.c.i
+
+CMakeFiles/LCD.dir/Handware/lv_port_fs_w25q.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LCD.dir/Handware/lv_port_fs_w25q.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/lv_port_fs_w25q.c -o CMakeFiles/LCD.dir/Handware/lv_port_fs_w25q.c.s
+
+CMakeFiles/LCD.dir/Handware/menu_system.c.obj: CMakeFiles/LCD.dir/flags.make
+CMakeFiles/LCD.dir/Handware/menu_system.c.obj: ../Handware/menu_system.c
+CMakeFiles/LCD.dir/Handware/menu_system.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_217) "Building C object CMakeFiles/LCD.dir/Handware/menu_system.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/Handware/menu_system.c.obj -MF CMakeFiles/LCD.dir/Handware/menu_system.c.obj.d -o CMakeFiles/LCD.dir/Handware/menu_system.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/menu_system.c
+
+CMakeFiles/LCD.dir/Handware/menu_system.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LCD.dir/Handware/menu_system.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/menu_system.c > CMakeFiles/LCD.dir/Handware/menu_system.c.i
+
+CMakeFiles/LCD.dir/Handware/menu_system.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LCD.dir/Handware/menu_system.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/menu_system.c -o CMakeFiles/LCD.dir/Handware/menu_system.c.s
+
+CMakeFiles/LCD.dir/Handware/spi_flash.c.obj: CMakeFiles/LCD.dir/flags.make
+CMakeFiles/LCD.dir/Handware/spi_flash.c.obj: ../Handware/spi_flash.c
+CMakeFiles/LCD.dir/Handware/spi_flash.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_218) "Building C object CMakeFiles/LCD.dir/Handware/spi_flash.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/Handware/spi_flash.c.obj -MF CMakeFiles/LCD.dir/Handware/spi_flash.c.obj.d -o CMakeFiles/LCD.dir/Handware/spi_flash.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/spi_flash.c
+
+CMakeFiles/LCD.dir/Handware/spi_flash.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LCD.dir/Handware/spi_flash.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/spi_flash.c > CMakeFiles/LCD.dir/Handware/spi_flash.c.i
+
+CMakeFiles/LCD.dir/Handware/spi_flash.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LCD.dir/Handware/spi_flash.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/spi_flash.c -o CMakeFiles/LCD.dir/Handware/spi_flash.c.s
+
+CMakeFiles/LCD.dir/LCD/LCD.c.obj: CMakeFiles/LCD.dir/flags.make
+CMakeFiles/LCD.dir/LCD/LCD.c.obj: ../LCD/LCD.c
+CMakeFiles/LCD.dir/LCD/LCD.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_219) "Building C object CMakeFiles/LCD.dir/LCD/LCD.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LCD/LCD.c.obj -MF CMakeFiles/LCD.dir/LCD/LCD.c.obj.d -o CMakeFiles/LCD.dir/LCD/LCD.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LCD/LCD.c
+
+CMakeFiles/LCD.dir/LCD/LCD.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LCD.dir/LCD/LCD.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/tmp.I5nRtdLoE0/10Khz_Git/LCD/LCD.c > CMakeFiles/LCD.dir/LCD/LCD.c.i
+
+CMakeFiles/LCD.dir/LCD/LCD.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LCD.dir/LCD/LCD.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/tmp.I5nRtdLoE0/10Khz_Git/LCD/LCD.c -o CMakeFiles/LCD.dir/LCD/LCD.c.s
+
+CMakeFiles/LCD.dir/LCD/ft6336.c.obj: CMakeFiles/LCD.dir/flags.make
+CMakeFiles/LCD.dir/LCD/ft6336.c.obj: ../LCD/ft6336.c
+CMakeFiles/LCD.dir/LCD/ft6336.c.obj: CMakeFiles/LCD.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_220) "Building C object CMakeFiles/LCD.dir/LCD/ft6336.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LCD.dir/LCD/ft6336.c.obj -MF CMakeFiles/LCD.dir/LCD/ft6336.c.obj.d -o CMakeFiles/LCD.dir/LCD/ft6336.c.obj -c /tmp/tmp.I5nRtdLoE0/10Khz_Git/LCD/ft6336.c
+
+CMakeFiles/LCD.dir/LCD/ft6336.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LCD.dir/LCD/ft6336.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tmp/tmp.I5nRtdLoE0/10Khz_Git/LCD/ft6336.c > CMakeFiles/LCD.dir/LCD/ft6336.c.i
+
+CMakeFiles/LCD.dir/LCD/ft6336.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LCD.dir/LCD/ft6336.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tmp/tmp.I5nRtdLoE0/10Khz_Git/LCD/ft6336.c -o CMakeFiles/LCD.dir/LCD/ft6336.c.s
 
 # Object files for target LCD
 LCD_OBJECTS = \
@@ -3163,18 +3163,6 @@ LCD_OBJECTS = \
 "CMakeFiles/LCD.dir/Core/Src/sysmem.c.obj" \
 "CMakeFiles/LCD.dir/Core/Src/syscalls.c.obj" \
 "CMakeFiles/LCD.dir/startup_stm32f407xx.s.obj" \
-"CMakeFiles/LCD.dir/Handware/FFT.c.obj" \
-"CMakeFiles/LCD.dir/Handware/Key.c.obj" \
-"CMakeFiles/LCD.dir/Handware/LoRa.c.obj" \
-"CMakeFiles/LCD.dir/Handware/effect.c.obj" \
-"CMakeFiles/LCD.dir/Handware/encoder.c.obj" \
-"CMakeFiles/LCD.dir/Handware/event.c.obj" \
-"CMakeFiles/LCD.dir/Handware/lv_font_external.c.obj" \
-"CMakeFiles/LCD.dir/Handware/lv_port_fs_w25q.c.obj" \
-"CMakeFiles/LCD.dir/Handware/menu_system.c.obj" \
-"CMakeFiles/LCD.dir/Handware/spi_flash.c.obj" \
-"CMakeFiles/LCD.dir/LCD/LCD.c.obj" \
-"CMakeFiles/LCD.dir/LCD/ft6336.c.obj" \
 "CMakeFiles/LCD.dir/LVGL/src/core/lv_disp.c.obj" \
 "CMakeFiles/LCD.dir/LVGL/src/core/lv_event.c.obj" \
 "CMakeFiles/LCD.dir/LVGL/src/core/lv_group.c.obj" \
@@ -3367,9 +3355,21 @@ LCD_OBJECTS = \
 "CMakeFiles/LCD.dir/LVGL/src/widgets/lv_switch.c.obj" \
 "CMakeFiles/LCD.dir/LVGL/src/widgets/lv_table.c.obj" \
 "CMakeFiles/LCD.dir/LVGL/src/widgets/lv_textarea.c.obj" \
-"CMakeFiles/LCD.dir/LVGL/examples/porting/lv_port_disp.c.obj" \
-"CMakeFiles/LCD.dir/LVGL/examples/porting/lv_port_fs.c.obj" \
-"CMakeFiles/LCD.dir/LVGL/examples/porting/lv_port_indev.c.obj"
+"CMakeFiles/LCD.dir/LVGL/porting/lv_port_disp.c.obj" \
+"CMakeFiles/LCD.dir/LVGL/porting/lv_port_indev.c.obj" \
+"CMakeFiles/LCD.dir/LVGL/porting/lv_port_fs.c.obj" \
+"CMakeFiles/LCD.dir/Handware/FFT.c.obj" \
+"CMakeFiles/LCD.dir/Handware/Key.c.obj" \
+"CMakeFiles/LCD.dir/Handware/LoRa.c.obj" \
+"CMakeFiles/LCD.dir/Handware/effect.c.obj" \
+"CMakeFiles/LCD.dir/Handware/encoder.c.obj" \
+"CMakeFiles/LCD.dir/Handware/event.c.obj" \
+"CMakeFiles/LCD.dir/Handware/lv_font_external.c.obj" \
+"CMakeFiles/LCD.dir/Handware/lv_port_fs_w25q.c.obj" \
+"CMakeFiles/LCD.dir/Handware/menu_system.c.obj" \
+"CMakeFiles/LCD.dir/Handware/spi_flash.c.obj" \
+"CMakeFiles/LCD.dir/LCD/LCD.c.obj" \
+"CMakeFiles/LCD.dir/LCD/ft6336.c.obj"
 
 # External object files for target LCD
 LCD_EXTERNAL_OBJECTS = \
@@ -3410,18 +3410,6 @@ LCD.elf: CMakeFiles/LCD.dir/Core/Src/stm32f4xx_hal_msp.c.obj
 LCD.elf: CMakeFiles/LCD.dir/Core/Src/sysmem.c.obj
 LCD.elf: CMakeFiles/LCD.dir/Core/Src/syscalls.c.obj
 LCD.elf: CMakeFiles/LCD.dir/startup_stm32f407xx.s.obj
-LCD.elf: CMakeFiles/LCD.dir/Handware/FFT.c.obj
-LCD.elf: CMakeFiles/LCD.dir/Handware/Key.c.obj
-LCD.elf: CMakeFiles/LCD.dir/Handware/LoRa.c.obj
-LCD.elf: CMakeFiles/LCD.dir/Handware/effect.c.obj
-LCD.elf: CMakeFiles/LCD.dir/Handware/encoder.c.obj
-LCD.elf: CMakeFiles/LCD.dir/Handware/event.c.obj
-LCD.elf: CMakeFiles/LCD.dir/Handware/lv_font_external.c.obj
-LCD.elf: CMakeFiles/LCD.dir/Handware/lv_port_fs_w25q.c.obj
-LCD.elf: CMakeFiles/LCD.dir/Handware/menu_system.c.obj
-LCD.elf: CMakeFiles/LCD.dir/Handware/spi_flash.c.obj
-LCD.elf: CMakeFiles/LCD.dir/LCD/LCD.c.obj
-LCD.elf: CMakeFiles/LCD.dir/LCD/ft6336.c.obj
 LCD.elf: CMakeFiles/LCD.dir/LVGL/src/core/lv_disp.c.obj
 LCD.elf: CMakeFiles/LCD.dir/LVGL/src/core/lv_event.c.obj
 LCD.elf: CMakeFiles/LCD.dir/LVGL/src/core/lv_group.c.obj
@@ -3614,9 +3602,21 @@ LCD.elf: CMakeFiles/LCD.dir/LVGL/src/widgets/lv_slider.c.obj
 LCD.elf: CMakeFiles/LCD.dir/LVGL/src/widgets/lv_switch.c.obj
 LCD.elf: CMakeFiles/LCD.dir/LVGL/src/widgets/lv_table.c.obj
 LCD.elf: CMakeFiles/LCD.dir/LVGL/src/widgets/lv_textarea.c.obj
-LCD.elf: CMakeFiles/LCD.dir/LVGL/examples/porting/lv_port_disp.c.obj
-LCD.elf: CMakeFiles/LCD.dir/LVGL/examples/porting/lv_port_fs.c.obj
-LCD.elf: CMakeFiles/LCD.dir/LVGL/examples/porting/lv_port_indev.c.obj
+LCD.elf: CMakeFiles/LCD.dir/LVGL/porting/lv_port_disp.c.obj
+LCD.elf: CMakeFiles/LCD.dir/LVGL/porting/lv_port_indev.c.obj
+LCD.elf: CMakeFiles/LCD.dir/LVGL/porting/lv_port_fs.c.obj
+LCD.elf: CMakeFiles/LCD.dir/Handware/FFT.c.obj
+LCD.elf: CMakeFiles/LCD.dir/Handware/Key.c.obj
+LCD.elf: CMakeFiles/LCD.dir/Handware/LoRa.c.obj
+LCD.elf: CMakeFiles/LCD.dir/Handware/effect.c.obj
+LCD.elf: CMakeFiles/LCD.dir/Handware/encoder.c.obj
+LCD.elf: CMakeFiles/LCD.dir/Handware/event.c.obj
+LCD.elf: CMakeFiles/LCD.dir/Handware/lv_font_external.c.obj
+LCD.elf: CMakeFiles/LCD.dir/Handware/lv_port_fs_w25q.c.obj
+LCD.elf: CMakeFiles/LCD.dir/Handware/menu_system.c.obj
+LCD.elf: CMakeFiles/LCD.dir/Handware/spi_flash.c.obj
+LCD.elf: CMakeFiles/LCD.dir/LCD/LCD.c.obj
+LCD.elf: CMakeFiles/LCD.dir/LCD/ft6336.c.obj
 LCD.elf: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f4xx.c.obj
 LCD.elf: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
 LCD.elf: cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj
@@ -3644,6 +3644,10 @@ LCD.elf: CMakeFiles/LCD.dir/build.make
 LCD.elf: CMakeFiles/LCD.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_221) "Linking C executable LCD.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/LCD.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Auto-syncing ELF to local Windows and printing sizes..."
+	/usr/bin/cmake -E make_directory /tmp/tmp.I5nRtdLoE0/10Khz_Git/bin
+	/usr/bin/cmake -E copy /tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/LCD.elf /tmp/tmp.I5nRtdLoE0/10Khz_Git/bin/LCD.elf
+	arm-none-eabi-size /tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-/LCD.elf
 
 # Rule to build all files generated by this target.
 CMakeFiles/LCD.dir/build: LCD.elf

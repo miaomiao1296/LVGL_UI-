@@ -5,13 +5,13 @@
 # compile C with /usr/bin/arm-none-eabi-gcc
 ASM_DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
 
-ASM_INCLUDES = -I/tmp/tmp.I5nRtdLoE0/10Khz_Git/Core/Inc -I/tmp/tmp.I5nRtdLoE0/10Khz_Git/Drivers/STM32F4xx_HAL_Driver/Inc -I/tmp/tmp.I5nRtdLoE0/10Khz_Git/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I/tmp/tmp.I5nRtdLoE0/10Khz_Git/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I/tmp/tmp.I5nRtdLoE0/10Khz_Git/Drivers/CMSIS/Include -I/tmp/tmp.I5nRtdLoE0/10Khz_Git/Middlewares/ST/ARM/DSP/Inc -I/tmp/tmp.I5nRtdLoE0/10Khz_Git/LCD -I/tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL -I/tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/examples/porting -I/tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware
+ASM_INCLUDES = -I/tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL -I/tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src -I/tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/porting -I/tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/extra -I/tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware -I/tmp/tmp.I5nRtdLoE0/10Khz_Git/LCD -I/tmp/tmp.I5nRtdLoE0/10Khz_Git/Core/Inc -I/tmp/tmp.I5nRtdLoE0/10Khz_Git/Drivers/STM32F4xx_HAL_Driver/Inc -I/tmp/tmp.I5nRtdLoE0/10Khz_Git/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I/tmp/tmp.I5nRtdLoE0/10Khz_Git/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I/tmp/tmp.I5nRtdLoE0/10Khz_Git/Drivers/CMSIS/Include -I/tmp/tmp.I5nRtdLoE0/10Khz_Git/Middlewares/ST/ARM/DSP/Inc
 
 ASM_FLAGS =  -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -x assembler-with-cpp -MMD -MP -g
 
 C_DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
 
-C_INCLUDES = -I/tmp/tmp.I5nRtdLoE0/10Khz_Git/Core/Inc -I/tmp/tmp.I5nRtdLoE0/10Khz_Git/Drivers/STM32F4xx_HAL_Driver/Inc -I/tmp/tmp.I5nRtdLoE0/10Khz_Git/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I/tmp/tmp.I5nRtdLoE0/10Khz_Git/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I/tmp/tmp.I5nRtdLoE0/10Khz_Git/Drivers/CMSIS/Include -I/tmp/tmp.I5nRtdLoE0/10Khz_Git/Middlewares/ST/ARM/DSP/Inc -I/tmp/tmp.I5nRtdLoE0/10Khz_Git/LCD -I/tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL -I/tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/examples/porting -I/tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware
+C_INCLUDES = -I/tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL -I/tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src -I/tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/porting -I/tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/extra -I/tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware -I/tmp/tmp.I5nRtdLoE0/10Khz_Git/LCD -I/tmp/tmp.I5nRtdLoE0/10Khz_Git/Core/Inc -I/tmp/tmp.I5nRtdLoE0/10Khz_Git/Drivers/STM32F4xx_HAL_Driver/Inc -I/tmp/tmp.I5nRtdLoE0/10Khz_Git/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I/tmp/tmp.I5nRtdLoE0/10Khz_Git/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I/tmp/tmp.I5nRtdLoE0/10Khz_Git/Drivers/CMSIS/Include -I/tmp/tmp.I5nRtdLoE0/10Khz_Git/Middlewares/ST/ARM/DSP/Inc
 
 C_FLAGS =  -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11
 

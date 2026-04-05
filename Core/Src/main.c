@@ -372,7 +372,6 @@ int main(void)
 
    font_load ();
    UI_Init();
-    printf("EVT_KEY_LONG   1\r\n");
 	 
 
   /* USER CODE END 2 */
@@ -520,6 +519,7 @@ void HAL_SPI_TxCpltCallback(SPI_HandleTypeDef *hspi)
         }
     }
 }
+
 
 // DMA 传输完成回调（RX）
 void HAL_SPI_RxCpltCallback(SPI_HandleTypeDef *hspi)

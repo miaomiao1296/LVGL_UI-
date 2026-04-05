@@ -21,16 +21,18 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
 
 # The include file search paths:
 set(CMAKE_ASM_TARGET_INCLUDE_PATH
+  "../LVGL"
+  "../LVGL/src"
+  "../LVGL/porting"
+  "../LVGL/src/extra"
+  "../Handware"
+  "../LCD"
   "../Core/Inc"
   "../Drivers/STM32F4xx_HAL_Driver/Inc"
   "../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"
   "../Drivers/CMSIS/Device/ST/STM32F4xx/Include"
   "../Drivers/CMSIS/Include"
   "../Middlewares/ST/ARM/DSP/Inc"
-  "../LCD"
-  "../LVGL"
-  "../LVGL/examples/porting"
-  "../Handware"
   )
 
 # The set of dependency files which are needed:
@@ -59,9 +61,9 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/tmp/tmp.I5nRtdLoE0/10Khz_Git/Handware/spi_flash.c" "CMakeFiles/LCD.dir/Handware/spi_flash.c.obj" "gcc" "CMakeFiles/LCD.dir/Handware/spi_flash.c.obj.d"
   "/tmp/tmp.I5nRtdLoE0/10Khz_Git/LCD/LCD.c" "CMakeFiles/LCD.dir/LCD/LCD.c.obj" "gcc" "CMakeFiles/LCD.dir/LCD/LCD.c.obj.d"
   "/tmp/tmp.I5nRtdLoE0/10Khz_Git/LCD/ft6336.c" "CMakeFiles/LCD.dir/LCD/ft6336.c.obj" "gcc" "CMakeFiles/LCD.dir/LCD/ft6336.c.obj.d"
-  "/tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/examples/porting/lv_port_disp.c" "CMakeFiles/LCD.dir/LVGL/examples/porting/lv_port_disp.c.obj" "gcc" "CMakeFiles/LCD.dir/LVGL/examples/porting/lv_port_disp.c.obj.d"
-  "/tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/examples/porting/lv_port_fs.c" "CMakeFiles/LCD.dir/LVGL/examples/porting/lv_port_fs.c.obj" "gcc" "CMakeFiles/LCD.dir/LVGL/examples/porting/lv_port_fs.c.obj.d"
-  "/tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/examples/porting/lv_port_indev.c" "CMakeFiles/LCD.dir/LVGL/examples/porting/lv_port_indev.c.obj" "gcc" "CMakeFiles/LCD.dir/LVGL/examples/porting/lv_port_indev.c.obj.d"
+  "/tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/porting/lv_port_disp.c" "CMakeFiles/LCD.dir/LVGL/porting/lv_port_disp.c.obj" "gcc" "CMakeFiles/LCD.dir/LVGL/porting/lv_port_disp.c.obj.d"
+  "/tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/porting/lv_port_fs.c" "CMakeFiles/LCD.dir/LVGL/porting/lv_port_fs.c.obj" "gcc" "CMakeFiles/LCD.dir/LVGL/porting/lv_port_fs.c.obj.d"
+  "/tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/porting/lv_port_indev.c" "CMakeFiles/LCD.dir/LVGL/porting/lv_port_indev.c.obj" "gcc" "CMakeFiles/LCD.dir/LVGL/porting/lv_port_indev.c.obj.d"
   "/tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/core/lv_disp.c" "CMakeFiles/LCD.dir/LVGL/src/core/lv_disp.c.obj" "gcc" "CMakeFiles/LCD.dir/LVGL/src/core/lv_disp.c.obj.d"
   "/tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/core/lv_event.c" "CMakeFiles/LCD.dir/LVGL/src/core/lv_event.c.obj" "gcc" "CMakeFiles/LCD.dir/LVGL/src/core/lv_event.c.obj.d"
   "/tmp/tmp.I5nRtdLoE0/10Khz_Git/LVGL/src/core/lv_group.c" "CMakeFiles/LCD.dir/LVGL/src/core/lv_group.c.obj" "gcc" "CMakeFiles/LCD.dir/LVGL/src/core/lv_group.c.obj.d"
