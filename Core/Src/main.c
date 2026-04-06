@@ -18,6 +18,7 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "cmsis_os.h"
 #include "adc.h"
 #include "dma.h"
 #include "i2c.h"
@@ -71,7 +72,7 @@
 
 
 /* --- 架构常量定义 --- */
-#define CCM_TOTAL_SIZE      (64 * 1024)   // CCM 物理总大小 64KB
+#define CCM_TOTAL_SIZE      (62 * 1024)   // CCM 物理总大小 64KB
 #define CCM_SAFE_HEAD       512           // 头部安全区：避开向量表镜像/管理变量
 #define CCM_SAFE_TAIL       1024          // 尾部安全区：避开可能的系统栈/链接器标识
 
@@ -279,13 +280,12 @@ void custom_sys_monitor_init(void) {
 // 1. ADC 原始数据缓冲区 (1024个点，每个点2字节)
 uint16_t adc_buffer[SAMPLE_SIZE]; 
 
-// 2. 采样完成标志位 (必须加 volatile，因为在中断中修改)
-volatile uint8_t Flag = 0; 
-
+extern osSemaphoreId_t adcReadySemHandle;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);
+void MX_FREERTOS_Init(void);
 /* USER CODE BEGIN PFP */
 
 /* USER CODE END PFP */
@@ -376,6 +376,17 @@ int main(void)
 
   /* USER CODE END 2 */
 
+  /* Init scheduler */
+  osKernelInitialize();
+
+  /* Call init function for freertos objects (in cmsis_os2.c) */
+  MX_FREERTOS_Init();
+
+  /* Start scheduler */
+  osKernelStart();
+
+  /* We should never get here as control is now taken by the scheduler */
+
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
@@ -383,47 +394,7 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-	      // 检查硬件是否采满了 1024 个点
-    if (Flag == 1) {
-        // --- 核心计算环节 ---
-        // 直接处理刚刚采好的 adc_buffer
-        fft_module_execute(adc_buffer); 
-
-        // --- 善后工作 ---
-        Flag = 0; // 清除标志位
-		
-		  // 💡 架构师技巧：先 Stop 再 Start 是一种“复位”操作，
-    // 虽然多写了几行，但它能解决 99% 的硬件死锁问题。
-		HAL_ADC_Stop_DMA(&hadc3); 
-		HAL_ADC_Start_DMA(&hadc3, (uint32_t*)adc_buffer, SAMPLE_SIZE);
-        
-        // 重新启动定时器，开始下一轮“快照”采集
-        HAL_TIM_Base_Start(&htim3); 
-    }
-	  
-
-	  Key_Scan(); 
-	  Encoder_Scan();
-	  FT6336U_Task();    
-	
-	  
-	  
-	   Event_t evt;                     //Event Pump（事件泵）模型       Run-to-completion event loop
-        if (Event_Dequeue(&evt))
-        {
-            Menu_OnEvent(&evt);
-        }
-	  
-	  HAL_Delay(1-1);
-	  static uint8_t myLVGL=0;
-	  if(myLVGL++>5){	  
-	       lv_timer_handler() ;
-		  myLVGL=0;
-	  }
-	 
-	  
-	
-  }	  
+  }
   /* USER CODE END 3 */
 }
 
@@ -480,25 +451,7 @@ int fputc(int ch, FILE *f)   {
  return ch;
 }
 
-
-
-void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
-{
-    if (htim->Instance == TIM6) {
-		lv_tick_inc(1);  //1ms
-	
-		
-		static uint16_t i=0;
-		if(i++>=500){
-		 //printf("Tick\n");
-		i=0;	
-		}		
-    }
-}
-
-
-
- /* 引用我们在 lv_port_disp.c 里定义的全局指针 */
+/* 引用我们在 lv_port_disp.c 里定义的全局指针 */
 extern lv_disp_drv_t * disp_drv_ptr;
 
 
@@ -572,8 +525,11 @@ void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef* hadc) {
         HAL_TIM_Base_Stop(&htim3);
         
         // 2. 发出“数据就绪”信号
-        Flag = 1;         // 摇人！告诉主循环可以开始算 FFT 了
-    }            
+        if (adcReadySemHandle != NULL)
+        {
+            osSemaphoreRelease(adcReadySemHandle);
+        }
+    }
 }
 
 
@@ -587,11 +543,31 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)               //触摸屏
         ft6336_irq_flag =true;
     }
 }
-
-
-
-
 /* USER CODE END 4 */
+
+/**
+  * @brief  Period elapsed callback in non blocking mode
+  * @note   This function is called  when TIM7 interrupt took place, inside
+  * HAL_TIM_IRQHandler(). It makes a direct call to HAL_IncTick() to increment
+  * a global variable "uwTick" used as application time base.
+  * @param  htim : TIM handle
+  * @retval None
+  */
+void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
+{
+  /* USER CODE BEGIN Callback 0 */
+  if (htim->Instance == TIM6) {
+      lv_tick_inc(1);  //1ms LVGL心跳
+  }
+  /* USER CODE END Callback 0 */
+  if (htim->Instance == TIM7)
+  {
+    HAL_IncTick();
+  }
+  /* USER CODE BEGIN Callback 1 */
+
+  /* USER CODE END Callback 1 */
+}
 
 /**
   * @brief  This function is executed in case of error occurrence.
