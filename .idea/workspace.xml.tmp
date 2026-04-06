@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BackendCodeEditorMiscSettings">
+    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
+    <option name="/Default/Housekeeping/GlobalSettingsUpgraded/IsUpgraded/@EntryValue" value="true" type="bool" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeProjectFlavorService">
+    <option name="flavorId" value="CMakePlainProjectFlavor" />
+  </component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="LCD" targetName="LCD" />
+      <config projectName="LCD" targetName="STM32_Drivers" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug-远程主机" ENABLED="true" CONFIG_NAME="Debug" TOOLCHAIN_NAME="远程主机" GENERATION_OPTIONS="-DCMAKE_BUILD_TYPE=Debug" />
+      <configuration PROFILE_NAME="Debug" ENABLED="false" FROM_PRESET="true" GENERATION_DIR="$PROJECT_DIR$/build/Debug" />
+      <configuration PROFILE_NAME="RelWithDebInfo" ENABLED="false" FROM_PRESET="true" GENERATION_DIR="$PROJECT_DIR$/build/RelWithDebInfo" />
+      <configuration PROFILE_NAME="Release" ENABLED="false" FROM_PRESET="true" GENERATION_DIR="$PROJECT_DIR$/build/Release" />
+      <configuration PROFILE_NAME="MinSizeRel" ENABLED="false" FROM_PRESET="true" GENERATION_DIR="$PROJECT_DIR$/build/MinSizeRel" />
+      <configuration PROFILE_NAME="Debug - Debug" ENABLED="false" FROM_PRESET="true" GENERATION_DIR="$PROJECT_DIR$/build/Debug" />
+      <configuration PROFILE_NAME="RelWithDebInfo - RelWithDebInfo" ENABLED="false" FROM_PRESET="true" GENERATION_DIR="$PROJECT_DIR$/build/RelWithDebInfo" />
+      <configuration PROFILE_NAME="Release - Release" ENABLED="false" FROM_PRESET="true" GENERATION_DIR="$PROJECT_DIR$/build/Release" />
+      <configuration PROFILE_NAME="MinSizeRel - MinSizeRel" ENABLED="false" FROM_PRESET="true" GENERATION_DIR="$PROJECT_DIR$/build/MinSizeRel" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7bb019f6-15bd-4a99-831a-3d0b71fbb134" name="更改" comment="无敌">
+      <change beforePath="$PROJECT_DIR$/.idea/10Khz_Git.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/10Khz_Git.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/copilotDiffState.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copilotDiffState.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/OCD_LCD.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/OCD_LCD.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Handware/FFT.c" beforeDir="false" afterPath="$PROJECT_DIR$/Handware/FFT.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Handware/menu_system.c" beforeDir="false" afterPath="$PROJECT_DIR$/Handware/menu_system.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/LCD.elf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/.cmake/api/v1/reply/cache-v2-38db9e04b587948d4ade.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/.cmake/api/v1/reply/cache-v2-a933c7afad3d0b233d0e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/.cmake/api/v1/reply/codemodel-v2-15771d590cb4882158c9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/.cmake/api/v1/reply/codemodel-v2-4c485d485263cbaa7b0a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/.cmake/api/v1/reply/codemodel-v2-727114715c01835ae8a5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/.cmake/api/v1/reply/codemodel-v2-7717bca5820c8f228401.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/.cmake/api/v1/reply/codemodel-v2-d3664780ecf5256db8a5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/.cmake/api/v1/reply/index-2026-02-26T14-05-08-0437.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/.cmake/api/v1/reply/index-2026-03-02T14-31-36-0746.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/.cmake/api/v1/reply/index-2026-03-02T14-34-00-0522.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/.cmake/api/v1/reply/index-2026-03-02T15-18-34-0959.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/.cmake/api/v1/reply/index-2026-03-02T15-46-19-0869.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/.cmake/api/v1/reply/index-2026-03-02T15-59-16-0472.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/.cmake/api/v1/reply/index-2026-03-02T16-01-59-0189.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/.cmake/api/v1/reply/index-2026-03-31T05-42-26-0971.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/.cmake/api/v1/reply/index-2026-03-31T13-37-45-0627.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/.cmake/api/v1/reply/index-2026-03-31T14-15-31-0859.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/.cmake/api/v1/reply/index-2026-04-01T08-22-45-0215.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/.cmake/api/v1/reply/index-2026-04-01T08-56-26-0456.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/.cmake/api/v1/reply/index-2026-04-01T09-05-52-0027.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/.cmake/api/v1/reply/index-2026-04-01T09-16-23-0872.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/.cmake/api/v1/reply/index-2026-04-01T09-33-05-0837.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/.cmake/api/v1/reply/index-2026-04-01T09-33-12-0984.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/.cmake/api/v1/reply/index-2026-04-01T11-27-23-0631.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/.cmake/api/v1/reply/target-LCD-Debug-737eb5876f6db749ae3b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/.cmake/api/v1/reply/target-LCD-Debug-97fa904d913997fa4b4e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/.cmake/api/v1/reply/target-LCD-Debug-d4b448719bd74722655f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/.cmake/api/v1/reply/target-LCD-Debug-d7c9e5fab07ad45039aa.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/.cmake/api/v1/reply/target-Project_Structure_Visibility-Debug-30908a00330388ea31f9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/.cmake/api/v1/reply/target-STM32_Drivers-Debug-171bd934f0362204cbf8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/.cmake/api/v1/reply/target-STM32_Drivers-Debug-b6df2df10a1c18eed955.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/3.22.1/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/3.22.1/CMakeSystem.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/Core/Src/adc.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/Core/Src/dma.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/Core/Src/gpio.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/Core/Src/i2c.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/Core/Src/main.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/Core/Src/spi.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/Core/Src/stm32f4xx_hal_msp.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/Core/Src/stm32f4xx_it.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/Core/Src/syscalls.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/Core/Src/sysmem.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/Core/Src/tim.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/Core/Src/usart.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/Handware/FFT.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/Handware/Key.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/Handware/LoRa.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/Handware/effect.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/Handware/encoder.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/Handware/event.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/Handware/lv_font_external.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/Handware/lv_port_fs_w25q.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/Handware/menu_system.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/Handware/spi_flash.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/LCD/LCD.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/LCD/ft6336.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/LVGL/examples/porting/lv_port_disp.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/LVGL/examples/porting/lv_port_indev.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/LVGL/src/core/lv_disp.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/LVGL/src/core/lv_event.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/LVGL/src/core/lv_group.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/LVGL/src/core/lv_indev.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/LVGL/src/core/lv_indev_scroll.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/LVGL/src/core/lv_obj.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/LVGL/src/core/lv_obj_class.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/LVGL/src/core/lv_obj_draw.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/LVGL/src/core/lv_obj_pos.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/LVGL/src/core/lv_obj_scroll.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/LVGL/src/core/lv_obj_style.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/LVGL/src/core/lv_obj_style_gen.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/LVGL/src/core/lv_obj_tree.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/LVGL/src/core/lv_refr.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/LVGL/src/core/lv_theme.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_arc.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_img.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_label.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_layer.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_line.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_mask.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_rect.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_transform.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/LVGL/src/draw/lv_draw_triangle.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/LVGL/src/draw/lv_img_buf.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/LVGL/src/draw/lv_img_cache.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/LVGL/src/draw/lv_img_decoder.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_arc.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_blend.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_gradient.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_img.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_layer.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_letter.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_line.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_polygon.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_rect.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/LVGL/src/draw/sw/lv_draw_sw_transform.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/LVGL/src/extra/layouts/flex/lv_flex.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/LVGL/src/extra/layouts/grid/lv_grid.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/LVGL/src/extra/libs/qrcode/qrcodegen.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/LVGL/src/extra/lv_extra.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/LVGL/src/extra/themes/default/lv_theme_default.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/LVGL/src/extra/widgets/animimg/lv_animimg.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/LVGL/src/extra/widgets/chart/lv_chart.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/LVGL/src/extra/widgets/list/lv_list.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/LVGL/src/font/lv_font.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/LVGL/src/font/lv_font_fmt_txt.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/LVGL/src/font/lv_font_loader.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/LVGL/src/hal/lv_hal_disp.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/LVGL/src/hal/lv_hal_indev.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/LVGL/src/hal/lv_hal_tick.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/LVGL/src/misc/lv_anim.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/LVGL/src/misc/lv_anim_timeline.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/LVGL/src/misc/lv_area.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/LVGL/src/misc/lv_async.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/LVGL/src/misc/lv_color.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/LVGL/src/misc/lv_fs.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/LVGL/src/misc/lv_gc.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/LVGL/src/misc/lv_ll.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/LVGL/src/misc/lv_lru.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/LVGL/src/misc/lv_math.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/LVGL/src/misc/lv_mem.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/LVGL/src/misc/lv_printf.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/LVGL/src/misc/lv_style.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/LVGL/src/misc/lv_style_gen.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/LVGL/src/misc/lv_timer.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/LVGL/src/misc/lv_tlsf.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/LVGL/src/misc/lv_txt.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/LVGL/src/misc/lv_utils.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/LVGL/src/widgets/lv_bar.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/LVGL/src/widgets/lv_btn.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/LVGL/src/widgets/lv_canvas.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/LVGL/src/widgets/lv_img.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/LVGL/src/widgets/lv_label.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/LVGL/src/widgets/lv_slider.c.su" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/LCD.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/100" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/11" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/12" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/13" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/14" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/15" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/16" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/17" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/18" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/19" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/20" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/21" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/22" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/23" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/24" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/25" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/26" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/27" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/28" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/29" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/30" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/31" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/32" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/33" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/34" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/35" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/36" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/37" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/38" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/39" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/40" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/41" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/42" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/43" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/44" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/45" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/46" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/47" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/48" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/49" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/50" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/51" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/52" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/53" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/55" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/56" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/57" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/58" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/59" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/60" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/61" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/62" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/63" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/64" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/65" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/66" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/67" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/68" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/69" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/70" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/71" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/72" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/73" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/74" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/75" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/76" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/77" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/78" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/79" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/80" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/81" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/82" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/83" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/84" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/85" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/86" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/87" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/88" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/89" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/90" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/91" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/92" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/93" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/94" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/95" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/96" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/97" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/98" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/99" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Progress/count.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Project_Structure_Visibility.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Project_Structure_Visibility.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Project_Structure_Visibility.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Project_Structure_Visibility.dir/compiler_depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-/CMakeFiles/Project_Structure_Visibility.dir/compiler_depend.ts" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_D:/stm32/git/10Khz_Git" value="3A3xOAepbkgafKik2xpfXikxa4p" />
+    </persistenceIdMap>
+  </component>
+  <component name="CopilotUserSelectedChatMode">
+    <option name="chatModeId" value="Agent" />
+    <option name="inlineChatModeId" value="Ask" />
+  </component>
+  <component name="CopilotUserSelectedModel">
+    <selectedModels>
+      <entry key="chat-panel" value="Gemini 3.1 Pro" />
+      <entry key="agent-panel" value="Gemini 3.1 Pro" />
+    </selectedModels>
+  </component>
+  <component name="EmbeddedSvdWindowState">
+    <option name="columnWidths">
+      <list>
+        <option value="212" />
+        <option value="92" />
+        <option value="1273" />
+      </list>
+    </option>
+    <option name="columnOrder">
+      <list>
+        <option value="名称" />
+        <option value="Key" />
+        <option value="描述" />
+      </list>
+    </option>
+    <option name="loadedFiles">
+      <list>
+        <option value="D:\stm32\git\10Khz_Git\debug_config\STM32F407.svd" />
+      </list>
+    </option>
+    <option name="nodes">
+      <map>
+        <entry key="debug_config\STM32F407.svd" value="-E" />
+        <entry key="debug_config\STM32F407.svd|g:ADC" value="-C" />
+        <entry key="debug_config\STM32F407.svd|g:GPIO" value="-E" />
+        <entry key="debug_config\STM32F407.svd|p:ADC1" value="-C" />
+        <entry key="debug_config\STM32F407.svd|p:ADC1|CR1" value="HC" />
+        <entry key="debug_config\STM32F407.svd|p:ADC1|CR2" value="HC" />
+        <entry key="debug_config\STM32F407.svd|p:ADC1|DR" value="HC" />
+        <entry key="debug_config\STM32F407.svd|p:ADC1|HTR" value="HC" />
+        <entry key="debug_config\STM32F407.svd|p:ADC1|JDR1" value="HC" />
+        <entry key="debug_config\STM32F407.svd|p:ADC1|JDR2" value="HC" />
+        <entry key="debug_config\STM32F407.svd|p:ADC1|JDR3" value="HC" />
+        <entry key="debug_config\STM32F407.svd|p:ADC1|JDR4" value="HC" />
+        <entry key="debug_config\STM32F407.svd|p:ADC1|JOFR1" value="HC" />
+        <entry key="debug_config\STM32F407.svd|p:ADC1|JOFR2" value="HC" />
+        <entry key="debug_config\STM32F407.svd|p:ADC1|JOFR3" value="HC" />
+        <entry key="debug_config\STM32F407.svd|p:ADC1|JOFR4" value="HC" />
+        <entry key="debug_config\STM32F407.svd|p:ADC1|JSQR" value="HC" />
+        <entry key="debug_config\STM32F407.svd|p:ADC1|LTR" value="HC" />
+        <entry key="debug_config\STM32F407.svd|p:ADC1|SMPR1" value="HC" />
+        <entry key="debug_config\STM32F407.svd|p:ADC1|SMPR2" value="HC" />
+        <entry key="debug_config\STM32F407.svd|p:ADC1|SQR1" value="HC" />
+        <entry key="debug_config\STM32F407.svd|p:ADC1|SQR2" value="HC" />
+        <entry key="debug_config\STM32F407.svd|p:ADC1|SQR3" value="HC" />
+        <entry key="debug_config\STM32F407.svd|p:ADC1|SR" value="HC" />
+        <entry key="debug_config\STM32F407.svd|p:GPIOA" value="-E" />
+        <entry key="debug_config\STM32F407.svd|p:GPIOA|AFRH" value="HC" />
+        <entry key="debug_config\STM32F407.svd|p:GPIOA|AFRL" value="HC" />
+        <entry key="debug_config\STM32F407.svd|p:GPIOA|BSRR" value="HC" />
+        <entry key="debug_config\STM32F407.svd|p:GPIOA|IDR" value="HC" />
+        <entry key="debug_config\STM32F407.svd|p:GPIOA|LCKR" value="HC" />
+        <entry key="debug_config\STM32F407.svd|p:GPIOA|MODER" value="HC" />
+        <entry key="debug_config\STM32F407.svd|p:GPIOA|ODR" value="HC" />
+        <entry key="debug_config\STM32F407.svd|p:GPIOA|OSPEEDR" value="HC" />
+        <entry key="debug_config\STM32F407.svd|p:GPIOA|OTYPER" value="HC" />
+        <entry key="debug_config\STM32F407.svd|p:GPIOA|PUPDR" value="HC" />
+      </map>
+    </option>
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug-远程主机" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="测试1" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;miaomiao1296&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:miaomiao1296/LVGL_UI-.git&quot;,
+    &quot;accountId&quot;: &quot;70ef66aa-8c89-4b2d-a95e-36a4c9f726b1&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2025" />
+    <option name="minorVersion" value="1" />
+    <option name="productBranch" value="Classic" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="3A3xOAepbkgafKik2xpfXikxa4p" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;CMake 应用程序.LCD.executor&quot;: &quot;Debug&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;OpenOCD 下载并运�?OCD_LCD.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.west.config.association.type.startup.service&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SHELLCHECK.PATH&quot;: &quot;C:\\Users\\ws937\\AppData\\Roaming\\JetBrains\\CLion2025.1\\plugins\\Shell Script\\shellcheck.exe&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.highlight.mappings&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.highlight.symlinks&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.show.date&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.show.permissions&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.show.size&quot;: &quot;false&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;copilot.sensitive.allow.copilot_read_file.jetbrains_settings_files&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;测试1.1&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/stm32/git/10Khz_Git&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;CPPToolchains&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
+    &quot;嵌入�?GDB 服务�?STM32_debug.executor&quot;: &quot;Debug&quot;,
+    &quot;远程 GDB 服务�?STM32_Remote_Debug.executor&quot;: &quot;Debug&quot;
+  }
+}</component>
+  <component name="RunManager" selected="OpenOCD 下载并运�?OCD_LCD">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LCD" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LCD" TARGET_NAME="LCD" CONFIG_NAME="Debug-远程主机" RUN_TARGET_PROJECT_NAME="LCD" RUN_TARGET_NAME="LCD">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="STM32_debug" type="com.jetbrains.cidr.embedded.customgdbserver.type" factoryName="com.jetbrains.cidr.embedded.customgdbserver.factory" PROGRAM_PARAMS="-f debug_config\openocd.cfg" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LCD" TARGET_NAME="LCD" CONFIG_NAME="Debug-远程主机" version="1" RUN_PATH="$PROJECT_DIR$/bin/LCD.elf">
+      <custom-gdb-server version="1" gdb-connect="localhost:3333" executable="D:\OpenOCD\xpack-openocd-0.12.0-7\bin\openocd.exe" warmup-ms="0" download-type="ALWAYS" reset-cmd="monitor reset halt" reset-type="AFTER_DOWNLOAD">
+        <debugger kind="GDB" isBundled="true" />
+      </custom-gdb-server>
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake 应用程序.LCD" />
+      <item itemvalue="OpenOCD 下载并运�?OCD_LCD" />
+      <item itemvalue="嵌入�?GDB 服务�?STM32_debug" />
+    </list>
+  </component>
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+    <option name="myConnectionType" value="NONE" />
+    <option name="myConnectionId" value="" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="7bb019f6-15bd-4a99-831a-3d0b71fbb134" name="更改" comment="" />
+      <created>1771835020330</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1771835020330</updated>
+      <workItem from="1771835021519" duration="101000" />
+      <workItem from="1771849321419" duration="116000" />
+      <workItem from="1772087965207" duration="3679000" />
+      <workItem from="1772108304792" duration="7244000" />
+      <workItem from="1772116141902" duration="2050000" />
+      <workItem from="1772441687752" duration="2636000" />
+      <workItem from="1772458272409" duration="2847000" />
+      <workItem from="1772461872962" duration="2783000" />
+      <workItem from="1772464710597" duration="1205000" />
+      <workItem from="1772465969441" duration="1167000" />
+      <workItem from="1772467152260" duration="205000" />
+      <workItem from="1772467370501" duration="529000" />
+      <workItem from="1772536292824" duration="1024000" />
+      <workItem from="1772611510161" duration="64000" />
+      <workItem from="1772611676960" duration="55000" />
+      <workItem from="1772789042264" duration="11000" />
+      <workItem from="1772789456067" duration="215000" />
+      <workItem from="1774076352051" duration="4168000" />
+      <workItem from="1774172103788" duration="846000" />
+      <workItem from="1774513365504" duration="7571000" />
+      <workItem from="1774596423709" duration="10313000" />
+      <workItem from="1774620083884" duration="1447000" />
+      <workItem from="1774621562966" duration="423000" />
+      <workItem from="1774622002629" duration="698000" />
+      <workItem from="1774622722723" duration="645000" />
+      <workItem from="1774781876375" duration="40000" />
+      <workItem from="1774933345830" duration="2663000" />
+      <workItem from="1774936045002" duration="26000" />
+      <workItem from="1774936081185" duration="839000" />
+      <workItem from="1774940849749" duration="1221000" />
+      <workItem from="1774964085273" duration="2439000" />
+      <workItem from="1775031732113" duration="4127000" />
+      <workItem from="1775035902831" duration="4799000" />
+      <workItem from="1775043725306" duration="589000" />
+      <workItem from="1775044546662" duration="1543000" />
+      <workItem from="1775053560401" duration="1058000" />
+      <workItem from="1775116598265" duration="726000" />
+      <workItem from="1775124443785" duration="1000" />
+      <workItem from="1775201614983" duration="6963000" />
+      <workItem from="1775208671565" duration="1309000" />
+      <workItem from="1775210038477" duration="686000" />
+      <workItem from="1775215693274" duration="188000" />
+      <workItem from="1775393876923" duration="1892000" />
+      <workItem from="1775395809491" duration="299000" />
+      <workItem from="1775396139333" duration="336000" />
+      <workItem from="1775396502719" duration="647000" />
+      <workItem from="1775397226609" duration="423000" />
+      <workItem from="1775397687414" duration="245000" />
+      <workItem from="1775397974983" duration="1188000" />
+      <workItem from="1775399224606" duration="593000" />
+      <workItem from="1775399854270" duration="356000" />
+      <workItem from="1775400238417" duration="2852000" />
+    </task>
+    <task id="LOCAL-00001" summary="cmake纯净�?>
+      <option name="closed" value="true" />
+      <created>1774936697048</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1774936697048</updated>
+    </task>
+    <task id="LOCAL-00002" summary="cmake纯净�?>
+      <option name="closed" value="true" />
+      <created>1774936720457</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1774936720457</updated>
+    </task>
+    <task id="LOCAL-00003" summary="无敌�?>
+      <option name="closed" value="true" />
+      <created>1775045984992</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1775045984992</updated>
+    </task>
+    <task id="LOCAL-00004" summary="无敌�?>
+      <option name="closed" value="true" />
+      <created>1775046003913</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1775046003913</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.configurationType" implementationName="platformio" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticReloadCMake value="true" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="测试1.1" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="cmake纯净�? />
+    <MESSAGE value="无敌�? />
+    <option name="LAST_COMMIT_MESSAGE" value="无敌�? />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Handware/FFT.c</url>
+          <line>104</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
+  </component>
+</project>
