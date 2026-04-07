@@ -80,10 +80,7 @@ void Key_Init(void)
  */
 void Key_Scan(void)
 {
-    static uint32_t last_scan_time = 0;
-    uint32_t current_time = HAL_GetTick();
-    if (current_time - last_scan_time < SCAN_INTERVAL) return;
-    last_scan_time = current_time;
+    uint32_t current_time = HAL_GetTick(); // 仍然保留以供长按/连发逻辑使用
 
     for (uint8_t i = 0; i < KEY_COUNT; i++) {
         GPIO_PinState pin_state = HAL_GPIO_ReadPin(key_config[i].port, key_config[i].pin);

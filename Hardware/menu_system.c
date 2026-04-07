@@ -40,8 +40,8 @@ extern lv_group_t * main_group;       //编码器的组
 System_Config_t g_sys_config = { .backlight_val = 500 };           //初始化背光亮度值
 
 /////////////////////////////////////////////////字库开始//////////////////////////////////////////////////////////////////////////
-lv_font_t * my_font24= NULL;; // 用于存放加载后的字库指针
-lv_font_t * my_font16= NULL;; // 用于存放加载后的字库指针
+lv_font_t * my_font24= NULL; // 用于存放加载后的字库指针
+lv_font_t * my_font16= NULL; // 用于存放加载后的字库指针
 static lv_style_t style_24_YELLOW;    
 static lv_style_t style_24_BLUE;
 
@@ -194,6 +194,7 @@ static struct {
 
 /** 统一动画终点回调 */
 static void ui_anim_finished_cb(lv_anim_t *a) {
+    (void)a; // 消除警告
     // 动画结束，物理销毁旧页面容器
     if (g_anim_ctx.old_root && lv_obj_is_valid(g_anim_ctx.old_root)) {
         lv_obj_del(g_anim_ctx.old_root);
@@ -217,6 +218,11 @@ static void prepare_new_page(const PageRoute_t * route, lv_coord_t x) {
 /** 透明度回调包装 */
 static void anim_opa_cb(void * var, int32_t v) {    //LVGL 动画无法直接操作 Style，需通过此包装函数
     lv_obj_set_style_opa((lv_obj_t *)var, v, 0);
+}
+
+/** x坐标滑动回调包装：解决严格编译下的函数签名不一致警告 */
+static void anim_x_cb(void * var, int32_t v) {
+    lv_obj_set_x((lv_obj_t *)var, (lv_coord_t)v);
 }
 
 
@@ -292,7 +298,7 @@ static void ui_switch(UIPage_t target, bool is_back) {
         lv_anim_t a;
         lv_anim_init(&a);
         lv_anim_set_var(&a, page_root);
-        lv_anim_set_exec_cb(&a, (lv_anim_exec_xcb_t)lv_obj_set_x);
+        lv_anim_set_exec_cb(&a, anim_x_cb);
         lv_anim_set_values(&a, start_x, 0);
         lv_anim_set_time(&a, ANIM_TIME_MS);          
         lv_anim_set_path_cb(&a, lv_anim_path_ease_out);   // 缓速退出，动效更自然
@@ -304,7 +310,7 @@ static void ui_switch(UIPage_t target, bool is_back) {
         lv_anim_t b;
         lv_anim_init(&b);
         lv_anim_set_var(&b, g_anim_ctx.old_root);
-        lv_anim_set_exec_cb(&b, (lv_anim_exec_xcb_t)lv_obj_set_x);
+        lv_anim_set_exec_cb(&b, anim_x_cb);
         lv_anim_set_values(&b, 0, end_x);
         lv_anim_set_time(&b, ANIM_TIME_MS);
         lv_anim_set_path_cb(&b, lv_anim_path_ease_out);
@@ -434,7 +440,7 @@ static void page_home_exit_logic(void) {}
 //主菜单	
 	
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-static void back_btn_cb(lv_event_t *e) { UI_Back(); }              //绑定返回按键
+static void back_btn_cb(lv_event_t *e) { (void)e; UI_Back(); }              //绑定返回按键
 /**
  * 极简·半透明冰晶返回键
  */
@@ -529,7 +535,7 @@ static lv_obj_t * brightness_label;
 
 		lv_group_add_obj(main_group, slider);   // 手动入组，让编码器能控制
 
-		lv_obj_t * btn_back = add_back_btn_minimal(page_root);    // 调用优雅的返回键
+		add_back_btn_minimal(page_root);    // 调用优雅的返回键
 	}
 
 	static void page_setting_exit_logic(void) {}
@@ -636,7 +642,7 @@ static void page_1_enter(void) {
     lv_obj_align(anim_heart, LV_ALIGN_CENTER, 0, 0);
  
 
-	lv_obj_t * btn_back = add_back_btn_minimal(page_root);    // 调用优雅的返回键
+	add_back_btn_minimal(page_root);    // 调用优雅的返回键
 }
 
 static void page_1_exit_logic(void) {}	
@@ -670,6 +676,7 @@ static lv_timer_t * timer_fft_ui = NULL;
  * @brief FFT UI 刷新回调：仅负责展示 fft_module 算出的结果
  */
 static void fft_ui_refresh_cb(lv_timer_t * t) {
+    (void)t; // 消除警告
     fft_result_t *res = fft_get_result();
     
     // 如果算法引擎正在忙，我们这一帧先不更新，避免画面闪烁
@@ -718,7 +725,7 @@ void page_3_enter(void) {
     // 4. 定时器 (50ms 刷新)
     timer_fft_ui = lv_timer_create(fft_ui_refresh_cb, 50, NULL);
 
-	lv_obj_t * btn_back = add_back_btn_minimal(page_root);    // 调用优雅的返回键
+	add_back_btn_minimal(page_root);    // 调用优雅的返回键
 }
 
 void page_3_exit_logic(void) {
@@ -749,6 +756,7 @@ static lv_timer_t * timer_osc_ui = NULL;
 //    lv_chart_refresh(chart_osc);
 //}
 static void osc_ui_refresh_cb(lv_timer_t * t) {
+    (void)t; // 消除调用未使用参数警告
     if (!chart_osc || !ser_osc) return;
 
     // --- 1. 触发搜索配置 ---
@@ -816,7 +824,7 @@ void page_4_enter(void) {
     timer_osc_ui = lv_timer_create(osc_ui_refresh_cb, 30, NULL);
 
 
-	lv_obj_t * btn_back = add_back_btn_minimal(page_root);    // 调用优雅的返回键
+	add_back_btn_minimal(page_root);    // 调用优雅的返回键
 }
 
 void page_4_exit_logic(void) {
@@ -908,7 +916,7 @@ static void page_5_enter(void) {
     lv_obj_align(anim_heart, LV_ALIGN_CENTER, 0, 0);
  
 
-	lv_obj_t * btn_back = add_back_btn_minimal(page_root);    // 调用优雅的返回键
+	add_back_btn_minimal(page_root);    // 调用优雅的返回键
 }
 
 static void page_5_exit_logic(void) {}		

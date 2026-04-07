@@ -180,16 +180,7 @@ int main(void)
    LCD_Set_Brightness(g_sys_config.backlight_val); 
    effect_init();           //轨迹特效
    USART6_Config(9600);
- 
 
-  // 2. 开启 ADC 的 DMA 搬运 (一定要在 TIM 开启前)
-  // 参数：ADC句柄, 缓冲区地址, 长度
-//    HAL_ADC_Start_DMA(&hadc3, (uint32_t*)adc_buffer, SAMPLE_SIZE);
-
-    // 3. 开启定时器 3 的时钟触发
-//    HAL_TIM_Base_Start(&htim3);
-
-   
    BSP_W25Q_Init();
    
    Key_Init(); 
@@ -359,16 +350,15 @@ void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef* hadc) {
 }
 
 
-
-
-
-
 void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)               //触摸屏
 {
     if (GPIO_Pin == FT_INT_PIN) {
         ft6336_irq_flag =true;
     }
 }
+
+
+
 /* USER CODE END 4 */
 
 /**

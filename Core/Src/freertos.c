@@ -62,7 +62,7 @@ const osSemaphoreAttr_t adcReadySem_attributes = {
 };
 extern uint16_t adc_buffer[1024];
 
-// 用于监控的任务控制块
+// FFT
 osThreadId_t fftTaskHandle;
 const osThreadAttr_t fftTask_attributes = {
   .name = "fftTask",
@@ -70,9 +70,18 @@ const osThreadAttr_t fftTask_attributes = {
   .priority = (osPriority_t) osPriorityHigh,
 };
 
+//Input
+osThreadId_t inputTaskHandle;
+const osThreadAttr_t inputTask_attributes = {
+  .name = "inputTask",
+  .stack_size = 256 * 4,
+  .priority = (osPriority_t) osPriorityAboveNormal,
+};
+
 // 任务堆栈监控变量
 uint32_t fftTaskStackFree = 0;        //任务专门的栈监测
 uint32_t defaultTaskStackFree = 0;
+uint32_t inputTaskStackFree = 0;
 
 /* USER CODE END Variables */
 /* Definitions for defaultTask */
@@ -86,6 +95,7 @@ const osThreadAttr_t defaultTask_attributes = {
 /* Private function prototypes -----------------------------------------------*/
 /* USER CODE BEGIN FunctionPrototypes */
 void StartFftTask(void *argument);
+void StartInputTask(void *argument);
 /* USER CODE END FunctionPrototypes */
 
 void StartDefaultTask(void *argument);
@@ -127,6 +137,9 @@ void vApplicationMallocFailedHook(void)
 }
 /* USER CODE END 4 */
 
+/* USER CODE BEGIN 5 */
+// 这里保持为空，或者由 CubeMX 自动更新。实际实现已经放在 USER CODE 4 中并由 USER CODE 5 的注释块管理实现
+/* USER CODE END 5 */
 
 /**
   * @brief  FreeRTOS initialization
@@ -162,6 +175,7 @@ void MX_FREERTOS_Init(void) {
   /* USER CODE BEGIN RTOS_THREADS */
   /* add threads, ... */
   fftTaskHandle = osThreadNew(StartFftTask, NULL, &fftTask_attributes);
+  inputTaskHandle = osThreadNew(StartInputTask, NULL, &inputTask_attributes);
   /* USER CODE END RTOS_THREADS */
 
   /* USER CODE BEGIN RTOS_EVENTS */
@@ -184,13 +198,10 @@ void StartDefaultTask(void *argument)
   /* Infinite loop */
   for(;;)
   {
-    Key_Scan();
-    Encoder_Scan();
-    FT6336U_Task();
-
     Event_t evt;
     if (Event_Dequeue(&evt))
     {
+        // 菜单事件处理放在 GUI 任务中，避免多线程调用 LVGL 函数导致崩溃
         Menu_OnEvent(&evt);
     }
 
@@ -211,6 +222,28 @@ void StartDefaultTask(void *argument)
 
 /* Private application code --------------------------------------------------*/
 /* USER CODE BEGIN Application */
+/**
+* @brief Function implementing the InputTask thread.
+* @param argument: Not used
+* @retval None
+*/
+void StartInputTask(void *argument)
+{
+  (void)argument;
+  for(;;)
+  {
+    Key_Scan();
+    Encoder_Scan();
+    FT6336U_Task(); // 触摸屏扫描
+
+    // 监控自身堆栈
+    inputTaskStackFree = uxTaskGetStackHighWaterMark(NULL) * sizeof(StackType_t);
+
+    // 延时 10ms，保证 100Hz 的扫描频率，按键和编码器绝对不会丢步
+    osDelay(10);
+  }
+}
+
 /**
 * @brief Function implementing the FftTask thread.
 * @param argument: Not used

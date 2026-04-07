@@ -77,7 +77,6 @@ void Error_Handler(void);
 #define FT_RST_GPIO_Port GPIOE
 #define CTP_INT_Pin GPIO_PIN_15
 #define CTP_INT_GPIO_Port GPIOE
-#define CTP_INT_EXTI_IRQn EXTI15_10_IRQn
 #define Encoder_Key_Pin GPIO_PIN_11
 #define Encoder_Key_GPIO_Port GPIOD
 

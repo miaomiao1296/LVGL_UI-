@@ -29,13 +29,6 @@ void Encoder_Init(void)
  */
 void Encoder_Scan(void)
 {
-    static uint32_t last_scan_time = 0;
-    uint32_t current_time = HAL_GetTick();
-    
-    // 限制扫描频率
-    if (current_time - last_scan_time < SCAN_INTERVAL) return;
-    last_scan_time = current_time;
-    
     /* 1. 处理旋转逻辑 */
     uint16_t current_cnt = __HAL_TIM_GET_COUNTER(&htim4);
     int16_t delta = (int16_t)(current_cnt - last_cnt);

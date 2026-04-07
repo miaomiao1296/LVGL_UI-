@@ -18,7 +18,7 @@ extern SPI_HandleTypeDef hspi1;
 #define CMD_BLOCK_ERASE     0xD8 
 
 /* ================= 内部状态 ================= */
-static volatile bool g_dma_busy = false;;
+static volatile bool g_dma_busy = false;
 static BSP_Flash_Callback_t g_user_callback = NULL;
 
 /* ================= 底层辅助 (不暴露) ================= */

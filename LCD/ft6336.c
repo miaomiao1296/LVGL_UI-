@@ -53,16 +53,10 @@ void FT6336U_Task(void)
 {
     uint8_t points;
     uint8_t buf[4];
-	
-	static uint32_t last_scan_time = 0;        //纯轮询10毫秒进一次
-    uint32_t current_time = HAL_GetTick();    
-    if (current_time - last_scan_time < 10) return;
-    last_scan_time = current_time;
-	
 
-//    if (!ft6336_irq_flag)   return;         //被中断触发的轮询任务
-//	 ft6336_irq_flag = false;
-   
+    //    if (!ft6336_irq_flag)   return;         //被中断触发的轮询任务
+    //	 ft6336_irq_flag = false;
+
 
     if (FT6336U_Read(FT_REG_TD_STATUS, &points, 1))
         return;
@@ -90,7 +84,7 @@ void FT6336U_Task(void)
 //    FT6336U_Transform(&ft6336_state.x[1], &ft6336_state.y[1]);
 //    }
 
-	
+
     ft6336_state.pressed = true;
 }
 
