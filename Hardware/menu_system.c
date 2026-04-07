@@ -416,7 +416,7 @@ static void page_home_enter(void) {
     add_list_item(list, LV_SYMBOL_LIST,     "测试",               UI_PAGE_2);
     add_list_item(list, LV_SYMBOL_AUDIO,    "频谱",               UI_PAGE_3);             
     add_list_item(list, LV_SYMBOL_EYE_OPEN, "示波",               UI_PAGE_4);
-    add_list_item(list, LV_SYMBOL_LIST,     "猫",             UI_PAGE_5);
+    add_list_item(list, LV_SYMBOL_LIST,     "小猫咪",             UI_PAGE_5);
 	
 	
 	 //每次进入后老大获得焦点
@@ -696,9 +696,6 @@ static void fft_ui_refresh_cb(lv_timer_t * t) {
 }
 
 void page_3_enter(void) {
-    // 1. 初始化 FFT 模块 (内部已处理 CCM 申请)
-    fft_module_init();
-
     // 2. 信息看板 (支持彩色重绘)
     label_fft_info = lv_label_create(page_root);
     lv_label_set_recolor(label_fft_info, true);
@@ -956,9 +953,7 @@ void Menu_OnEvent(const Event_t *e)
 //					BSP_W25Q_Fast_Read(buffer, 0, 388); 
 //					printf("FLASH data: ");
 //					for(int i = 0; i < 388; i++) {printf("%02X ", buffer[i]);}	
-					
-				  custom_ccm_monitor_init();
-                  custom_sys_monitor_init();
+
 				
 					break;
 			    case 1:  

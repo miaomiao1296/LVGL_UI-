@@ -1,14 +1,16 @@
 #include "FFT.h"
 #include <math.h>
 
-// 引用外部 CCM 内存分配函数
-extern void * other_ccm_alloc(size_t size);
-
 // --- 内部私有变量 (CCM 存储) ---
-static float32_t *fft_input_buf;  // 复数缓冲区 [R, I, R, I...]
-static float32_t *fft_output_buf; // 幅值谱缓冲区
-static float32_t *hanning_window; // 预计算窗
-static fft_result_t result;       
+// 1. 关于对齐：类型是 float32_t（本身就是4字节），编译器会自动在内存里给它分配 4 字节对齐的地址。
+// 但对于 CMSIS-DSP 库的 FFT 这种吃性能的模块，加一句 aligned(4) (甚至是 aligned(8)) 能绝对保证 FPU 存取效率最高。
+// 2. 关于指针：之前我们用指针是因为内存是运行时“要”来的，现在已经是确凿的静态数组了，直接把数组名字改成我们想要的就行，彻底干掉脱裤子放屁的指针！
+
+__attribute__((section(".ccmram"), aligned(4))) static float32_t fft_input_buf[FFT_SIZE * 2];  // 复数缓冲区 [R, I, R, I...]
+__attribute__((section(".ccmram"), aligned(4))) static float32_t fft_output_buf[FFT_SIZE];     // 幅值谱缓冲区
+__attribute__((section(".ccmram"), aligned(4))) static float32_t hanning_window[SAMPLE_SIZE];  // 预计算窗
+
+static fft_result_t result;
 
 // 暴力强行引用 CMSIS-DSP 实例 (解决头文件包含问题)
 extern const arm_cfft_instance_f32 arm_cfft_sR_f32_len1024;
@@ -17,16 +19,14 @@ extern const arm_cfft_instance_f32 arm_cfft_sR_f32_len1024;
  * @brief 模块初始化
  */
 void fft_module_init(void) {
-    if (fft_input_buf == NULL) {
-		
-        fft_input_buf  = (float32_t *)other_ccm_alloc(FFT_SIZE * 2 * sizeof(float32_t));
-        fft_output_buf = (float32_t *)other_ccm_alloc(FFT_SIZE * sizeof(float32_t));
-        hanning_window = (float32_t *)other_ccm_alloc(SAMPLE_SIZE * sizeof(float32_t));
-
+    // 使用静态分配，不再需要 other_ccm_alloc
+    static int initialized = 0;
+    if (!initialized) {
         // 预计算汉宁窗
         for (int i = 0; i < SAMPLE_SIZE; i++) {
             hanning_window[i] = 0.5f * (1.0f - arm_cos_f32(2.0f * PI * i / (SAMPLE_SIZE - 1)));
         }
+        initialized = 1;
     }
     result.spectrum = fft_output_buf;
     result.is_busy = 0;

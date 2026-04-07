@@ -55,43 +55,46 @@ extern TIM_HandleTypeDef htim3;
 /* USER CODE END PM */
 
 /* Private variables ---------------------------------------------------------*/
-/* USER CODE BEGIN Variables (force sync) */
-extern uint16_t adc_buffer[SAMPLE_SIZE];
-// 不再使用 Flag，改为二值信号量
-// extern volatile uint8_t Flag;
+/* USER CODE BEGIN Variables */
 osSemaphoreId_t adcReadySemHandle;
 const osSemaphoreAttr_t adcReadySem_attributes = {
   .name = "adcReadySem"
 };
+extern uint16_t adc_buffer[1024];
+
+// 用于监控的任务控制块
+osThreadId_t fftTaskHandle;
+const osThreadAttr_t fftTask_attributes = {
+  .name = "fftTask",
+  .stack_size = 256 * 4,
+  .priority = (osPriority_t) osPriorityHigh,
+};
+
+// 任务堆栈监控变量
+uint32_t fftTaskStackFree = 0;        //任务专门的栈监测
+uint32_t defaultTaskStackFree = 0;
+
 /* USER CODE END Variables */
 /* Definitions for defaultTask */
 osThreadId_t defaultTaskHandle;
 const osThreadAttr_t defaultTask_attributes = {
   .name = "defaultTask",
-  .stack_size = 2048 * 4,
+  .stack_size = 1024 * 4,
   .priority = (osPriority_t) osPriorityNormal,
-};
-
-/* Definitions for FftTask */
-osThreadId_t FftTaskHandle;
-const osThreadAttr_t FftTask_attributes = {
-  .name = "FftTask",
-  .stack_size = 2048 * 4,
-  .priority = (osPriority_t) osPriorityHigh,
 };
 
 /* Private function prototypes -----------------------------------------------*/
 /* USER CODE BEGIN FunctionPrototypes */
-
+void StartFftTask(void *argument);
 /* USER CODE END FunctionPrototypes */
 
 void StartDefaultTask(void *argument);
-void StartFftTask(void *argument);
 
 void MX_FREERTOS_Init(void); /* (MISRA C 2004 rule 8.1) */
 
 /* Hook prototypes */
 void vApplicationStackOverflowHook(xTaskHandle xTask, signed char *pcTaskName);
+void vApplicationMallocFailedHook(void);
 
 /* USER CODE BEGIN 4 */
 void vApplicationStackOverflowHook(xTaskHandle xTask, signed char *pcTaskName)
@@ -101,8 +104,29 @@ void vApplicationStackOverflowHook(xTaskHandle xTask, signed char *pcTaskName)
    called if a stack overflow is detected. */
    (void)xTask;
    (void)pcTaskName;
+
+   // 挂起中断并进入死循环，方便在调试器里查看Call Stack
+   taskDISABLE_INTERRUPTS();
+   while (1) {
+       // Stack overflow detected!
+       // Check xTask and pcTaskName in debugger variables
+   }
+}
+
+void vApplicationMallocFailedHook(void)
+{
+    /* vApplicationMallocFailedHook() will only be called if
+    configUSE_MALLOC_FAILED_HOOK is set to 1 in FreeRTOSConfig.h. It is a hook
+    function that will get called if a call to pvPortMalloc() fails. */
+
+    // 挂起中断并进入死循环，方便在调试器里排查
+    taskDISABLE_INTERRUPTS();
+    while (1) {
+        // Malloc failed! Not enough FreeRTOS heap.
+    }
 }
 /* USER CODE END 4 */
+
 
 /**
   * @brief  FreeRTOS initialization
@@ -135,11 +159,9 @@ void MX_FREERTOS_Init(void) {
   /* creation of defaultTask */
   defaultTaskHandle = osThreadNew(StartDefaultTask, NULL, &defaultTask_attributes);
 
-  /* creation of FftTask */
-  FftTaskHandle = osThreadNew(StartFftTask, NULL, &FftTask_attributes);
-
   /* USER CODE BEGIN RTOS_THREADS */
   /* add threads, ... */
+  fftTaskHandle = osThreadNew(StartFftTask, NULL, &fftTask_attributes);
   /* USER CODE END RTOS_THREADS */
 
   /* USER CODE BEGIN RTOS_EVENTS */
@@ -172,6 +194,10 @@ void StartDefaultTask(void *argument)
         Menu_OnEvent(&evt);
     }
 
+    // ==========================================
+    // 监控自身堆栈
+    defaultTaskStackFree = uxTaskGetStackHighWaterMark(NULL) * sizeof(StackType_t);
+
     osDelay(1);
 
     static uint8_t myLVGL = 0;
@@ -183,6 +209,7 @@ void StartDefaultTask(void *argument)
   /* USER CODE END StartDefaultTask */
 }
 
+/* Private application code --------------------------------------------------*/
 /* USER CODE BEGIN Application */
 /**
 * @brief Function implementing the FftTask thread.
@@ -192,18 +219,49 @@ void StartDefaultTask(void *argument)
 void StartFftTask(void *argument)
 {
   (void)argument;
+  // 确保 FFT 内存已经分配好
+  fft_module_init();
+
+  // 1. 首次启动 ADC 与 Timer 去采第一帧数据
+  HAL_ADC_Start_DMA(&hadc3, (uint32_t*)adc_buffer, SAMPLE_SIZE);
+  HAL_TIM_Base_Start(&htim3);
+
   for(;;)
   {
     // 无期限等待 ADC 采集完成信号量
     if(osSemaphoreAcquire(adcReadySemHandle, osWaitForever) == osOK)
     {
+        // 在算FFT之前，就把硬件关干净，防挂死！
+        HAL_ADC_Stop_DMA(&hadc3);
+        HAL_TIM_Base_Stop(&htim3);
+
         // FFT 计算
         fft_module_execute(adc_buffer);
 
-        // 重新启动 ADC 与 Timer 去采下一帧数据
-        HAL_ADC_Stop_DMA(&hadc3);
-        HAL_ADC_Start_DMA(&hadc3, (uint32_t*)adc_buffer, SAMPLE_SIZE);
+        // 清除可能存在的 Overrun 错误状态，否则会导致 ADC_Start_DMA 失败 (HAL_BUSY)
+        __HAL_ADC_CLEAR_FLAG(&hadc3, ADC_FLAG_OVR);
+
+        // 暴力复位状态机（兼容不同的HAL版本）
+        hadc3.State = HAL_ADC_STATE_READY;
+        hadc3.ErrorCode = HAL_ADC_ERROR_NONE;
+
+        if (hadc3.DMA_Handle) {
+            hadc3.DMA_Handle->State = HAL_DMA_STATE_READY;
+        }
+
+        if (HAL_ADC_Start_DMA(&hadc3, (uint32_t*)adc_buffer, SAMPLE_SIZE) != HAL_OK) {
+            // 如果启动失败，尝试硬件复位
+            HAL_ADC_DeInit(&hadc3);
+            MX_ADC3_Init();
+            HAL_ADC_Start_DMA(&hadc3, (uint32_t*)adc_buffer, SAMPLE_SIZE);
+        }
+
+        // 重新清零 TIM 计数器保证等间隔触发
+        __HAL_TIM_SET_COUNTER(&htim3, 0);
         HAL_TIM_Base_Start(&htim3);
+
+        // 监控自身堆栈：uxTaskGetStackHighWaterMark 返回的是字(word)数，STM32上1字=4字节
+        fftTaskStackFree = uxTaskGetStackHighWaterMark(NULL) * sizeof(StackType_t);
     }
   }
 }

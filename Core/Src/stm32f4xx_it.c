@@ -91,10 +91,20 @@ void NMI_Handler(void)
 /**
   * @brief This function handles Hard fault interrupt.
   */
-void HardFault_Handler(void)
+__attribute__((naked)) void HardFault_Handler(void)
 {
   /* USER CODE BEGIN HardFault_IRQn 0 */
-
+  // 抓住案发现场的寄存器！
+  // 通过检查 LR 寄存器 (EXC_RETURN) 确定是在使用 MSP 还是 PSP
+  __asm volatile (
+    " tst lr, #4                                \n"
+    " ite eq                                    \n"
+    " mrseq r0, msp                             \n"
+    " mrsne r0, psp                             \n"
+    " ldr r1, [r0, #24]                         \n"
+    " ldr r2, =prvGetRegistersFromStack         \n"
+    " bx r2                                     \n"
+  );
   /* USER CODE END HardFault_IRQn 0 */
   while (1)
   {
@@ -330,5 +340,42 @@ void USART6_IRQHandler(void)
 }
 
 /* USER CODE BEGIN 1 */
+// 抓取并保存引起死机时的寄存器值
+void prvGetRegistersFromStack(uint32_t *pulFaultStackAddress)
+{
+    /* 这些是发生异常时压入栈的寄存器 */
+    volatile uint32_t r0;
+    volatile uint32_t r1;
+    volatile uint32_t r2;
+    volatile uint32_t r3;
+    volatile uint32_t r12;
+    volatile uint32_t lr;  /* 链接寄存器 */
+    volatile uint32_t pc;  /* 程序计数器 */
+    volatile uint32_t psr; /* 程序状态寄存器 */
 
+    r0 = pulFaultStackAddress[0];
+    r1 = pulFaultStackAddress[1];
+    r2 = pulFaultStackAddress[2];
+    r3 = pulFaultStackAddress[3];
+
+    r12 = pulFaultStackAddress[4];
+    lr = pulFaultStackAddress[5];  //即发生异常前最后一次有效跳转运行的地址. 0x0800开头，是 Flash 里面真实代码的地址！ 因为 ARM Cortex-M 的 Thumb 指令集特性，地址最后一位是 1 仅代表工作模式，所以剥掉它之后
+    pc = pulFaultStackAddress[6];  //异常返回魔术字，说明是在某次返回或跳转时崩的
+    psr = pulFaultStackAddress[7];
+
+    /* 停止在这里。
+     * 你可以在 CLion 的调试变量窗口直接查看上面的量。
+     * 【重点】在反汇编 (Disassembly) 窗口查看 pc 的地址，那就是崩溃的发生地！ */
+    while(1);
+
+    // 为了防止编译器把没被使用的变量优化掉
+    (void) r0;
+    (void) r1;
+    (void) r2;
+    (void) r3;
+    (void) r12;
+    (void) lr;
+    (void) pc;
+    (void) psr;
+}
 /* USER CODE END 1 */
