@@ -54,41 +54,47 @@ static float32_t get_precise_amplitude(int max_idx) {
 void fft_module_execute(uint16_t *adc_raw) {
     result.is_busy = 1;
 
-    // 1. 数据搬运与加窗
+    // 1. 鍏堣绠楃洿娴佸垎閲?DC)锛岄槻姝㈠姞绐楀悗鐨勯璋辨硠婕?
+    float32_t dc_sum = 0;
     for (int i = 0; i < SAMPLE_SIZE; i++) {
-        fft_input_buf[2 * i] = (float32_t)adc_raw[i] * hanning_window[i];      //从SRAM搬运到CCM
+        dc_sum += (float32_t)adc_raw[i];
+    }
+    float32_t dc_offset = dc_sum / SAMPLE_SIZE;
+
+    // 鐩存帴淇濆瓨鐩存祦鐢靛帇鍊?
+    result.vdc = dc_offset * (3.3f / 4095.0f);
+
+    // 2. 鍘婚櫎鐩存祦銆佹暟鎹惉杩愪笌鍔犵獥
+    for (int i = 0; i < SAMPLE_SIZE; i++) {
+        float32_t ac_val = (float32_t)adc_raw[i] - dc_offset;
+        fft_input_buf[2 * i] = ac_val * hanning_window[i];
         fft_input_buf[2 * i + 1] = 0.0f;
     }
 
-    // 2. 运行 DSP 运算
+    // 3. 杩愯 DSP 杩愮畻
     arm_cfft_f32(&arm_cfft_sR_f32_len1024, fft_input_buf, 0, 1);
     arm_cmplx_mag_f32(fft_input_buf, fft_output_buf, FFT_SIZE);
 
-    // 3. 能量还原与归一化python plot_all.py
-    // 直流补偿 (Index 0)
-    float32_t dc_raw = (fft_output_buf[0] / FFT_SIZE) * 2.0f;
-    result.vdc = dc_raw * (3.3f / 4095.0f);
-    
-    // 交流补偿 (Index 1...N/2)
+    // 4. 鑳介噺杩樺師涓庡綊涓€鍖栵紙浜ゆ祦琛ュ伩 Index 1...N/2锛?
     for (int i = 1; i < FFT_SIZE / 2; i++) {
         fft_output_buf[i] = (fft_output_buf[i] * 4.0f) / FFT_SIZE;
     }
 
-    // 4. 分析最大峰 (基波)
+    // 5. 鍒嗘瀽鏈€澶у嘲 (鍩烘尝)
     float32_t max_val = 0; int max_idx = 0;
-    for (int i = 5; i < FFT_SIZE / 2; i++) { // 跳过直流和前几个噪声点
+    for (int i = 1; i < FFT_SIZE / 2; i++) { // 鐩存祦宸茬粡琚幓闄わ紝鐜惧湪鍙互浠?1 寮€濮嬫壘浜?
         if (fft_output_buf[i] > max_val) {
             max_val = fft_output_buf[i];
             max_idx = i;
         }
     }
 
-    // 5. 获取结果
+    // 6. 鑾峰彇缁撴灉
     float32_t p_idx = get_precise_index(max_idx);
     result.freq_main = p_idx * (SAMPLING_FREQ / FFT_SIZE);
     result.amp_main  = get_precise_amplitude(max_idx) * (3.3f / 4095.0f);
 
-    // 6. 派生指标计算 (Vpp, Vrms, THD)
+    // 7. 派生指标计算 (Vpp, Vrms, THD)
     result.vpp = (result.amp_main + (result.amp_main * 0.3f)) * 2.0f; // 模拟版推算        通过基波幅值反推 Vpp，这比在原始数据里找最大最小值（容易受噪声尖峰干扰）要稳健得多。
     
     float32_t h_power = 0;
