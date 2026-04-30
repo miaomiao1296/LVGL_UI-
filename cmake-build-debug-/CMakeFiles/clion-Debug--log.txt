@@ -1,5 +1,19 @@
 /usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=/usr/bin/arm-none-eabi-gcc -DCMAKE_CXX_COMPILER=/usr/bin/arm-none-eabi-g++ -DCMAKE_BUILD_TYPE=Debug -G "Unix Makefiles" -S /tmp/tmp.I5nRtdLoE0/10Khz_Git -B /tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-
+-- The C compiler identification is GNU 10.3.1
+-- The CXX compiler identification is GNU 10.3.1
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/arm-none-eabi-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/arm-none-eabi-g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
 Build type: Debug
+-- The ASM compiler identification is GNU
+-- Found assembler: /usr/bin/arm-none-eabi-gcc
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /tmp/tmp.I5nRtdLoE0/10Khz_Git/cmake-build-debug-
